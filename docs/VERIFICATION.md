@@ -176,3 +176,19 @@ Por instrucción del propietario («Si, ejecuta esa limpieza»), antes de cambia
 - Licencia elegida por el propietario: MIT para el código; todos los derechos reservados para el catálogo de `content/` y sus reproducciones en `docs/` (`LICENSE`).
 - El autor del commit usa el correo privado de GitHub del propietario. Se reescribió el commit inicial para no dejar los datos retirados en el historial.
 - `content/` y los cinco documentos originales no se modificaron (`npm run content:integrity`).
+
+## Prueba física de pausa y recuperación · 2026-10-30
+
+Samsung Galaxy S20 SM-G980F, Android 10, development build y Metro offline por USB en 8082. Se reinició Metro porque no estaba activo. No se modificó código ni contenido.
+
+Comprobado mediante la jerarquía UI real:
+
+- Inicio disponible en la nueva fecha; se inició una sesión local. Apareció Pregunta 1 de 3: «Imagina una pausa antes de pasar a lo siguiente. ¿Cómo te sentirías en ese momento?».
+- Alternativas inicialmente deshabilitadas. Tras enviar la app al inicio de Android durante al menos 30 segundos y volver, seguían deshabilitadas y se mantenía el aviso de espera. Esto verifica pausa en segundo plano, no mide la precisión exacta a nivel de milisegundos.
+- Durante la espera, al desplazar la pantalla, se observaron las cuatro alternativas bloqueadas y los controles «Prefiero no responder» y «Necesito apoyo» habilitados. No se pulsó ninguna respuesta ni omisión.
+- Tras acumular tiempo suficiente en primer plano, las cuatro alternativas quedaron habilitadas.
+- Se cerró el proceso con am force-stop y se reabrió. El cliente de desarrollo mostró su pantalla de conexión; se reconectó mediante deep link a Metro. La app ofreció «Continuar» y recuperó la misma pregunta con «Ya puedes elegir una respuesta.». No se perdió la sesión ni se reinició la espera ya completada. Esto no prueba recuperación ante interrupción exacta de una transacción ni pérdida máxima de un segundo.
+- Se abrió «Necesito apoyo» durante la sesión y se volvió con Atrás de Android; se conservó la Pregunta 1 y su estado habilitado. No se realizaron llamadas ni se abrieron servicios externos.
+- Escala de fuente del sistema consultada: 1.0. Los controles inferiores requieren desplazamiento y son accesibles al hacerlo. No se considera prueba de fuente ampliada, TalkBack o auditoría visual completa.
+
+Estado final: Pregunta 1 de 3 visible, alternativas habilitadas, sin responder ni omitir por el propietario. No se borraron datos ni se cambiaron preferencias del dispositivo. Quedan pendientes el recorrido con respuestas del propietario, cierre/repetición completos en este bloque, notificaciones, modo offline del binario independiente, accesibilidad y pruebas destructivas autorizadas. No se recompiló ni publicó ningún binario.
