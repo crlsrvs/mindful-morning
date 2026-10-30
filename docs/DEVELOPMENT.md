@@ -1,5 +1,7 @@
 # Desarrollo Android y preparación iOS
 
+Estado actual: [STATUS.md](STATUS.md). El inventario siguiente es histórico; comprobar disponibilidad antes de instalar. Android compiló correctamente tras liberar espacio el 26-10-2026 y las pruebas en Samsung continuaron el 30-10-2026.
+
 ## Inventario observado el 25-10-2026
 
 | Herramienta | Estado |

@@ -6,6 +6,10 @@ Aplicación local de autorreflexión matinal en español, implementada en la ra�
 
 El 26-10-2026 se completó la compilación nativa Android ARM64 y se instaló el APK development en el emulador API 37; el 28-10-2026 se instaló y verificó también en un Samsung Galaxy S20 físico (`SM-G980F`, Android 10) y se superó la simulación anual de 1.000 semillas × 365 días sobre el motor TypeScript de producción (`npm run engine:simulate`). Las pruebas nativas completas de notificaciones, recuperación y accesibilidad siguen pendientes; ver `docs/VERIFICATION.md`.
 
+## Retomar el proyecto
+
+Leer [estado actual, decisiones y próximos pasos](docs/STATUS.md) antes de implementar. Esta guía versionada permite continuar con cualquier IA sin depender del chat ni de documentos locales ignorados. Las evidencias históricas están en [VERIFICATION.md](docs/VERIFICATION.md).
+
 ## Desarrollo
 
 Requiere Node 24 LTS, npm, JDK 17 y Android SDK. Usar un development build: **Expo Go no incluye SQLCipher**. La aplicación falla de forma cerrada si no hay cifrado.
@@ -54,7 +58,7 @@ El prebuild Android instala también una barrera para `preReleaseBuild`. No publ
 - [Modo de prueba local y «Iniciar otra prueba»](docs/LOCAL_TESTING.md)
 - [Implementación y decisiones](docs/IMPLEMENTATION.md)
 - [Preparación Android e iOS](docs/DEVELOPMENT.md)
-- [Contenido y heurísticas](docs/CONTENT_INTEGRATION.md)
+- [Integración de contenido y decisiones del motor](docs/IMPLEMENTATION.md#incorporar-o-corregir-contenido)
 - [Efectos y fundamentos para revisión humana](docs/EFFECTS_FOR_REVIEW.md)
 - [Revisión restante del catálogo](docs/REMAINING_CONTENT_REVIEW.md)
 - [Resultados y pruebas pendientes](docs/VERIFICATION.md)

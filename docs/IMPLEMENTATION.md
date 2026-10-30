@@ -1,4 +1,6 @@
-# Implementación del MVP · 2026-10-25
+# Implementación y decisiones técnicas
+
+Estado vigente: [STATUS.md](STATUS.md), actualizado el 2026-10-30.
 
 ## Capas
 
@@ -16,7 +18,7 @@ Se importa el catálogo directamente desde `content/`: evita duplicarlo y mantie
 
 La selección base comprueba completabilidad del trío y relaja objetivos en el orden normativo, nunca aprobación/cooldown/identidad narrativa. Solo la primera pregunta se registra expuesta al iniciar. Cada transición persiste la respuesta y la siguiente exposición juntas antes de presentar la nueva pregunta. Un segundo toque con el ID anterior no avanza otra pregunta.
 
-Una fecha local es única, incluso después de abandono. La fecha, zona IANA, offset UTC, contexto, locale, seed, versiones, hash de configuración y pack quedan anclados. Una sesión que cambia de fecha expira. Al cambiar pack o configuración durante un borrador se elige la alternativa segura de la especificación: expirar sin recomputar con contenido distinto. Los cierres completados conservan snapshots y no se recalculan.
+En producción, una fecha local es única, incluso después de abandono. El modo de prueba admite sesiones repetidas mediante «Iniciar otra prueba», con esquema separado v2; ver LOCAL_TESTING.md. La fecha, zona IANA, offset UTC, contexto, locale, seed, versiones, hash de configuración y pack quedan anclados. Una sesión que cambia de fecha expira. Al cambiar pack o configuración durante un borrador se elige la alternativa segura de la especificación: expirar sin recomputar con contenido distinto. Los cierres completados conservan snapshots y no se recalculan.
 
 Se guardan preguntas preseleccionadas completas, preguntas expuestas, respuestas por ID, tiempos, efectos, estimación, motivos de decisión, cierre, apoyo y streak. `baselineVersion=null` y `timeOfDay=morning` quedan reservados; no hay baseline ni historial visible.
 
@@ -36,8 +38,38 @@ El borrado cancela notificaciones, registra intención de borrado, cierra la con
 
 Tipografía del sistema escalable, contenido desplazable, botones de al menos 52 unidades y estado `disabled` semántico. El reloj no muestra cuenta atrás. Se anuncia la habilitación al lector de pantalla. No hay animación obligatoria y las rutas usan transición sin movimiento, por lo que no contradicen la preferencia de movimiento reducido.
 
-Texto emocional solo del catálogo aprobado. Los textos generales de onboarding, límites y apoyo proceden del PRD y EVIDENCE_AND_LIMITATIONS. No se muestran ejes, confianza, etiquetas negativas ni razones internas. Las llamadas abren el marcador tras confirmación; no se infiere ubicación.
+En producción se exige catálogo aprobado; el modo de prueba local autorizado admite draft sin falsificar sus metadatos. Los textos generales de onboarding, límites y apoyo proceden del PRD y EVIDENCE_AND_LIMITATIONS. No se muestran ejes, confianza, etiquetas negativas ni razones internas. Las llamadas abren el marcador tras confirmación; no se infiere ubicación.
 
-## Límites de esta entrega
+## Estado y verificaciones pendientes
 
-El pack sigue pendiente de revisión humana. Hay código para los flujos completos y pruebas de integración con fixtures, pero no se habilitaron sesiones reales. El 2026-10-26 se completó la build development Android ARM64, se instaló en el emulador API 37 y se abrió la bienvenida. La DB creada no presenta cabecera SQLite plana y SQLite estándar sin clave la rechaza; faltan las pruebas nativas completas de recuperación, borrado y dispositivos físicos. La app no debe declararse lista para release hasta cumplir el checklist de VERIFICATION.
+Android development funciona en emulador y Samsung. El modo local permite recorrer el borrador; producción sigue bloqueada por aprobaciones pendientes. Las comprobaciones físicas de pausa y recuperación del 30-10-2026 se registran en VERIFICATION.md. STATUS.md concentra el siguiente trabajo y distingue evidencia histórica de verificaciones recientes.
+
+## Incorporar o corregir contenido
+
+1. Seguir `CONTENT_SPEC.md` y `content/content-guidelines.md`; conservar IDs/orden y registrar cambios semánticos con revisión o nuevo ID según contrato.
+2. Mantener 160–200 preguntas, cuotas por familia, alternativas y cobertura; nunca compensar escasez desactivando cooldown.
+3. Registrar revisión humana real, incluyendo efectos triples, pares semánticos pendientes, copy, accesibilidad y recursos. No sustituir nombres de revisores por un agente ni aprobar todo por pasar tests.
+4. Actualizar versión/revisión y hashes con las herramientas editoriales **solo dentro de una tarea editorial autorizada**. Las herramientas `content/tools/*` pueden escribir reportes al pasar `--write`; los scripts de la raíz son read-only.
+5. Ejecutar validación, tipado del contrato, lint, integridad, pruebas y simulaciones del corpus; después las suites de la app y `npm run release:check`.
+6. Verificar recursos/contactos antes de distribuir. Aprobación editorial no significa validación clínica.
+
+No editar los documentos originales para hacer encajar una implementación. Si cambia la semántica, realizar una revisión explícita de la especificación.
+
+## Configuración única
+
+`config/engine-config.v1.json` contiene los valores normativos. El motor rechaza una configuración distinta de su contrato fijo v1; cambios de heurísticas deben versionarse junto con tests y documentación. El tiempo 25 s puede revisarse por release dentro de 20–30, nunca por respuesta ni como preferencia clínica.
+
+Estimación: media ponderada, tamaño efectivo `W²/Σw²`, varianza ponderada y `min(.85,min(1,nEff/3)) × (1−V)`. Omisiones y alternativas sin efectos son desconocidas; cero explícito sí es evidencia. Las sumas se ordenan por ID, los desempates usan SHA-256 y las fechas se comparan como ordinales de calendario, no duraciones locales sujetas a DST.
+
+Q4 aplica el mínimo de dos respuestas, incertidumbre de valencia, razón accionable, veto de dimensiones omitidas, vectores distintos y ganancia ≥.08. No utiliza emociones históricas. La simulación de familias usa las puertas admisibles del estado actual sin historial emocional adicional; `unmetCoverage` pondera valencia doble frente a los cuatro contextos, como la referencia QA del corpus. Activación no sustituye tensión.
+
+## Discrepancia numérica S3
+
+DECISION_ENGINE §3 define inequívocamente el techo .85 **antes** de multiplicar por concordancia. El ejemplo S3 usa valores que omiten ese techo al llegar a tres señales de igual peso. Para `+.8,−.6,0`, `V=.328888…`, por lo que `C=.85×(1−V)=.570444…`, no `.6711` como indica el ejemplo. El motor sigue la fórmula normativa; la prueba conserva esa cifra y el cierre sigue siendo `nonlabel`. Los documentos originales no fueron alterados. No se cambió la fórmula para reproducir el error ilustrativo.
+
+
+## Catálogo y barrera de aprobación
+
+El catálogo se importa directamente desde content/, sin copia generada. Producción exige contrato compatible, hash canónico, manifiesto release-ready, calidad aprobada y controles humanos completos. En desarrollo, selectable y contentAvailableForSession admiten draft exclusivamente con el modo local y __DEV__; un hash inválido sigue bloqueando la sesión. Las fichas telefónicas pendientes siguen ocultas. Los eligibleBy del pack se interpretan con puertas fijas del motor, no ejecutando expresiones del JSON.
+
+La aceptación editorial histórica y el nuevo tono están registrados en content/human-review.json, reflection-human-review.json y question-tone-review.json. Los metadatos de calidad integral permanecen draft hasta completar las revisiones; no equivale a falta de aprobación del tono.

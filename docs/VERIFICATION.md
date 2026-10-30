@@ -192,3 +192,11 @@ Comprobado mediante la jerarquía UI real:
 - Escala de fuente del sistema consultada: 1.0. Los controles inferiores requieren desplazamiento y son accesibles al hacerlo. No se considera prueba de fuente ampliada, TalkBack o auditoría visual completa.
 
 Estado final: Pregunta 1 de 3 visible, alternativas habilitadas, sin responder ni omitir por el propietario. No se borraron datos ni se cambiaron preferencias del dispositivo. Quedan pendientes el recorrido con respuestas del propietario, cierre/repetición completos en este bloque, notificaciones, modo offline del binario independiente, accesibilidad y pruebas destructivas autorizadas. No se recompiló ni publicó ningún binario.
+
+## Estado consolidado y limpieza documental · 2026-10-30
+
+Por solicitud del propietario se creó docs/STATUS.md, versionado y sin identificadores personales, como punto único de continuidad: estado funcional, aprobaciones, pendientes, mapa técnico, comandos y último estado observado del Samsung. README lo enlaza. Las referencias de esta cronología a documentos retirados son históricas y no requisitos de lectura actuales.
+
+Se retiraron ocho archivos redundantes de docs/: CONTENT_INTEGRATION.md (sus decisiones técnicas se integraron en IMPLEMENTATION.md), CONTENT_REVIEW_2026-10-26.md (evidencia histórica resumida en este registro), QUESTION_TONE_SAMPLE.json/.md, QUESTIONS_FOR_REVIEW.md, REFLECTIONS_FOR_REVIEW.md (textos e historial literal conservados en content/), PROMPT_GEMINI.md y HANDOFF.md (sustituidos por STATUS.md y su prompt neutral). Siete de ellos estaban excluidos de Git; la limpieza también se realizó en la copia local. GEMINI.md local apunta ahora a STATUS.md. Se conservó EFFECTS_FOR_REVIEW.md para la revisión humana pendiente de alternativas y efectos.
+
+Se actualizaron las notas de implementación, revisión restante y modo local para eliminar estados antiguos contradictorios. No se tocaron código, datos del teléfono, herramientas, contenido editorial, aprobaciones ni los cinco documentos originales. Comprobaciones de este bloque: integridad de content/ y originales, referencias locales Markdown y git diff --check. Los 52 tests y pruebas físicas del 30-10-2026 son los registrados previamente; no se repiten por este cambio documental.

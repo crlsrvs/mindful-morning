@@ -10,9 +10,9 @@ Esta autorización permite probar las preguntas y reflexiones del borrador en la
 - Aviso visible en todas las pantallas: «Modo de prueba local · Contenido en revisión».
 - La comprobación normal `contentStatus()` sigue devolviendo `pending_review`; la disponibilidad de sesiones permite esa situación solo en desarrollo. Un hash inválido sigue bloqueando el inicio.
 - El motor admite entradas draft mediante una opción explícita y comprobación adicional de `__DEV__`. No acepta rejected ni needs_revision; no se cambian metadatos de calidad, textos, efectos ni aprobaciones.
-- Se mantienen 25 segundos en primer plano, omisión inmediata, 3–4 preguntas, cooldown y una sesión por fecha local. No se simula haber respondido ni se cambian las fechas del teléfono.
+- Se mantienen 25 segundos en primer plano, omisión inmediata, 3–4 preguntas y cooldown. Producción mantiene una sesión por fecha local; las repeticiones de desarrollo se describen abajo. No se simula haber respondido ni se cambian las fechas del teléfono.
 - Cada sesión de prueba se identifica mediante LOCAL_PREVIEW en sus códigos internos.
-- Base de datos cifrada en private-preview y clave SecureStore mindful-morning-preview-db-v1, distintas de las del uso normal. No se borran ni migran datos anteriores.
+- Base de datos cifrada en private-preview y clave SecureStore mindful-morning-preview-db-v1, distintas de las del uso normal. Se conserva el almacenamiento normal; la base de prueba existente migra a v2 sin borrar su historial.
 - Las fichas de apoyo no aprobadas siguen ocultas; el apoyo general permanece disponible.
 
 ## Uso en el Samsung y repetición de recorridos («Iniciar otra prueba»)
@@ -37,3 +37,14 @@ Pruebas automatizadas añadidas: sesión de borrador hasta cierre sin mutar apro
 ## Servidor de esta prueba · 2026-10-28
 
 Para el catálogo 1.0.0-draft.3 se mantiene Metro en el puerto 8082 (`npm run start -- --port 8082 --offline`), con `adb reverse tcp:8082 tcp:8082` y URL de desarrollo `http://127.0.0.1:8082`. En el Samsung Galaxy S20 de pruebas se verificó la migración automática de `private-preview/morning.db`, la aparición de «Iniciar otra prueba» en el inicio tras la sesión previa y la apertura de una nueva sesión con `Pregunta 1 de 3` del catálogo `1.0.0-draft.3` sin borrar el historial anterior.
+
+## Reapertura tras cierre del proceso · 2026-10-30
+
+En este development build, abrir MainActivity tras force-stop mostró el cliente de desarrollo. Para cargar la app se usó el deep link siguiente, después de iniciar Metro y conectar USB. Reemplazar DISPOSITIVO por el identificador actual de adb devices:
+
+```sh
+adb -s DISPOSITIVO reverse tcp:8082 tcp:8082
+adb -s DISPOSITIVO shell am start -a android.intent.action.VIEW -d 'mindfulmorning://expo-development-client/?url=http%3A%2F%2F127.0.0.1%3A8082' cl.mindfulmorning.app
+```
+
+La app ofreció Continuar y recuperó la pregunta con la espera cumplida. El funcionamiento offline de un binario independiente sigue pendiente; arrancar Metro con --offline no equivale a esa prueba. Ver STATUS.md para la última sesión observada.

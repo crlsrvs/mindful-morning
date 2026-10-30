@@ -8,8 +8,8 @@ ios/
 *.log
 .env*
 
-# Documentos de trabajo locales: continuidad entre asistentes y copias de
-# revisión intermedias. Se conservan en el equipo del propietario, no en GitHub.
+# Instrucciones locales y nombres de copias intermedias retiradas.
+# La continuidad compartida y versionada está en docs/STATUS.md.
 GEMINI.md
 docs/HANDOFF.md
 docs/PROMPT_GEMINI.md
