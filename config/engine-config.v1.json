@@ -1,0 +1,39 @@
+{
+  "engineVersion": "1.0.0",
+  "engineContractVersion": 1,
+  "reflectionWaitSeconds": 25,
+  "baseQuestionCount": 3,
+  "maxQuestionCount": 4,
+  "questionCooldownCalendarDays": 30,
+  "reflectionCooldownCalendarDays": 7,
+  "minNonSkippedForAdaptive": 2,
+  "minEvidenceCountForLabel": 2,
+  "minEffectiveEvidenceForLabel": 1.8,
+  "confidenceSaturationEvidence": 3,
+  "maxConfidence": 0.85,
+  "positiveValenceThreshold": 0.35,
+  "distressValenceThreshold": -0.35,
+  "minValenceConfidenceForLabel": 0.6,
+  "maxValenceVarianceForLabel": 0.15,
+  "contextMagnitudeThreshold": 0.35,
+  "minContextConfidence": 0.6,
+  "adaptiveConflictVariance": 0.16,
+  "adaptiveMinExpectedGain": 0.08,
+  "adaptiveCandidateMinDistinctOutcomes": 2,
+  "patternWindowDays": 5,
+  "patternRequiredSessions": 3,
+  "patternCooldownCalendarDays": 7,
+  "supportRequiresCurrentDistress": true,
+  "baseWeights": {
+    "coverage": 0.35,
+    "diversity": 0.25,
+    "novelty": 0.25,
+    "editorial": 0.15
+  },
+  "adaptiveWeights": {
+    "information": 0.45,
+    "coverage": 0.25,
+    "novelty": 0.2,
+    "diversity": 0.1
+  }
+}

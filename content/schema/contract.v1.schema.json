@@ -1,0 +1,799 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:mindful-morning:content:1",
+  "$defs": {
+    "quality": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": [
+            "draft",
+            "needs_revision",
+            "approved",
+            "rejected"
+          ]
+        },
+        "authorRole": {
+          "type": "string"
+        },
+        "reviewerRole": {
+          "type": "string"
+        },
+        "reviewedAt": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "originalityChecked": {
+          "type": "boolean"
+        },
+        "clarityScore": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "culturalFitScore": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "invasivenessScore": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "moralizingRisk": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "clinicalLanguageRisk": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "ambiguityNotes": {
+          "type": "string"
+        },
+        "accessibilityChecked": {
+          "type": "boolean"
+        },
+        "approvals": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "status",
+        "authorRole",
+        "reviewerRole",
+        "reviewedAt",
+        "originalityChecked",
+        "clarityScore",
+        "culturalFitScore",
+        "invasivenessScore",
+        "moralizingRisk",
+        "clinicalLanguageRisk",
+        "ambiguityNotes",
+        "accessibilityChecked",
+        "approvals"
+      ],
+      "additionalProperties": false
+    },
+    "effect": {
+      "type": "object",
+      "properties": {
+        "dimension": {
+          "enum": [
+            "valence",
+            "activation",
+            "tension",
+            "mentalLoad",
+            "connection",
+            "motivation"
+          ]
+        },
+        "value": {
+          "type": "number",
+          "minimum": -1,
+          "maximum": 1
+        },
+        "weight": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "maximum": 1
+        }
+      },
+      "required": [
+        "dimension",
+        "value",
+        "weight"
+      ],
+      "additionalProperties": false
+    },
+    "answer": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^a_[0-9]{4}_[0-9]{2}$"
+        },
+        "text": {
+          "type": "string",
+          "minLength": 8,
+          "maxLength": 90
+        },
+        "effects": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/effect"
+          },
+          "minItems": 0,
+          "maxItems": 3
+        },
+        "interpretationNote": {
+          "type": "string",
+          "minLength": 20
+        }
+      },
+      "required": [
+        "id",
+        "text",
+        "effects",
+        "interpretationNote"
+      ],
+      "additionalProperties": false
+    },
+    "question": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^q_[0-9]{4}$"
+        },
+        "revision": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "locale": {
+          "enum": [
+            "es-CL"
+          ]
+        },
+        "prompt": {
+          "type": "string",
+          "minLength": 45,
+          "maxLength": 180
+        },
+        "helperText": {
+          "type": "string",
+          "maxLength": 90
+        },
+        "style": {
+          "enum": [
+            "metaphor",
+            "daily_situation",
+            "observation",
+            "gentle_introspection"
+          ]
+        },
+        "primaryDimension": {
+          "enum": [
+            "valence",
+            "activation",
+            "tension",
+            "mentalLoad",
+            "connection",
+            "motivation"
+          ]
+        },
+        "scenarioTags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_-]*$"
+          },
+          "minItems": 1,
+          "maxItems": 3
+        },
+        "semanticClusterId": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_-]*$"
+        },
+        "narrativeTemplateId": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_-]*$"
+        },
+        "intensity": {
+          "enum": [
+            "gentle",
+            "moderate"
+          ]
+        },
+        "adaptiveEligible": {
+          "type": "boolean"
+        },
+        "followUpOnly": {
+          "type": "boolean"
+        },
+        "sessionContexts": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "morning_intent"
+            ]
+          },
+          "minItems": 1,
+          "maxItems": 1
+        },
+        "editorialPriority": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "answers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/answer"
+          },
+          "minItems": 3,
+          "maxItems": 5
+        },
+        "coveragePotential": {
+          "type": "object",
+          "properties": {
+            "valence": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "activation": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "tension": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "mentalLoad": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "connection": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "motivation": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          },
+          "required": [
+            "valence",
+            "activation",
+            "tension",
+            "mentalLoad",
+            "connection",
+            "motivation"
+          ],
+          "additionalProperties": false
+        },
+        "sourceIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_-]*$"
+          },
+          "minItems": 0
+        },
+        "quality": {
+          "$ref": "#/$defs/quality"
+        }
+      },
+      "required": [
+        "id",
+        "revision",
+        "locale",
+        "prompt",
+        "style",
+        "primaryDimension",
+        "scenarioTags",
+        "semanticClusterId",
+        "narrativeTemplateId",
+        "intensity",
+        "adaptiveEligible",
+        "followUpOnly",
+        "sessionContexts",
+        "editorialPriority",
+        "answers",
+        "coveragePotential",
+        "sourceIds",
+        "quality"
+      ],
+      "additionalProperties": false
+    },
+    "family": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_-]*$"
+        },
+        "kind": {
+          "enum": [
+            "closing",
+            "support"
+          ]
+        },
+        "eligibleBy": {
+          "enum": [
+            "POSITIVE_GROUNDED_GATE",
+            "NONLABEL_NO_CONTEXT_GATE",
+            "NONLABEL_TENSION_GATE",
+            "NONLABEL_MENTAL_LOAD_GATE",
+            "NONLABEL_CONNECTION_LOW_GATE",
+            "NONLABEL_MOTIVATION_LOW_GATE",
+            "NONLABEL_ACTIVATION_HIGH_GATE",
+            "NONLABEL_ACTIVATION_LOW_GATE",
+            "SUPPORT_3_OF_5_GATE"
+          ]
+        },
+        "priorityBand": {
+          "enum": [
+            "exclusive",
+            "fallback",
+            "context",
+            "additional"
+          ]
+        },
+        "recommendedFocus": {
+          "type": "string"
+        },
+        "prohibitedClaims": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "sourceIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_-]*$"
+          },
+          "minItems": 0
+        },
+        "quality": {
+          "$ref": "#/$defs/quality"
+        }
+      },
+      "required": [
+        "id",
+        "kind",
+        "eligibleBy",
+        "priorityBand",
+        "recommendedFocus",
+        "prohibitedClaims",
+        "sourceIds",
+        "quality"
+      ],
+      "additionalProperties": false
+    },
+    "reflection": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^ref_[0-9]{4}$"
+        },
+        "revision": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "locale": {
+          "enum": [
+            "es-CL"
+          ]
+        },
+        "familyId": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_-]*$"
+        },
+        "kind": {
+          "enum": [
+            "closing",
+            "support"
+          ]
+        },
+        "title": {
+          "type": "string",
+          "minLength": 12,
+          "maxLength": 65
+        },
+        "body": {
+          "type": "string",
+          "minLength": 100,
+          "maxLength": 260
+        },
+        "optionalAction": {
+          "anyOf": [
+            {
+              "type": "string",
+              "maxLength": 120
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "practiceInspiration": {
+          "anyOf": [
+            {
+              "enum": [
+                "grounding",
+                "unhooking",
+                "acting_on_values",
+                "making_room",
+                "being_kind_engaging"
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "sourceIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_-]*$"
+          },
+          "minItems": 0
+        },
+        "sourceRelationship": {
+          "enum": [
+            "inspiration",
+            "directly_described_practice",
+            "original_product_heuristic"
+          ]
+        },
+        "quality": {
+          "$ref": "#/$defs/quality"
+        }
+      },
+      "required": [
+        "id",
+        "revision",
+        "locale",
+        "familyId",
+        "kind",
+        "title",
+        "body",
+        "optionalAction",
+        "practiceInspiration",
+        "sourceIds",
+        "sourceRelationship",
+        "quality"
+      ],
+      "additionalProperties": false
+    },
+    "dimension": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "enum": [
+            "valence",
+            "activation",
+            "tension",
+            "mentalLoad",
+            "connection",
+            "motivation"
+          ]
+        },
+        "negativePoleDescription": {
+          "type": "string"
+        },
+        "positivePoleDescription": {
+          "type": "string"
+        },
+        "semanticCautions": {
+          "type": "string"
+        },
+        "contractVersion": {
+          "enum": [
+            1
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "negativePoleDescription",
+        "positivePoleDescription",
+        "semanticCautions",
+        "contractVersion"
+      ],
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_-]*$"
+        },
+        "title": {
+          "type": "string"
+        },
+        "authorsOrInstitution": {
+          "type": "string"
+        },
+        "publicationYear": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 1900,
+              "maximum": 2100
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "publicationDate": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "doi": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "sourceType": {
+          "enum": [
+            "official_publication",
+            "research_article",
+            "official_service_page"
+          ]
+        },
+        "evidenceRole": {
+          "enum": [
+            "direct_support_for_general_practice",
+            "conceptual_inspiration",
+            "technical_reference",
+            "internal_heuristic"
+          ]
+        },
+        "consultedAt": {
+          "type": "string",
+          "format": "date"
+        },
+        "license": {
+          "type": "string"
+        },
+        "reuseNotes": {
+          "type": "string"
+        },
+        "limitations": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "authorsOrInstitution",
+        "publicationYear",
+        "publicationDate",
+        "url",
+        "doi",
+        "sourceType",
+        "evidenceRole",
+        "consultedAt",
+        "license",
+        "reuseNotes",
+        "limitations"
+      ],
+      "additionalProperties": false
+    },
+    "resource": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_-]*$"
+        },
+        "countryCode": {
+          "enum": [
+            "CL"
+          ]
+        },
+        "title": {
+          "type": "string"
+        },
+        "serviceScope": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "actionType": {
+          "enum": [
+            "dialer"
+          ]
+        },
+        "sourceId": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_-]*$"
+        },
+        "lastVerifiedAt": {
+          "type": "string",
+          "format": "date"
+        },
+        "availabilityText": {
+          "type": "string"
+        },
+        "cautionText": {
+          "type": "string"
+        },
+        "quality": {
+          "$ref": "#/$defs/quality"
+        }
+      },
+      "required": [
+        "id",
+        "countryCode",
+        "title",
+        "serviceScope",
+        "phone",
+        "actionType",
+        "sourceId",
+        "lastVerifiedAt",
+        "availabilityText",
+        "cautionText",
+        "quality"
+      ],
+      "additionalProperties": false
+    },
+    "manifest": {
+      "type": "object",
+      "properties": {
+        "packId": {
+          "enum": [
+            "morning-reflection-es-CL"
+          ]
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+(?:-[a-z0-9.]+)?$"
+        },
+        "schemaVersion": {
+          "enum": [
+            1
+          ]
+        },
+        "engineContractVersion": {
+          "enum": [
+            1
+          ]
+        },
+        "locale": {
+          "enum": [
+            "es-CL"
+          ]
+        },
+        "publishedAt": {
+          "type": "string",
+          "format": "date"
+        },
+        "hash": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "questionCount": {
+          "type": "integer",
+          "minimum": 160,
+          "maximum": 200
+        },
+        "reflectionCount": {
+          "type": "integer",
+          "minimum": 82
+        },
+        "minCompatibleEngine": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+        },
+        "review": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "enum": [
+                "draft",
+                "approved"
+              ]
+            },
+            "authorRole": {
+              "type": "string"
+            },
+            "reviewerRole": {
+              "type": "string"
+            },
+            "reviewedAt": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "date"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "safetyReview": {
+              "type": "string"
+            },
+            "releaseReady": {
+              "type": "boolean"
+            },
+            "note": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "authorRole",
+            "reviewerRole",
+            "reviewedAt",
+            "safetyReview",
+            "releaseReady",
+            "note"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "packId",
+        "version",
+        "schemaVersion",
+        "engineContractVersion",
+        "locale",
+        "publishedAt",
+        "hash",
+        "questionCount",
+        "reflectionCount",
+        "minCompatibleEngine",
+        "review"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

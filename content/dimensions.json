@@ -1,0 +1,44 @@
+[
+  {
+    "id": "valence",
+    "negativePoleDescription": "Vivencia desagradable",
+    "positivePoleDescription": "Vivencia agradable",
+    "semanticCautions": "No equivale a depresión ni felicidad; se refiere al agrado expresado en la alternativa.",
+    "contractVersion": 1
+  },
+  {
+    "id": "activation",
+    "negativePoleDescription": "Activación baja",
+    "positivePoleDescription": "Activación alta",
+    "semanticCautions": "No inferir tensión, agrado ni ansiedad desde velocidad o energía.",
+    "contractVersion": 1
+  },
+  {
+    "id": "tension",
+    "negativePoleDescription": "Poca tensión",
+    "positivePoleDescription": "Tensión elevada",
+    "semanticCautions": "Sensación subjetiva; no construir síntomas ni inferir una causa.",
+    "contractVersion": 1
+  },
+  {
+    "id": "mentalLoad",
+    "negativePoleDescription": "Carga mental leve",
+    "positivePoleDescription": "Carga elevada",
+    "semanticCautions": "Cantidad subjetiva de asuntos; no inferir rendimiento ni burnout.",
+    "contractVersion": 1
+  },
+  {
+    "id": "connection",
+    "negativePoleDescription": "Sensación baja de conexión",
+    "positivePoleDescription": "Conexión elevada",
+    "semanticCautions": "No equivale a cantidad de vínculos, compañía física o aislamiento objetivo.",
+    "contractVersion": 1
+  },
+  {
+    "id": "motivation",
+    "negativePoleDescription": "Impulso reducido",
+    "positivePoleDescription": "Impulso elevado",
+    "semanticCautions": "Ganas de iniciar una acción pequeña; no inferir apatía clínica ni productividad.",
+    "contractVersion": 1
+  }
+]

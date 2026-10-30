@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "1.0.0-draft.3",
+  "dimensions": {
+    "valence": {
+      "negative": 144,
+      "zero": 19,
+      "positive": 185,
+      "unknownAlternatives": 372
+    },
+    "activation": {
+      "negative": 187,
+      "zero": 0,
+      "positive": 197,
+      "unknownAlternatives": 336
+    },
+    "tension": {
+      "negative": 54,
+      "zero": 0,
+      "positive": 66,
+      "unknownAlternatives": 600
+    },
+    "mentalLoad": {
+      "negative": 72,
+      "zero": 0,
+      "positive": 75,
+      "unknownAlternatives": 573
+    },
+    "connection": {
+      "negative": 60,
+      "zero": 0,
+      "positive": 48,
+      "unknownAlternatives": 612
+    },
+    "motivation": {
+      "negative": 53,
+      "zero": 0,
+      "positive": 64,
+      "unknownAlternatives": 603
+    }
+  },
+  "positivePositions": [
+    49,
+    45,
+    46,
+    45
+  ],
+  "negativePositions": [
+    35,
+    38,
+    35,
+    36
+  ],
+  "unknownPositions": [
+    45,
+    45,
+    45,
+    45
+  ],
+  "readingWords": {
+    "min": 41,
+    "median": 59,
+    "max": 81,
+    "longestQuestionIds": [
+      "q_0129",
+      "q_0030",
+      "q_0039",
+      "q_0133",
+      "q_0135"
+    ]
+  },
+  "note": "Counts of authored alternatives, not response probabilities or distributions of people. Reading length is not a timed accessibility test. Uniform ±0.6/weight 1 is an editorial convention, not calibrated measurement."
+}

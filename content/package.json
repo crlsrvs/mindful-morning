@@ -1,0 +1,16 @@
+{
+  "name": "mindful-morning-content-es-cl",
+  "version": "1.0.0-draft.2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "node tools/typecheck.mjs",
+    "lint": "node tools/lint.mjs",
+    "test": "node --test tools/core.test.mjs",
+    "content:validate": "node tools/validate.mjs --write",
+    "content:release-check": "node tools/validate.mjs --release --write",
+    "content:simulate": "node tools/simulate.mjs --seeds=1000 --days=365",
+    "content:hash": "node tools/refresh-hash.mjs",
+    "content:similarity": "node tools/similarity.mjs"
+  }
+}

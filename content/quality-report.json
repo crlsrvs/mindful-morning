@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "1.0.0-draft.1",
+  "contentPackHash": "65562b239b3b786edf3d01ea495c03dcc9f0617a5311bbc413e78d725cf7f219",
+  "locale": "es-CL",
+  "auditedAt": "2026-10-25",
+  "status": "complete_draft_pending_human_review",
+  "releaseReady": false,
+  "clinicalValidation": false,
+  "professionalReviewPerformed": false,
+  "authorRole": "content_agent",
+  "reviewerRole": "pending_human_review",
+  "reviewedAt": null,
+  "counts": {
+    "questions": 180,
+    "answers": 720,
+    "reflections": 82,
+    "families": 9,
+    "sources": 6,
+    "supportResources": 2
+  },
+  "distributions": {
+    "styles": {
+      "daily_situation": 45,
+      "gentle_introspection": 45,
+      "metaphor": 45,
+      "observation": 45
+    },
+    "primaryDimensions": {
+      "activation": 30,
+      "connection": 25,
+      "mentalLoad": 25,
+      "motivation": 25,
+      "tension": 25,
+      "valence": 50
+    },
+    "intensities": {
+      "gentle": 165,
+      "moderate": 15
+    },
+    "reflectionFamilies": {
+      "fam_activation_high": 4,
+      "fam_activation_low": 4,
+      "fam_connection_low": 8,
+      "fam_mental_load": 8,
+      "fam_motivation_low": 8,
+      "fam_neutral_generic": 18,
+      "fam_positive_grounded": 18,
+      "fam_support_invitation": 6,
+      "fam_tension": 8
+    }
+  },
+  "coverage": {
+    "valenceAtLeast075": 116,
+    "activationAtLeast050": 128,
+    "adaptive": 180,
+    "adaptiveNonValence": 130
+  },
+  "machineChecks": {
+    "structure": "passed",
+    "typecheck": "passed",
+    "lint": "passed",
+    "testsPassed": 12,
+    "testsFailed": 0,
+    "syntheticPropertyCases": 100000,
+    "structuralErrors": 0
+  },
+  "duplicates": {
+    "exactQuestionPrompts": 0,
+    "exactReflectionBodies": 0,
+    "uniqueAnswerTexts": 696,
+    "repeatedAnswerTextGroups": 22,
+    "textualAnswerReuseNote": "Se conservan formulaciones breves compartidas en contextos distintos; no equivalen automáticamente a preguntas duplicadas.",
+    "semanticQuestionPairsPending": 7,
+    "semanticReflectionPairsPending": 3,
+    "semanticApproval": false
+  },
+  "simulations": {
+    "file": "simulation-results.json",
+    "seeds": 1000,
+    "daysPerSeed": 365,
+    "decisionSessions": 365000,
+    "stressSessions": 365000,
+    "repetitionViolations": 0,
+    "exhaustedSessions": 0,
+    "first30ForcedDistinctQuestionMinimum": 120,
+    "strictBaseRatio": 0.9998767123287671,
+    "strictStressRatio": 0.9938958904109589
+  },
+  "releaseGate": {
+    "status": "blocked_expected",
+    "affectedEntries": 273,
+    "diagnosticCount": 547,
+    "detailsFile": "release-gate.json",
+    "reason": "No hay revisión humana independiente registrada. No se aprueban automáticamente preguntas, familias, reflexiones ni fichas."
+  },
+  "limitations": [
+    "Matriz conjunta de 3 señales en 144 alternativas: revisión especial pendiente.",
+    "Valores ±0.6 y peso 1 no calibrados; centro explícito escaso y ausencia de activación central.",
+    "Siete parejas de preguntas y tres de reflexiones pendientes de dictamen humano; similitud lexical-conceptual no es detector semántico exhaustivo.",
+    "Correspondencias de escenarios hipotéticos pueden diferir de la experiencia actual.",
+    "Pruebas de comprensión, adaptación es-CL y accesibilidad con personas pendientes.",
+    "Fuentes y teléfonos requieren revisión humana antes de release; no hubo llamadas de prueba.",
+    "La simulación es un ensayo sintético de contenido, no prueba de la app móvil ni de validez psicológica.",
+    "Literales completos eligibleBy, proyección de safetyFlags y mínimo de motor deben confirmarse al integrar, sin alterar reglas."
+  ]
+}

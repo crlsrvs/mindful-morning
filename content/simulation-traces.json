@@ -1,0 +1,6318 @@
+{
+  "schemaVersion": 1,
+  "contentPackHash": "65562b239b3b786edf3d01ea495c03dcc9f0617a5311bbc413e78d725cf7f219",
+  "decisionTraces": [
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-01",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0014",
+        "q_0172",
+        "q_0093"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0031",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-02",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0103",
+        "q_0149",
+        "q_0085"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0020",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-03",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0043",
+        "q_0131",
+        "q_0081"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0032",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-04",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0044",
+        "q_0060",
+        "q_0154"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0029",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-05",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0087",
+        "q_0178",
+        "q_0123"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0035",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-06",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0130",
+        "q_0148",
+        "q_0016"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0024",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-07",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0134",
+        "q_0042",
+        "q_0140"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0019",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-08",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0013",
+        "q_0105",
+        "q_0061"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0033",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-09",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0132",
+        "q_0150",
+        "q_0053"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0027",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-10",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0129",
+        "q_0180",
+        "q_0012"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0030",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-11",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0041",
+        "q_0177",
+        "q_0095"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0034",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-12",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0038",
+        "q_0058",
+        "q_0106"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0036",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-13",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0037",
+        "q_0135",
+        "q_0069"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0021",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-14",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0089",
+        "q_0174",
+        "q_0019"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0022",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-15",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0128",
+        "q_0086",
+        "q_0026"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0025",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-16",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0088",
+        "q_0015",
+        "q_0099"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0023",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-17",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0179",
+        "q_0127",
+        "q_0064"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0026",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-18",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0175",
+        "q_0090",
+        "q_0120"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0028",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-19",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0173",
+        "q_0133",
+        "q_0051"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0031",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-20",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0084",
+        "q_0040",
+        "q_0171"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0020",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-21",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0082",
+        "q_0104",
+        "q_0017"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0032",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-22",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0083",
+        "q_0039",
+        "q_0108"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0029",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-23",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0176",
+        "q_0059",
+        "q_0025"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0035",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-24",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0045",
+        "q_0107",
+        "q_0170"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0024",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-25",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0021",
+        "q_0136",
+        "q_0077"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0019",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-26",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0055",
+        "q_0002",
+        "q_0168"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0033",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-27",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0142",
+        "q_0023",
+        "q_0057"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0027",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-28",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0062",
+        "q_0091",
+        "q_0163"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0030",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-29",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0008",
+        "q_0145",
+        "q_0078"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0034",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-30",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0067",
+        "q_0094",
+        "q_0141"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0036",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 0,
+      "profile": "all_skipped",
+      "localDate": "2026-01-31",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0101",
+        "q_0004",
+        "q_0076"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0021",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-01",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0045",
+        "q_0086",
+        "q_0155"
+      ],
+      "answers": [
+        "a_0045_04",
+        "a_0086_04",
+        "a_0155_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0022",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-02",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0134",
+        "q_0039",
+        "q_0170"
+      ],
+      "answers": [
+        "a_0134_04",
+        "a_0039_04",
+        "a_0170_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0029",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-03",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0149",
+        "q_0088",
+        "q_0006"
+      ],
+      "answers": [
+        "a_0149_04",
+        "a_0088_04",
+        "a_0006_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0035",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-04",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0175",
+        "q_0059",
+        "q_0120"
+      ],
+      "answers": [
+        "a_0175_04",
+        "a_0059_04",
+        "a_0120_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0028",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-05",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0103",
+        "q_0177",
+        "q_0026"
+      ],
+      "answers": [
+        "a_0103_04",
+        "a_0177_04",
+        "a_0026_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0031",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-06",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0087",
+        "q_0105",
+        "q_0027"
+      ],
+      "answers": [
+        "a_0087_04",
+        "a_0105_04",
+        "a_0027_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0026",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-07",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0041",
+        "q_0104",
+        "q_0075"
+      ],
+      "answers": [
+        "a_0041_04",
+        "a_0104_04",
+        "a_0075_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0021",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-08",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0058",
+        "q_0014",
+        "q_0118"
+      ],
+      "answers": [
+        "a_0058_04",
+        "a_0014_04",
+        "a_0118_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0024",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-09",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0172",
+        "q_0015",
+        "q_0122"
+      ],
+      "answers": [
+        "a_0172_04",
+        "a_0015_04",
+        "a_0122_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0034",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-10",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0044",
+        "q_0132",
+        "q_0137"
+      ],
+      "answers": [
+        "a_0044_04",
+        "a_0132_04",
+        "a_0137_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0030",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-11",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0037",
+        "q_0180",
+        "q_0124"
+      ],
+      "answers": [
+        "a_0037_04",
+        "a_0180_04",
+        "a_0124_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0023",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-12",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0085",
+        "q_0135",
+        "q_0022"
+      ],
+      "answers": [
+        "a_0085_04",
+        "a_0135_04",
+        "a_0022_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0032",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-13",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0127",
+        "q_0150",
+        "q_0028"
+      ],
+      "answers": [
+        "a_0127_04",
+        "a_0150_04",
+        "a_0028_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0027",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-14",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0013",
+        "q_0148",
+        "q_0095"
+      ],
+      "answers": [
+        "a_0013_04",
+        "a_0148_04",
+        "a_0095_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0033",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-15",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0090",
+        "q_0130",
+        "q_0019"
+      ],
+      "answers": [
+        "a_0090_04",
+        "a_0130_04",
+        "a_0019_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0025",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-16",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0083",
+        "q_0176",
+        "q_0115"
+      ],
+      "answers": [
+        "a_0083_04",
+        "a_0176_04",
+        "a_0115_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0020",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-17",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0131",
+        "q_0060",
+        "q_0147"
+      ],
+      "answers": [
+        "a_0131_04",
+        "a_0060_04",
+        "a_0147_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0019",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-18",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0179",
+        "q_0082",
+        "q_0020"
+      ],
+      "answers": [
+        "a_0179_04",
+        "a_0082_04",
+        "a_0020_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0036",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-19",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0173",
+        "q_0129",
+        "q_0065"
+      ],
+      "answers": [
+        "a_0173_04",
+        "a_0129_04",
+        "a_0065_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0022",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-20",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0128",
+        "q_0040",
+        "q_0165"
+      ],
+      "answers": [
+        "a_0128_04",
+        "a_0040_04",
+        "a_0165_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0029",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-21",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0178",
+        "q_0038",
+        "q_0117"
+      ],
+      "answers": [
+        "a_0178_04",
+        "a_0038_04",
+        "a_0117_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0035",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-22",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0042",
+        "q_0174",
+        "q_0070"
+      ],
+      "answers": [
+        "a_0042_04",
+        "a_0174_04",
+        "a_0070_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0028",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-23",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0133",
+        "q_0089",
+        "q_0023"
+      ],
+      "answers": [
+        "a_0133_04",
+        "a_0089_04",
+        "a_0023_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0031",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-24",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0084",
+        "q_0110",
+        "q_0167"
+      ],
+      "answers": [
+        "a_0084_04",
+        "a_0110_04",
+        "a_0167_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0026",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-25",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0043",
+        "q_0097",
+        "q_0081"
+      ],
+      "answers": [
+        "a_0043_04",
+        "a_0097_04",
+        "a_0081_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0021",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-26",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0158",
+        "q_0010",
+        "q_0121"
+      ],
+      "answers": [
+        "a_0158_04",
+        "a_0010_04",
+        "a_0121_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0024",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-27",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0100",
+        "q_0018",
+        "q_0051"
+      ],
+      "answers": [
+        "a_0100_04",
+        "a_0018_04",
+        "a_0051_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0034",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-28",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0106",
+        "q_0139",
+        "q_0072"
+      ],
+      "answers": [
+        "a_0106_04",
+        "a_0139_04",
+        "a_0072_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0030",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-29",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0021",
+        "q_0052",
+        "q_0169"
+      ],
+      "answers": [
+        "a_0021_04",
+        "a_0052_04",
+        "a_0169_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0023",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-30",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0094",
+        "q_0017",
+        "q_0161"
+      ],
+      "answers": [
+        "a_0094_04",
+        "a_0017_04",
+        "a_0161_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0032",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 1,
+      "profile": "indeterminate",
+      "localDate": "2026-01-31",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0092",
+        "q_0055",
+        "q_0163"
+      ],
+      "answers": [
+        "a_0092_04",
+        "a_0055_04",
+        "a_0163_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0027",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-01",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0085",
+        "q_0174",
+        "q_0098"
+      ],
+      "answers": [
+        "a_0085_01",
+        "a_0174_03",
+        "a_0098_01"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0004",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-02",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0082",
+        "q_0128",
+        "q_0161"
+      ],
+      "answers": [
+        "a_0082_03",
+        "a_0128_01",
+        "a_0161_01"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0016",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-03",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0083",
+        "q_0037",
+        "q_0107"
+      ],
+      "answers": [
+        "a_0083_01",
+        "a_0037_01",
+        "a_0107_01"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0015",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-04",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0087",
+        "q_0044",
+        "q_0152"
+      ],
+      "answers": [
+        "a_0087_03",
+        "a_0044_01",
+        "a_0152_01"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0001",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-05",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0059",
+        "q_0179",
+        "q_0116"
+      ],
+      "answers": [
+        "a_0059_03",
+        "a_0179_03",
+        "a_0116_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0011",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-06",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0130",
+        "q_0177",
+        "q_0076"
+      ],
+      "answers": [
+        "a_0130_03",
+        "a_0177_03",
+        "a_0076_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0002",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-07",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0039",
+        "q_0090",
+        "q_0117"
+      ],
+      "answers": [
+        "a_0039_03",
+        "a_0090_01",
+        "a_0117_01"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0006",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-08",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0132",
+        "q_0014",
+        "q_0157"
+      ],
+      "answers": [
+        "a_0132_03",
+        "a_0014_03",
+        "a_0157_01"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0005",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-09",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0045",
+        "q_0175",
+        "q_0071"
+      ],
+      "answers": [
+        "a_0045_01",
+        "a_0175_03",
+        "a_0071_03"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0003",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-10",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0105",
+        "q_0089",
+        "q_0171"
+      ],
+      "answers": [
+        "a_0105_01",
+        "a_0089_01",
+        "a_0171_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0010",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-11",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0084",
+        "q_0013",
+        "q_0162"
+      ],
+      "answers": [
+        "a_0084_01",
+        "a_0013_03",
+        "a_0162_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0017",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-12",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0149",
+        "q_0103",
+        "q_0030"
+      ],
+      "answers": [
+        "a_0149_03",
+        "a_0103_03",
+        "a_0030_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0018",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-13",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0134",
+        "q_0148",
+        "q_0043"
+      ],
+      "answers": [
+        "a_0134_03",
+        "a_0148_01",
+        "a_0043_03"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0012",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-14",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0131",
+        "q_0060",
+        "q_0009"
+      ],
+      "answers": [
+        "a_0131_01",
+        "a_0060_01",
+        "a_0009_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0014",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-15",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0129",
+        "q_0180",
+        "q_0053"
+      ],
+      "answers": [
+        "a_0129_01",
+        "a_0180_01",
+        "a_0053_01"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0013",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-16",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0015",
+        "q_0104",
+        "q_0169"
+      ],
+      "answers": [
+        "a_0015_03",
+        "a_0104_03",
+        "a_0169_01"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0007",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-17",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0133",
+        "q_0041",
+        "q_0151"
+      ],
+      "answers": [
+        "a_0133_01",
+        "a_0041_01",
+        "a_0151_03"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0009",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-18",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0178",
+        "q_0042",
+        "q_0125"
+      ],
+      "answers": [
+        "a_0178_01",
+        "a_0042_03",
+        "a_0125_01"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0008",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-19",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0135",
+        "q_0040",
+        "q_0079"
+      ],
+      "answers": [
+        "a_0135_01",
+        "a_0040_01",
+        "a_0079_03"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0004",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-20",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0058",
+        "q_0173",
+        "q_0021"
+      ],
+      "answers": [
+        "a_0058_03",
+        "a_0173_01",
+        "a_0021_01"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0016",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-21",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0038",
+        "q_0150",
+        "q_0047"
+      ],
+      "answers": [
+        "a_0038_03",
+        "a_0150_03",
+        "a_0047_03"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0015",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-22",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0127",
+        "q_0088",
+        "q_0006"
+      ],
+      "answers": [
+        "a_0127_03",
+        "a_0088_01",
+        "a_0006_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0001",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-23",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0176",
+        "q_0101",
+        "q_0070"
+      ],
+      "answers": [
+        "a_0176_01",
+        "a_0101_01",
+        "a_0070_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0011",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-24",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0172",
+        "q_0056",
+        "q_0033"
+      ],
+      "answers": [
+        "a_0172_01",
+        "a_0056_03",
+        "a_0033_01"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0002",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-25",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0086",
+        "q_0022",
+        "q_0164"
+      ],
+      "answers": [
+        "a_0086_01",
+        "a_0022_01",
+        "a_0164_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0006",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-26",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0109",
+        "q_0049",
+        "q_0034"
+      ],
+      "answers": [
+        "a_0109_01",
+        "a_0049_01",
+        "a_0034_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0005",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-27",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0113",
+        "q_0139",
+        "q_0031"
+      ],
+      "answers": [
+        "a_0113_03",
+        "a_0139_01",
+        "a_0031_03"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0003",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-28",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0010",
+        "q_0156",
+        "q_0126"
+      ],
+      "answers": [
+        "a_0010_01",
+        "a_0156_01",
+        "a_0126_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0010",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-29",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0007",
+        "q_0064",
+        "q_0121"
+      ],
+      "answers": [
+        "a_0007_01",
+        "a_0064_01",
+        "a_0121_01"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0017",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-30",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0140",
+        "q_0001",
+        "q_0093"
+      ],
+      "answers": [
+        "a_0140_01",
+        "a_0001_01",
+        "a_0093_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0018",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 2,
+      "profile": "pleasant",
+      "localDate": "2026-01-31",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0016",
+        "q_0097",
+        "q_0170"
+      ],
+      "answers": [
+        "a_0016_01",
+        "a_0097_01",
+        "a_0170_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0012",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-01",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0038",
+        "q_0103",
+        "q_0140"
+      ],
+      "answers": [
+        "a_0038_02",
+        "a_0103_02",
+        "a_0140_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0033",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-02",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0130",
+        "q_0150",
+        "q_0053"
+      ],
+      "answers": [
+        "a_0130_02",
+        "a_0150_02",
+        "a_0053_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0035",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-03",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0149",
+        "q_0129",
+        "q_0057"
+      ],
+      "answers": [
+        "a_0149_02",
+        "a_0129_02",
+        "a_0057_01"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0019",
+      "supportShown": true,
+      "supportReflectionId": "ref_0079"
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-04",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0176",
+        "q_0105",
+        "q_0078"
+      ],
+      "answers": [
+        "a_0176_02",
+        "a_0105_02",
+        "a_0078_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0027",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-05",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0127",
+        "q_0042",
+        "q_0152"
+      ],
+      "answers": [
+        "a_0127_02",
+        "a_0042_02",
+        "a_0152_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_activation_high",
+      "reflectionId": "ref_0071",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-06",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0015",
+        "q_0174",
+        "q_0081"
+      ],
+      "answers": [
+        "a_0015_02",
+        "a_0174_02",
+        "a_0081_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0020",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-07",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0060",
+        "q_0104",
+        "q_0160"
+      ],
+      "answers": [
+        "a_0060_02",
+        "a_0104_02",
+        "a_0160_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_activation_low",
+      "reflectionId": "ref_0075",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-08",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0014",
+        "q_0058",
+        "q_0147"
+      ],
+      "answers": [
+        "a_0014_02",
+        "a_0058_02",
+        "a_0147_03"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0036",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-09",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0148",
+        "q_0013",
+        "q_0069"
+      ],
+      "answers": [
+        "a_0148_02",
+        "a_0013_02",
+        "a_0069_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_activation_high",
+      "reflectionId": "ref_0072",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-10",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0131",
+        "q_0175",
+        "q_0018"
+      ],
+      "answers": [
+        "a_0131_03",
+        "a_0175_02",
+        "a_0018_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0022",
+      "supportShown": true,
+      "supportReflectionId": "ref_0080"
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-11",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0173",
+        "q_0089",
+        "q_0022"
+      ],
+      "answers": [
+        "a_0173_02",
+        "a_0089_02",
+        "a_0022_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_activation_low",
+      "reflectionId": "ref_0073",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-12",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0086",
+        "q_0135",
+        "q_0169"
+      ],
+      "answers": [
+        "a_0086_02",
+        "a_0135_02",
+        "a_0169_01"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0030",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-13",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0039",
+        "q_0132",
+        "q_0153"
+      ],
+      "answers": [
+        "a_0039_02",
+        "a_0132_02",
+        "a_0153_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0032",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-14",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0134",
+        "q_0180",
+        "q_0072"
+      ],
+      "answers": [
+        "a_0134_02",
+        "a_0180_02",
+        "a_0072_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0026",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-15",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0179",
+        "q_0128",
+        "q_0035"
+      ],
+      "answers": [
+        "a_0179_02",
+        "a_0128_02",
+        "a_0035_03"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_activation_low",
+      "reflectionId": "ref_0076",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-16",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0088",
+        "q_0040",
+        "q_0154"
+      ],
+      "answers": [
+        "a_0088_02",
+        "a_0040_02",
+        "a_0154_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0031",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-17",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0090",
+        "q_0044",
+        "q_0161"
+      ],
+      "answers": [
+        "a_0090_02",
+        "a_0044_02",
+        "a_0161_01"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0023",
+      "supportShown": true,
+      "supportReflectionId": "ref_0082"
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-18",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0041",
+        "q_0059",
+        "q_0123"
+      ],
+      "answers": [
+        "a_0041_02",
+        "a_0059_02",
+        "a_0123_03"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0034",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-19",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0043",
+        "q_0087",
+        "q_0098"
+      ],
+      "answers": [
+        "a_0043_02",
+        "a_0087_02",
+        "a_0098_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0029",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-20",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0045",
+        "q_0085",
+        "q_0124"
+      ],
+      "answers": [
+        "a_0045_02",
+        "a_0085_02",
+        "a_0124_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_activation_high",
+      "reflectionId": "ref_0070",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-21",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0084",
+        "q_0172",
+        "q_0113"
+      ],
+      "answers": [
+        "a_0084_02",
+        "a_0172_02",
+        "a_0113_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0021",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-22",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0037",
+        "q_0177",
+        "q_0066"
+      ],
+      "answers": [
+        "a_0037_02",
+        "a_0177_02",
+        "a_0066_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_activation_high",
+      "reflectionId": "ref_0069",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-23",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0133",
+        "q_0083",
+        "q_0027"
+      ],
+      "answers": [
+        "a_0133_02",
+        "a_0083_02",
+        "a_0027_03"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0028",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-24",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0178",
+        "q_0082",
+        "q_0021"
+      ],
+      "answers": [
+        "a_0178_02",
+        "a_0082_02",
+        "a_0021_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0025",
+      "supportShown": true,
+      "supportReflectionId": "ref_0081"
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-25",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0109",
+        "q_0004",
+        "q_0168"
+      ],
+      "answers": [
+        "a_0109_02",
+        "a_0004_02",
+        "a_0168_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0024",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-26",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0091",
+        "q_0146",
+        "q_0080"
+      ],
+      "answers": [
+        "a_0091_02",
+        "a_0146_02",
+        "a_0080_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0033",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-27",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0111",
+        "q_0142",
+        "q_0009"
+      ],
+      "answers": [
+        "a_0111_02",
+        "a_0142_03",
+        "a_0009_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0035",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-28",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0139",
+        "q_0019",
+        "q_0116"
+      ],
+      "answers": [
+        "a_0139_03",
+        "a_0019_02",
+        "a_0116_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0019",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-29",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0017",
+        "q_0046",
+        "q_0162"
+      ],
+      "answers": [
+        "a_0017_02",
+        "a_0046_03",
+        "a_0162_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0027",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-30",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0050",
+        "q_0097",
+        "q_0167"
+      ],
+      "answers": [
+        "a_0050_02",
+        "a_0097_02",
+        "a_0167_03"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0020",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 3,
+      "profile": "unpleasant",
+      "localDate": "2026-01-31",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0158",
+        "q_0001",
+        "q_0096"
+      ],
+      "answers": [
+        "a_0158_02",
+        "a_0001_03",
+        "a_0096_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0036",
+      "supportShown": true,
+      "supportReflectionId": "ref_0078"
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-01",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0044",
+        "q_0176",
+        "q_0075",
+        "q_0132"
+      ],
+      "answers": [
+        "a_0044_04",
+        "a_0176_04",
+        "a_0075_03",
+        "a_0132_04"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.265625,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0034",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-02",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0084",
+        "q_0042",
+        "q_0125",
+        "q_0179"
+      ],
+      "answers": [
+        "a_0084_04",
+        "a_0042_04",
+        "a_0125_02",
+        "a_0179_04"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.265625,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0032",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-03",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0086",
+        "q_0135",
+        "q_0169",
+        "q_0015"
+      ],
+      "answers": [
+        "a_0086_04",
+        "a_0135_04",
+        "a_0169_02",
+        "a_0015_04"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.265625,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0031",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-04",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0133",
+        "q_0058",
+        "q_0159"
+      ],
+      "answers": [
+        "a_0133_04",
+        "a_0058_04",
+        "a_0159_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0021",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-05",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0149",
+        "q_0014",
+        "q_0098"
+      ],
+      "answers": [
+        "a_0149_04",
+        "a_0014_04",
+        "a_0098_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0022",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-06",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0083",
+        "q_0129",
+        "q_0021"
+      ],
+      "answers": [
+        "a_0083_04",
+        "a_0129_04",
+        "a_0021_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0026",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-07",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0089",
+        "q_0180",
+        "q_0019"
+      ],
+      "answers": [
+        "a_0089_04",
+        "a_0180_04",
+        "a_0019_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0028",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-08",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0013",
+        "q_0127",
+        "q_0165",
+        "q_0085"
+      ],
+      "answers": [
+        "a_0013_04",
+        "a_0127_04",
+        "a_0165_01",
+        "a_0085_04"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.265625,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0030",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-09",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0041",
+        "q_0105",
+        "q_0068"
+      ],
+      "answers": [
+        "a_0041_04",
+        "a_0105_04",
+        "a_0068_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0025",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-10",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0060",
+        "q_0037",
+        "q_0154"
+      ],
+      "answers": [
+        "a_0060_04",
+        "a_0037_04",
+        "a_0154_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0029",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-11",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0134",
+        "q_0148",
+        "q_0079",
+        "q_0045"
+      ],
+      "answers": [
+        "a_0134_04",
+        "a_0148_04",
+        "a_0079_03",
+        "a_0045_04"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.265625,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0027",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-12",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0038",
+        "q_0150",
+        "q_0069"
+      ],
+      "answers": [
+        "a_0038_04",
+        "a_0150_04",
+        "a_0069_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0020",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-13",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0082",
+        "q_0177",
+        "q_0034",
+        "q_0130"
+      ],
+      "answers": [
+        "a_0082_04",
+        "a_0177_04",
+        "a_0034_02",
+        "a_0130_04"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.265625,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0036",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-14",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0173",
+        "q_0131",
+        "q_0071",
+        "q_0040"
+      ],
+      "answers": [
+        "a_0173_04",
+        "a_0131_04",
+        "a_0071_02",
+        "a_0040_04"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.265625,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0033",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-15",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0172",
+        "q_0088",
+        "q_0093",
+        "q_0043"
+      ],
+      "answers": [
+        "a_0172_04",
+        "a_0088_04",
+        "a_0093_02",
+        "a_0043_04"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.265625,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0024",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-16",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0175",
+        "q_0087",
+        "q_0023"
+      ],
+      "answers": [
+        "a_0175_04",
+        "a_0087_04",
+        "a_0023_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0023",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-17",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0178",
+        "q_0090",
+        "q_0035",
+        "q_0128"
+      ],
+      "answers": [
+        "a_0178_04",
+        "a_0090_04",
+        "a_0035_02",
+        "a_0128_04"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.265625,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0019",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-18",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0103",
+        "q_0059",
+        "q_0156"
+      ],
+      "answers": [
+        "a_0103_04",
+        "a_0059_04",
+        "a_0156_04"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0035",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-19",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0104",
+        "q_0039",
+        "q_0168",
+        "q_0052"
+      ],
+      "answers": [
+        "a_0104_04",
+        "a_0039_04",
+        "a_0168_01",
+        "a_0052_04"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.25,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0034",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-20",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0010",
+        "q_0174",
+        "q_0119",
+        "q_0049"
+      ],
+      "answers": [
+        "a_0010_04",
+        "a_0174_04",
+        "a_0119_01",
+        "a_0049_04"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.25,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0032",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-21",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0146",
+        "q_0091",
+        "q_0072",
+        "q_0002"
+      ],
+      "answers": [
+        "a_0146_04",
+        "a_0091_04",
+        "a_0072_02",
+        "a_0002_04"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.258125,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0031",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-22",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0064",
+        "q_0007",
+        "q_0121",
+        "q_0153"
+      ],
+      "answers": [
+        "a_0064_04",
+        "a_0007_04",
+        "a_0121_02",
+        "a_0153_04"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.26187499999999997,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0021",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-23",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0111",
+        "q_0004",
+        "q_0166",
+        "q_0047"
+      ],
+      "answers": [
+        "a_0111_04",
+        "a_0004_04",
+        "a_0166_02",
+        "a_0047_04"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.26187499999999997,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0022",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-24",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0140",
+        "q_0055",
+        "q_0003",
+        "q_0094"
+      ],
+      "answers": [
+        "a_0140_04",
+        "a_0055_04",
+        "a_0003_03",
+        "a_0094_04"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.25,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0026",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-25",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0020",
+        "q_0100",
+        "q_0080",
+        "q_0157"
+      ],
+      "answers": [
+        "a_0020_04",
+        "a_0100_04",
+        "a_0080_02",
+        "a_0157_04"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.26187499999999997,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0028",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-26",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0095",
+        "q_0046",
+        "q_0141",
+        "q_0001"
+      ],
+      "answers": [
+        "a_0095_04",
+        "a_0046_04",
+        "a_0141_01",
+        "a_0001_04"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.25,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0030",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-27",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0145",
+        "q_0062",
+        "q_0033",
+        "q_0097"
+      ],
+      "answers": [
+        "a_0145_04",
+        "a_0062_04",
+        "a_0033_01",
+        "a_0097_04"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.25,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0025",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-28",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0065",
+        "q_0136",
+        "q_0120"
+      ],
+      "answers": [
+        "a_0065_04",
+        "a_0136_04",
+        "a_0120_01"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0029",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-29",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0092",
+        "q_0142",
+        "q_0077",
+        "q_0011"
+      ],
+      "answers": [
+        "a_0092_04",
+        "a_0142_04",
+        "a_0077_02",
+        "a_0011_04"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.26187499999999997,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0027",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-30",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0022",
+        "q_0139",
+        "q_0054",
+        "q_0113"
+      ],
+      "answers": [
+        "a_0022_04",
+        "a_0139_04",
+        "a_0054_02",
+        "a_0113_04"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.26187499999999997,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0020",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 4,
+      "profile": "activation_only",
+      "localDate": "2026-01-31",
+      "state": "completed",
+      "baseRelaxation": 1,
+      "exposedIds": [
+        "q_0005",
+        "q_0155",
+        "q_0048"
+      ],
+      "answers": [
+        "a_0005_04",
+        "a_0155_04",
+        "a_0048_01"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0036",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-01",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0013",
+        "q_0175",
+        "q_0107"
+      ],
+      "answers": [
+        "a_0013_03",
+        "a_0175_02",
+        "a_0107_01"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_activation_high",
+      "reflectionId": "ref_0070",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-02",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0129",
+        "q_0148",
+        "q_0009",
+        "q_0065"
+      ],
+      "answers": [
+        "a_0129_02",
+        "a_0148_01",
+        "a_0009_02",
+        "a_0065_01"
+      ],
+      "adaptiveReason": "CONFLICT",
+      "adaptiveGain": 0.144125,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0020",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-03",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0134",
+        "q_0172",
+        "q_0005"
+      ],
+      "answers": [
+        "a_0134_03",
+        "a_0172_02",
+        "a_0005_01"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_activation_high",
+      "reflectionId": "ref_0071",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-04",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0105",
+        "q_0040",
+        "q_0166",
+        "q_0068"
+      ],
+      "answers": [
+        "a_0105_02",
+        "a_0040_01",
+        "a_0166_02",
+        "a_0068_01"
+      ],
+      "adaptiveReason": "CONFLICT",
+      "adaptiveGain": 0.171125,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0027",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-05",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0038",
+        "q_0179",
+        "q_0067"
+      ],
+      "answers": [
+        "a_0038_03",
+        "a_0179_02",
+        "a_0067_01"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0019",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-06",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0103",
+        "q_0039",
+        "q_0146"
+      ],
+      "answers": [
+        "a_0103_02",
+        "a_0039_03",
+        "a_0146_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_activation_high",
+      "reflectionId": "ref_0069",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-07",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0059",
+        "q_0037",
+        "q_0155"
+      ],
+      "answers": [
+        "a_0059_03",
+        "a_0037_02",
+        "a_0155_01"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0025",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-08",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0014",
+        "q_0090",
+        "q_0131"
+      ],
+      "answers": [
+        "a_0014_02",
+        "a_0090_01",
+        "a_0131_03"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0023",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-09",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0085",
+        "q_0042",
+        "q_0152"
+      ],
+      "answers": [
+        "a_0085_01",
+        "a_0042_02",
+        "a_0152_01"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_activation_high",
+      "reflectionId": "ref_0072",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-10",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0173",
+        "q_0133",
+        "q_0031",
+        "q_0069"
+      ],
+      "answers": [
+        "a_0173_02",
+        "a_0133_01",
+        "a_0031_03",
+        "a_0069_01"
+      ],
+      "adaptiveReason": "CONFLICT",
+      "adaptiveGain": 0.144125,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0032",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-11",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0149",
+        "q_0015",
+        "q_0116",
+        "q_0053"
+      ],
+      "answers": [
+        "a_0149_03",
+        "a_0015_02",
+        "a_0116_04",
+        "a_0053_02"
+      ],
+      "adaptiveReason": "CONFLICT",
+      "adaptiveGain": 0.171125,
+      "mode": "nonlabel",
+      "familyId": "fam_activation_low",
+      "reflectionId": "ref_0073",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-12",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0104",
+        "q_0150",
+        "q_0070",
+        "q_0002"
+      ],
+      "answers": [
+        "a_0104_02",
+        "a_0150_03",
+        "a_0070_02",
+        "a_0002_01"
+      ],
+      "adaptiveReason": "CONFLICT",
+      "adaptiveGain": 0.171125,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0022",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-13",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0135",
+        "q_0089",
+        "q_0165",
+        "q_0023"
+      ],
+      "answers": [
+        "a_0135_01",
+        "a_0089_02",
+        "a_0165_01",
+        "a_0023_02"
+      ],
+      "adaptiveReason": "CONFLICT",
+      "adaptiveGain": 0.171125,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0034",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-14",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0178",
+        "q_0044",
+        "q_0093",
+        "q_0058"
+      ],
+      "answers": [
+        "a_0178_02",
+        "a_0044_01",
+        "a_0093_02",
+        "a_0058_03"
+      ],
+      "adaptiveReason": "CONFLICT",
+      "adaptiveGain": 0.144125,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0036",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-15",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0043",
+        "q_0180",
+        "q_0121",
+        "q_0061"
+      ],
+      "answers": [
+        "a_0043_03",
+        "a_0180_02",
+        "a_0121_01",
+        "a_0061_02"
+      ],
+      "adaptiveReason": "CONFLICT",
+      "adaptiveGain": 0.144125,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0021",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-16",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0176",
+        "q_0087",
+        "q_0110"
+      ],
+      "answers": [
+        "a_0176_02",
+        "a_0087_03",
+        "a_0110_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_activation_high",
+      "reflectionId": "ref_0070",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-17",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0130",
+        "q_0174",
+        "q_0056"
+      ],
+      "answers": [
+        "a_0130_03",
+        "a_0174_02",
+        "a_0056_03"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_activation_low",
+      "reflectionId": "ref_0076",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-18",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0060",
+        "q_0128",
+        "q_0170",
+        "q_0021"
+      ],
+      "answers": [
+        "a_0060_02",
+        "a_0128_01",
+        "a_0170_02",
+        "a_0021_01"
+      ],
+      "adaptiveReason": "CONFLICT",
+      "adaptiveGain": 0.171125,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0031",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-19",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0088",
+        "q_0041",
+        "q_0171",
+        "q_0106"
+      ],
+      "answers": [
+        "a_0088_01",
+        "a_0041_02",
+        "a_0171_02",
+        "a_0106_02"
+      ],
+      "adaptiveReason": "CONFLICT",
+      "adaptiveGain": 0.144125,
+      "mode": "nonlabel",
+      "familyId": "fam_activation_high",
+      "reflectionId": "ref_0071",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-20",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0132",
+        "q_0086",
+        "q_0151"
+      ],
+      "answers": [
+        "a_0132_02",
+        "a_0086_01",
+        "a_0151_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0024",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-21",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0045",
+        "q_0084",
+        "q_0160",
+        "q_0112"
+      ],
+      "answers": [
+        "a_0045_01",
+        "a_0084_02",
+        "a_0160_04",
+        "a_0112_02"
+      ],
+      "adaptiveReason": "CONFLICT",
+      "adaptiveGain": 0.171125,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0028",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-22",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0127",
+        "q_0177",
+        "q_0066"
+      ],
+      "answers": [
+        "a_0127_02",
+        "a_0177_03",
+        "a_0066_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_activation_high",
+      "reflectionId": "ref_0069",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-23",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0083",
+        "q_0097",
+        "q_0034",
+        "q_0157"
+      ],
+      "answers": [
+        "a_0083_01",
+        "a_0097_02",
+        "a_0034_02",
+        "a_0157_02"
+      ],
+      "adaptiveReason": "CONFLICT",
+      "adaptiveGain": 0.171125,
+      "mode": "nonlabel",
+      "familyId": "fam_activation_high",
+      "reflectionId": "ref_0072",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-24",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0082",
+        "q_0022",
+        "q_0164",
+        "q_0101"
+      ],
+      "answers": [
+        "a_0082_02",
+        "a_0022_01",
+        "a_0164_04",
+        "a_0101_01"
+      ],
+      "adaptiveReason": "CONFLICT",
+      "adaptiveGain": 0.171125,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0033",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-25",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0154",
+        "q_0052",
+        "q_0125",
+        "q_0017"
+      ],
+      "answers": [
+        "a_0154_01",
+        "a_0052_02",
+        "a_0125_01",
+        "a_0017_02"
+      ],
+      "adaptiveReason": "CONFLICT",
+      "adaptiveGain": 0.144125,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0030",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-26",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0139",
+        "q_0113",
+        "q_0079",
+        "q_0019"
+      ],
+      "answers": [
+        "a_0139_03",
+        "a_0113_03",
+        "a_0079_03",
+        "a_0019_03"
+      ],
+      "adaptiveReason": "CONFLICT",
+      "adaptiveGain": 0.144125,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0029",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-27",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0114",
+        "q_0001",
+        "q_0161",
+        "q_0064"
+      ],
+      "answers": [
+        "a_0114_01",
+        "a_0001_03",
+        "a_0161_01",
+        "a_0064_02"
+      ],
+      "adaptiveReason": "CONFLICT",
+      "adaptiveGain": 0.171125,
+      "mode": "nonlabel",
+      "familyId": "fam_activation_low",
+      "reflectionId": "ref_0075",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-28",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0024",
+        "q_0049",
+        "q_0141",
+        "q_0092"
+      ],
+      "answers": [
+        "a_0024_02",
+        "a_0049_01",
+        "a_0141_01",
+        "a_0092_01"
+      ],
+      "adaptiveReason": "CONFLICT",
+      "adaptiveGain": 0.144125,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0026",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-29",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0018",
+        "q_0091",
+        "q_0051",
+        "q_0153"
+      ],
+      "answers": [
+        "a_0018_03",
+        "a_0091_02",
+        "a_0051_03",
+        "a_0153_02"
+      ],
+      "adaptiveReason": "CONFLICT",
+      "adaptiveGain": 0.144125,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0035",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-30",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0111",
+        "q_0142",
+        "q_0032",
+        "q_0063"
+      ],
+      "answers": [
+        "a_0111_02",
+        "a_0142_02",
+        "a_0032_02",
+        "a_0063_03"
+      ],
+      "adaptiveReason": "CONFLICT",
+      "adaptiveGain": 0.144125,
+      "mode": "nonlabel",
+      "familyId": "fam_activation_high",
+      "reflectionId": "ref_0070",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 5,
+      "profile": "polarized",
+      "localDate": "2026-01-31",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0007",
+        "q_0156",
+        "q_0080",
+        "q_0109"
+      ],
+      "answers": [
+        "a_0007_01",
+        "a_0156_02",
+        "a_0080_04",
+        "a_0109_02"
+      ],
+      "adaptiveReason": "CONFLICT",
+      "adaptiveGain": 0.144125,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0020",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-01",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0127",
+        "q_0015",
+        "q_0073"
+      ],
+      "answers": [
+        "a_0127_01",
+        "a_0015_01",
+        "a_0073_01"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0009",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-02",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0179",
+        "q_0042",
+        "q_0117"
+      ],
+      "answers": [
+        "a_0179_03",
+        "a_0042_03",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0011",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-03",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0085",
+        "q_0045",
+        "q_0143"
+      ],
+      "answers": [
+        "a_0085_01",
+        "skip",
+        "a_0143_01"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0018",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-04",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0134",
+        "q_0174",
+        "q_0076"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "a_0076_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0027",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-05",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0135",
+        "q_0041",
+        "q_0141"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0029",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-06",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0039",
+        "q_0132",
+        "q_0072"
+      ],
+      "answers": [
+        "a_0039_01",
+        "a_0132_01",
+        "a_0072_03"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0007",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-07",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0178",
+        "q_0086",
+        "q_0096",
+        "q_0011"
+      ],
+      "answers": [
+        "skip",
+        "a_0086_01",
+        "a_0096_04",
+        "a_0011_03"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.20562499999999997,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0014",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-08",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0037",
+        "q_0089",
+        "q_0171",
+        "q_0129"
+      ],
+      "answers": [
+        "a_0037_03",
+        "a_0089_04",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.20562499999999997,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0036",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-09",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0083",
+        "q_0105",
+        "q_0035"
+      ],
+      "answers": [
+        "skip",
+        "a_0105_01",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0023",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-10",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0087",
+        "q_0103",
+        "q_0026",
+        "q_0175"
+      ],
+      "answers": [
+        "a_0087_02",
+        "a_0103_03",
+        "a_0026_03",
+        "skip"
+      ],
+      "adaptiveReason": "CONFLICT",
+      "adaptiveGain": 0.144125,
+      "mode": "nonlabel",
+      "familyId": "fam_activation_high",
+      "reflectionId": "ref_0070",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-11",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0176",
+        "q_0060",
+        "q_0016"
+      ],
+      "answers": [
+        "skip",
+        "a_0060_04",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0021",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-12",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0040",
+        "q_0082",
+        "q_0124",
+        "q_0177"
+      ],
+      "answers": [
+        "a_0040_01",
+        "skip",
+        "a_0124_01",
+        "a_0177_04"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.20562499999999997,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0024",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-13",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0038",
+        "q_0148",
+        "q_0078",
+        "q_0095"
+      ],
+      "answers": [
+        "a_0038_03",
+        "a_0148_04",
+        "a_0078_01",
+        "a_0095_02"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.20562499999999997,
+      "mode": "nonlabel",
+      "familyId": "fam_activation_high",
+      "reflectionId": "ref_0071",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-14",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0014",
+        "q_0128",
+        "q_0057"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "a_0057_03"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0020",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-15",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0088",
+        "q_0131",
+        "q_0028",
+        "q_0173"
+      ],
+      "answers": [
+        "skip",
+        "a_0131_02",
+        "a_0028_04",
+        "skip"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.20562499999999997,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0028",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-16",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0084",
+        "q_0172",
+        "q_0033",
+        "q_0110"
+      ],
+      "answers": [
+        "a_0084_02",
+        "a_0172_03",
+        "skip",
+        "a_0110_02"
+      ],
+      "adaptiveReason": "CONFLICT",
+      "adaptiveGain": 0.171125,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0025",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-17",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0058",
+        "q_0150",
+        "q_0113"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "a_0113_01"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0031",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-18",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0133",
+        "q_0059",
+        "q_0170",
+        "q_0017"
+      ],
+      "answers": [
+        "a_0133_04",
+        "a_0059_01",
+        "a_0170_01",
+        "a_0017_04"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.20562499999999997,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0032",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-19",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0013",
+        "q_0130",
+        "q_0169",
+        "q_0053"
+      ],
+      "answers": [
+        "a_0013_02",
+        "a_0130_01",
+        "a_0169_03",
+        "skip"
+      ],
+      "adaptiveReason": "CONFLICT",
+      "adaptiveGain": 0.171125,
+      "mode": "nonlabel",
+      "familyId": "fam_activation_high",
+      "reflectionId": "ref_0072",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-20",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0090",
+        "q_0044",
+        "q_0120",
+        "q_0180"
+      ],
+      "answers": [
+        "a_0090_03",
+        "a_0044_04",
+        "a_0120_02",
+        "skip"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.23187500000000003,
+      "mode": "nonlabel",
+      "familyId": "fam_activation_low",
+      "reflectionId": "ref_0076",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-21",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0043",
+        "q_0149",
+        "q_0125",
+        "q_0069"
+      ],
+      "answers": [
+        "a_0043_01",
+        "a_0149_02",
+        "a_0125_04",
+        "a_0069_02"
+      ],
+      "adaptiveReason": "CONFLICT",
+      "adaptiveGain": 0.144125,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0033",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-22",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0104",
+        "q_0050",
+        "q_0031",
+        "q_0151"
+      ],
+      "answers": [
+        "a_0104_01",
+        "a_0050_04",
+        "a_0031_04",
+        "skip"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.20562499999999997,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0030",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-23",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0004",
+        "q_0155",
+        "q_0048",
+        "q_0111"
+      ],
+      "answers": [
+        "a_0004_01",
+        "skip",
+        "a_0048_02",
+        "a_0111_03"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.20562499999999997,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0013",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-24",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0136",
+        "q_0065",
+        "q_0126",
+        "q_0008"
+      ],
+      "answers": [
+        "skip",
+        "a_0065_01",
+        "a_0126_04",
+        "a_0008_02"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.20562499999999997,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0026",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-25",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0139",
+        "q_0024",
+        "q_0074",
+        "q_0112"
+      ],
+      "answers": [
+        "a_0139_01",
+        "a_0024_02",
+        "a_0074_01",
+        "a_0112_03"
+      ],
+      "adaptiveReason": "CONFLICT",
+      "adaptiveGain": 0.171125,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0035",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-26",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0098",
+        "q_0046",
+        "q_0163",
+        "q_0021"
+      ],
+      "answers": [
+        "a_0098_03",
+        "a_0046_02",
+        "a_0163_01",
+        "a_0021_04"
+      ],
+      "adaptiveReason": "CONFLICT",
+      "adaptiveGain": 0.171125,
+      "mode": "nonlabel",
+      "familyId": "fam_activation_high",
+      "reflectionId": "ref_0069",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-27",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0061",
+        "q_0094",
+        "q_0034",
+        "q_0137"
+      ],
+      "answers": [
+        "a_0061_01",
+        "a_0094_04",
+        "a_0034_02",
+        "a_0137_01"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.20562499999999997,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0003",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-28",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0100",
+        "q_0002",
+        "q_0147"
+      ],
+      "answers": [
+        "skip",
+        "a_0002_04",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0019",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-29",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0154",
+        "q_0010",
+        "q_0051",
+        "q_0097"
+      ],
+      "answers": [
+        "skip",
+        "a_0010_03",
+        "a_0051_04",
+        "a_0097_04"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.175,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0022",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-30",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0091",
+        "q_0063",
+        "q_0036",
+        "q_0145"
+      ],
+      "answers": [
+        "a_0091_02",
+        "skip",
+        "a_0036_04",
+        "skip"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.175,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0034",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 6,
+      "profile": "mixed",
+      "localDate": "2026-01-31",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0092",
+        "q_0052",
+        "q_0160"
+      ],
+      "answers": [
+        "skip",
+        "a_0052_03",
+        "a_0160_01"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_activation_low",
+      "reflectionId": "ref_0073",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-01",
+      "state": "abandoned",
+      "exposedIds": [
+        "q_0127"
+      ],
+      "answers": [
+        "skip"
+      ]
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-02",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0015",
+        "q_0129",
+        "q_0146",
+        "q_0058"
+      ],
+      "answers": [
+        "a_0015_02",
+        "skip",
+        "a_0146_03",
+        "skip"
+      ],
+      "adaptiveReason": "CONFLICT",
+      "adaptiveGain": 0.144125,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0031",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-03",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0043",
+        "q_0180",
+        "q_0102",
+        "q_0086"
+      ],
+      "answers": [
+        "skip",
+        "a_0180_02",
+        "a_0102_01",
+        "skip"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.20562499999999997,
+      "mode": "nonlabel",
+      "familyId": "fam_activation_high",
+      "reflectionId": "ref_0069",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-04",
+      "state": "abandoned",
+      "exposedIds": [
+        "q_0105",
+        "q_0038"
+      ],
+      "answers": [
+        "a_0105_04",
+        "a_0038_01"
+      ]
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-05",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0173",
+        "q_0085",
+        "q_0121"
+      ],
+      "answers": [
+        "a_0173_04",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0035",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-06",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0132",
+        "q_0037",
+        "q_0057"
+      ],
+      "answers": [
+        "a_0132_01",
+        "a_0037_03",
+        "a_0057_02"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0014",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-07",
+      "state": "abandoned",
+      "exposedIds": [
+        "q_0133"
+      ],
+      "answers": [
+        "a_0133_03"
+      ]
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-08",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0040",
+        "q_0135",
+        "q_0161",
+        "q_0047"
+      ],
+      "answers": [
+        "a_0040_03",
+        "a_0135_04",
+        "a_0161_02",
+        "a_0047_03"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.20562499999999997,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0017",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-09",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0083",
+        "q_0172",
+        "q_0006"
+      ],
+      "answers": [
+        "a_0083_04",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0023",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-10",
+      "state": "abandoned",
+      "exposedIds": [
+        "q_0013",
+        "q_0150"
+      ],
+      "answers": [
+        "a_0013_02",
+        "skip"
+      ]
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-11",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0041",
+        "q_0178",
+        "q_0126"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0019",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-12",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0130",
+        "q_0174",
+        "q_0011"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0029",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-13",
+      "state": "abandoned",
+      "exposedIds": [
+        "q_0087"
+      ],
+      "answers": [
+        "skip"
+      ]
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-14",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0090",
+        "q_0179",
+        "q_0012",
+        "q_0108"
+      ],
+      "answers": [
+        "a_0090_04",
+        "a_0179_03",
+        "skip",
+        "a_0108_04"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.20562499999999997,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0033",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-15",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0175",
+        "q_0045",
+        "q_0076",
+        "q_0095"
+      ],
+      "answers": [
+        "a_0175_04",
+        "a_0045_01",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.20562499999999997,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0036",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-16",
+      "state": "abandoned",
+      "exposedIds": [
+        "q_0089",
+        "q_0177"
+      ],
+      "answers": [
+        "a_0089_04",
+        "a_0177_03"
+      ]
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-17",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0148",
+        "q_0044",
+        "q_0093"
+      ],
+      "answers": [
+        "skip",
+        "skip",
+        "a_0093_03"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0026",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-18",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0104",
+        "q_0014",
+        "q_0143"
+      ],
+      "answers": [
+        "a_0104_02",
+        "a_0014_03",
+        "a_0143_01"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_activation_low",
+      "reflectionId": "ref_0074",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-19",
+      "state": "abandoned",
+      "exposedIds": [
+        "q_0128"
+      ],
+      "answers": [
+        "skip"
+      ]
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-20",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0060",
+        "q_0131",
+        "q_0147"
+      ],
+      "answers": [
+        "a_0060_04",
+        "a_0131_04",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0028",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-21",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0149",
+        "q_0134",
+        "q_0022",
+        "q_0053"
+      ],
+      "answers": [
+        "a_0149_02",
+        "a_0134_01",
+        "skip",
+        "a_0053_03"
+      ],
+      "adaptiveReason": "CONFLICT",
+      "adaptiveGain": 0.171125,
+      "mode": "nonlabel",
+      "familyId": "fam_activation_low",
+      "reflectionId": "ref_0075",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-22",
+      "state": "abandoned",
+      "exposedIds": [
+        "q_0088",
+        "q_0176"
+      ],
+      "answers": [
+        "a_0088_03",
+        "skip"
+      ]
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-23",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0042",
+        "q_0084",
+        "q_0159"
+      ],
+      "answers": [
+        "a_0042_03",
+        "skip",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0032",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-24",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0059",
+        "q_0103",
+        "q_0165",
+        "q_0017"
+      ],
+      "answers": [
+        "skip",
+        "a_0103_03",
+        "a_0165_03",
+        "a_0017_02"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.20562499999999997,
+      "mode": "nonlabel",
+      "familyId": "fam_activation_high",
+      "reflectionId": "ref_0071",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-25",
+      "state": "abandoned",
+      "exposedIds": [
+        "q_0039"
+      ],
+      "answers": [
+        "a_0039_01"
+      ]
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-26",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0082",
+        "q_0142",
+        "q_0032"
+      ],
+      "answers": [
+        "a_0082_01",
+        "a_0142_02",
+        "skip"
+      ],
+      "adaptiveReason": null,
+      "adaptiveGain": null,
+      "mode": "positive",
+      "familyId": "fam_positive_grounded",
+      "reflectionId": "ref_0005",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-27",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0020",
+        "q_0055",
+        "q_0164",
+        "q_0112"
+      ],
+      "answers": [
+        "a_0020_02",
+        "a_0055_01",
+        "a_0164_01",
+        "skip"
+      ],
+      "adaptiveReason": "CONFLICT",
+      "adaptiveGain": 0.171125,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0020",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-28",
+      "state": "abandoned",
+      "exposedIds": [
+        "q_0092",
+        "q_0049"
+      ],
+      "answers": [
+        "a_0092_03",
+        "a_0049_04"
+      ]
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-29",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0136",
+        "q_0101",
+        "q_0078",
+        "q_0002"
+      ],
+      "answers": [
+        "a_0136_01",
+        "a_0101_02",
+        "a_0078_04",
+        "a_0002_01"
+      ],
+      "adaptiveReason": "CONFLICT",
+      "adaptiveGain": 0.171125,
+      "mode": "nonlabel",
+      "familyId": "fam_neutral_generic",
+      "reflectionId": "ref_0022",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-30",
+      "state": "completed",
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0109",
+        "q_0004",
+        "q_0070",
+        "q_0155"
+      ],
+      "answers": [
+        "a_0109_04",
+        "a_0004_02",
+        "a_0070_03",
+        "skip"
+      ],
+      "adaptiveReason": "OUTCOME_SENSITIVE",
+      "adaptiveGain": 0.198125,
+      "mode": "nonlabel",
+      "familyId": "fam_activation_high",
+      "reflectionId": "ref_0070",
+      "supportShown": false,
+      "supportReflectionId": null
+    },
+    {
+      "installation": 7,
+      "profile": "abandoned",
+      "localDate": "2026-01-31",
+      "state": "abandoned",
+      "exposedIds": [
+        "q_0024"
+      ],
+      "answers": [
+        "a_0024_02"
+      ]
+    }
+  ],
+  "forcedFourthTraces": [
+    {
+      "installation": 0,
+      "day": 0,
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0043",
+        "q_0104",
+        "q_0141",
+        "q_0046"
+      ]
+    },
+    {
+      "installation": 0,
+      "day": 1,
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0085",
+        "q_0150",
+        "q_0024",
+        "q_0091"
+      ]
+    },
+    {
+      "installation": 0,
+      "day": 2,
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0148",
+        "q_0083",
+        "q_0040",
+        "q_0092"
+      ]
+    },
+    {
+      "installation": 0,
+      "day": 3,
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0014",
+        "q_0175",
+        "q_0101",
+        "q_0047"
+      ]
+    },
+    {
+      "installation": 0,
+      "day": 4,
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0090",
+        "q_0174",
+        "q_0114",
+        "q_0001"
+      ]
+    },
+    {
+      "installation": 0,
+      "day": 5,
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0060",
+        "q_0134",
+        "q_0158",
+        "q_0002"
+      ]
+    },
+    {
+      "installation": 0,
+      "day": 6,
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0041",
+        "q_0173",
+        "q_0079",
+        "q_0094"
+      ]
+    },
+    {
+      "installation": 0,
+      "day": 7,
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0045",
+        "q_0131",
+        "q_0062",
+        "q_0136"
+      ]
+    },
+    {
+      "installation": 0,
+      "day": 8,
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0149",
+        "q_0037",
+        "q_0071",
+        "q_0095"
+      ]
+    },
+    {
+      "installation": 0,
+      "day": 9,
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0058",
+        "q_0132",
+        "q_0006",
+        "q_0137"
+      ]
+    },
+    {
+      "installation": 0,
+      "day": 10,
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0044",
+        "q_0135",
+        "q_0170",
+        "q_0049"
+      ]
+    },
+    {
+      "installation": 0,
+      "day": 11,
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0130",
+        "q_0039",
+        "q_0171",
+        "q_0050"
+      ]
+    },
+    {
+      "installation": 0,
+      "day": 12,
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0087",
+        "q_0179",
+        "q_0124",
+        "q_0004"
+      ]
+    },
+    {
+      "installation": 0,
+      "day": 13,
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0128",
+        "q_0015",
+        "q_0076",
+        "q_0139"
+      ]
+    },
+    {
+      "installation": 0,
+      "day": 14,
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0105",
+        "q_0177",
+        "q_0053",
+        "q_0005"
+      ]
+    },
+    {
+      "installation": 0,
+      "day": 15,
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0129",
+        "q_0180",
+        "q_0082",
+        "q_0007"
+      ]
+    },
+    {
+      "installation": 0,
+      "day": 16,
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0178",
+        "q_0059",
+        "q_0023",
+        "q_0097"
+      ]
+    },
+    {
+      "installation": 0,
+      "day": 17,
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0089",
+        "q_0133",
+        "q_0009",
+        "q_0140"
+      ]
+    },
+    {
+      "installation": 0,
+      "day": 18,
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0127",
+        "q_0042",
+        "q_0075",
+        "q_0142"
+      ]
+    },
+    {
+      "installation": 0,
+      "day": 19,
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0176",
+        "q_0013",
+        "q_0102",
+        "q_0052"
+      ]
+    },
+    {
+      "installation": 0,
+      "day": 20,
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0038",
+        "q_0088",
+        "q_0160",
+        "q_0098"
+      ]
+    },
+    {
+      "installation": 0,
+      "day": 21,
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0172",
+        "q_0084",
+        "q_0110",
+        "q_0008"
+      ]
+    },
+    {
+      "installation": 0,
+      "day": 22,
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0086",
+        "q_0145",
+        "q_0022",
+        "q_0100"
+      ]
+    },
+    {
+      "installation": 0,
+      "day": 23,
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0103",
+        "q_0061",
+        "q_0036",
+        "q_0143"
+      ]
+    },
+    {
+      "installation": 0,
+      "day": 24,
+      "baseRelaxation": 0,
+      "exposedIds": [
+        "q_0113",
+        "q_0010",
+        "q_0164",
+        "q_0055"
+      ]
+    },
+    {
+      "installation": 0,
+      "day": 25,
+      "baseRelaxation": 1,
+      "exposedIds": [
+        "q_0064",
+        "q_0156",
+        "q_0096",
+        "q_0011"
+      ]
+    },
+    {
+      "installation": 0,
+      "day": 26,
+      "baseRelaxation": 1,
+      "exposedIds": [
+        "q_0112",
+        "q_0065",
+        "q_0161",
+        "q_0016"
+      ]
+    },
+    {
+      "installation": 0,
+      "day": 27,
+      "baseRelaxation": 1,
+      "exposedIds": [
+        "q_0018",
+        "q_0146",
+        "q_0117",
+        "q_0056"
+      ]
+    },
+    {
+      "installation": 0,
+      "day": 28,
+      "baseRelaxation": 1,
+      "exposedIds": [
+        "q_0111",
+        "q_0021",
+        "q_0054",
+        "q_0151"
+      ]
+    },
+    {
+      "installation": 0,
+      "day": 29,
+      "baseRelaxation": 1,
+      "exposedIds": [
+        "q_0020",
+        "q_0066",
+        "q_0168",
+        "q_0106"
+      ]
+    },
+    {
+      "installation": 0,
+      "day": 30,
+      "baseRelaxation": 1,
+      "exposedIds": [
+        "q_0069",
+        "q_0108",
+        "q_0030",
+        "q_0152"
+      ]
+    }
+  ],
+  "contentVersion": "1.0.0-draft.1"
+}

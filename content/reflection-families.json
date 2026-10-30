@@ -1,0 +1,288 @@
+[
+  {
+    "id": "fam_positive_grounded",
+    "kind": "closing",
+    "eligibleBy": "POSITIVE_GROUNDED_GATE",
+    "priorityBand": "exclusive",
+    "recommendedFocus": "Reconocer agrado sin negar carga o tensión coexistente.",
+    "prohibitedClaims": [
+      "OMS valida esta app",
+      "sabemos cómo te sientes",
+      "estás ansioso",
+      "diagnóstico",
+      "todo estará bien"
+    ],
+    "sourceIds": [
+      "src_who_dwm_2020"
+    ],
+    "quality": {
+      "status": "draft",
+      "authorRole": "content_agent",
+      "reviewerRole": "pending_human_review",
+      "reviewedAt": null,
+      "originalityChecked": false,
+      "clarityScore": 0.8,
+      "culturalFitScore": 0.8,
+      "invasivenessScore": 0.1,
+      "moralizingRisk": 0.1,
+      "clinicalLanguageRisk": 0.1,
+      "ambiguityNotes": "Revisión humana pendiente; eligibleBy es un nombre de referencia, no una fórmula alternativa.",
+      "accessibilityChecked": false,
+      "approvals": []
+    }
+  },
+  {
+    "id": "fam_neutral_generic",
+    "kind": "closing",
+    "eligibleBy": "NONLABEL_NO_CONTEXT_GATE",
+    "priorityBand": "fallback",
+    "recommendedFocus": "Cerrar sin interpretar ni etiquetar.",
+    "prohibitedClaims": [
+      "OMS valida esta app",
+      "sabemos cómo te sientes",
+      "estás ansioso",
+      "diagnóstico",
+      "todo estará bien"
+    ],
+    "sourceIds": [
+      "src_who_dwm_2020"
+    ],
+    "quality": {
+      "status": "draft",
+      "authorRole": "content_agent",
+      "reviewerRole": "pending_human_review",
+      "reviewedAt": null,
+      "originalityChecked": false,
+      "clarityScore": 0.8,
+      "culturalFitScore": 0.8,
+      "invasivenessScore": 0.1,
+      "moralizingRisk": 0.1,
+      "clinicalLanguageRisk": 0.1,
+      "ambiguityNotes": "Revisión humana pendiente; eligibleBy es un nombre de referencia, no una fórmula alternativa.",
+      "accessibilityChecked": false,
+      "approvals": []
+    }
+  },
+  {
+    "id": "fam_tension",
+    "kind": "closing",
+    "eligibleBy": "NONLABEL_TENSION_GATE",
+    "priorityBand": "context",
+    "recommendedFocus": "Acoger presión sin exigir relajarse.",
+    "prohibitedClaims": [
+      "OMS valida esta app",
+      "sabemos cómo te sientes",
+      "estás ansioso",
+      "diagnóstico",
+      "todo estará bien"
+    ],
+    "sourceIds": [
+      "src_who_dwm_2020"
+    ],
+    "quality": {
+      "status": "draft",
+      "authorRole": "content_agent",
+      "reviewerRole": "pending_human_review",
+      "reviewedAt": null,
+      "originalityChecked": false,
+      "clarityScore": 0.8,
+      "culturalFitScore": 0.8,
+      "invasivenessScore": 0.1,
+      "moralizingRisk": 0.1,
+      "clinicalLanguageRisk": 0.1,
+      "ambiguityNotes": "Revisión humana pendiente; eligibleBy es un nombre de referencia, no una fórmula alternativa.",
+      "accessibilityChecked": false,
+      "approvals": []
+    }
+  },
+  {
+    "id": "fam_mental_load",
+    "kind": "closing",
+    "eligibleBy": "NONLABEL_MENTAL_LOAD_GATE",
+    "priorityBand": "context",
+    "recommendedFocus": "Permitir carga sin añadir organización obligatoria.",
+    "prohibitedClaims": [
+      "OMS valida esta app",
+      "sabemos cómo te sientes",
+      "estás ansioso",
+      "diagnóstico",
+      "todo estará bien"
+    ],
+    "sourceIds": [
+      "src_who_dwm_2020"
+    ],
+    "quality": {
+      "status": "draft",
+      "authorRole": "content_agent",
+      "reviewerRole": "pending_human_review",
+      "reviewedAt": null,
+      "originalityChecked": false,
+      "clarityScore": 0.8,
+      "culturalFitScore": 0.8,
+      "invasivenessScore": 0.1,
+      "moralizingRisk": 0.1,
+      "clinicalLanguageRisk": 0.1,
+      "ambiguityNotes": "Revisión humana pendiente; eligibleBy es un nombre de referencia, no una fórmula alternativa.",
+      "accessibilityChecked": false,
+      "approvals": []
+    }
+  },
+  {
+    "id": "fam_connection_low",
+    "kind": "closing",
+    "eligibleBy": "NONLABEL_CONNECTION_LOW_GATE",
+    "priorityBand": "context",
+    "recommendedFocus": "Cuidar sin prescribir contacto ni inferir aislamiento.",
+    "prohibitedClaims": [
+      "OMS valida esta app",
+      "sabemos cómo te sientes",
+      "estás ansioso",
+      "diagnóstico",
+      "todo estará bien"
+    ],
+    "sourceIds": [
+      "src_who_dwm_2020"
+    ],
+    "quality": {
+      "status": "draft",
+      "authorRole": "content_agent",
+      "reviewerRole": "pending_human_review",
+      "reviewedAt": null,
+      "originalityChecked": false,
+      "clarityScore": 0.8,
+      "culturalFitScore": 0.8,
+      "invasivenessScore": 0.1,
+      "moralizingRisk": 0.1,
+      "clinicalLanguageRisk": 0.1,
+      "ambiguityNotes": "Revisión humana pendiente; eligibleBy es un nombre de referencia, no una fórmula alternativa.",
+      "accessibilityChecked": false,
+      "approvals": []
+    }
+  },
+  {
+    "id": "fam_motivation_low",
+    "kind": "closing",
+    "eligibleBy": "NONLABEL_MOTIVATION_LOW_GATE",
+    "priorityBand": "context",
+    "recommendedFocus": "Respetar poco impulso sin forzar actividad.",
+    "prohibitedClaims": [
+      "OMS valida esta app",
+      "sabemos cómo te sientes",
+      "estás ansioso",
+      "diagnóstico",
+      "todo estará bien"
+    ],
+    "sourceIds": [
+      "src_who_dwm_2020"
+    ],
+    "quality": {
+      "status": "draft",
+      "authorRole": "content_agent",
+      "reviewerRole": "pending_human_review",
+      "reviewedAt": null,
+      "originalityChecked": false,
+      "clarityScore": 0.8,
+      "culturalFitScore": 0.8,
+      "invasivenessScore": 0.1,
+      "moralizingRisk": 0.1,
+      "clinicalLanguageRisk": 0.1,
+      "ambiguityNotes": "Revisión humana pendiente; eligibleBy es un nombre de referencia, no una fórmula alternativa.",
+      "accessibilityChecked": false,
+      "approvals": []
+    }
+  },
+  {
+    "id": "fam_activation_high",
+    "kind": "closing",
+    "eligibleBy": "NONLABEL_ACTIVATION_HIGH_GATE",
+    "priorityBand": "context",
+    "recommendedFocus": "Reconocer velocidad sin inferir ansiedad o positividad.",
+    "prohibitedClaims": [
+      "OMS valida esta app",
+      "sabemos cómo te sientes",
+      "estás ansioso",
+      "diagnóstico",
+      "todo estará bien"
+    ],
+    "sourceIds": [
+      "src_who_dwm_2020"
+    ],
+    "quality": {
+      "status": "draft",
+      "authorRole": "content_agent",
+      "reviewerRole": "pending_human_review",
+      "reviewedAt": null,
+      "originalityChecked": false,
+      "clarityScore": 0.8,
+      "culturalFitScore": 0.8,
+      "invasivenessScore": 0.1,
+      "moralizingRisk": 0.1,
+      "clinicalLanguageRisk": 0.1,
+      "ambiguityNotes": "Revisión humana pendiente; eligibleBy es un nombre de referencia, no una fórmula alternativa.",
+      "accessibilityChecked": false,
+      "approvals": []
+    }
+  },
+  {
+    "id": "fam_activation_low",
+    "kind": "closing",
+    "eligibleBy": "NONLABEL_ACTIVATION_LOW_GATE",
+    "priorityBand": "context",
+    "recommendedFocus": "Respetar lentitud sin inferir desagrado.",
+    "prohibitedClaims": [
+      "OMS valida esta app",
+      "sabemos cómo te sientes",
+      "estás ansioso",
+      "diagnóstico",
+      "todo estará bien"
+    ],
+    "sourceIds": [
+      "src_who_dwm_2020"
+    ],
+    "quality": {
+      "status": "draft",
+      "authorRole": "content_agent",
+      "reviewerRole": "pending_human_review",
+      "reviewedAt": null,
+      "originalityChecked": false,
+      "clarityScore": 0.8,
+      "culturalFitScore": 0.8,
+      "invasivenessScore": 0.1,
+      "moralizingRisk": 0.1,
+      "clinicalLanguageRisk": 0.1,
+      "ambiguityNotes": "Revisión humana pendiente; eligibleBy es un nombre de referencia, no una fórmula alternativa.",
+      "accessibilityChecked": false,
+      "approvals": []
+    }
+  },
+  {
+    "id": "fam_support_invitation",
+    "kind": "support",
+    "eligibleBy": "SUPPORT_3_OF_5_GATE",
+    "priorityBand": "additional",
+    "recommendedFocus": "Ofrecer apoyo de forma condicional y no urgente.",
+    "prohibitedClaims": [
+      "OMS valida esta app",
+      "sabemos cómo te sientes",
+      "estás ansioso",
+      "diagnóstico",
+      "todo estará bien"
+    ],
+    "sourceIds": [],
+    "quality": {
+      "status": "draft",
+      "authorRole": "content_agent",
+      "reviewerRole": "pending_human_review",
+      "reviewedAt": null,
+      "originalityChecked": false,
+      "clarityScore": 0.8,
+      "culturalFitScore": 0.8,
+      "invasivenessScore": 0.1,
+      "moralizingRisk": 0.1,
+      "clinicalLanguageRisk": 0.1,
+      "ambiguityNotes": "Revisión humana pendiente; eligibleBy es un nombre de referencia, no una fórmula alternativa.",
+      "accessibilityChecked": false,
+      "approvals": []
+    }
+  }
+]

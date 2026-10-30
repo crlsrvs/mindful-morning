@@ -1,0 +1,21 @@
+{
+  "packId": "morning-reflection-es-CL",
+  "version": "1.0.0-draft.3",
+  "schemaVersion": 1,
+  "engineContractVersion": 1,
+  "locale": "es-CL",
+  "publishedAt": "2026-10-25",
+  "hash": "81fbcfb1985a89a6e15a37059385ee118d91b9dac6eb78bbaed8c89b8fa3838c",
+  "questionCount": 180,
+  "reflectionCount": 82,
+  "minCompatibleEngine": "1.0.0",
+  "review": {
+    "status": "draft",
+    "authorRole": "content_agent",
+    "reviewerRole": "pending_human_review",
+    "reviewedAt": null,
+    "safetyReview": "pending_human_review",
+    "releaseReady": false,
+    "note": "publishedAt es fecha de preparación del artefacto de revisión, no de aprobación pública; minCompatibleEngine es objetivo contractual pendiente de confirmar por implementador."
+  }
+}

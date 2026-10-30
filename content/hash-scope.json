@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "algorithm": "SHA-256",
+  "encoding": "UTF-8",
+  "canonicalization": "Recursively sort object keys ascending; retain array order; serialize primitives using JSON.stringify; no whitespace, no trailing newline; all strings NFC.",
+  "scope": [
+    "manifest.json (without hash)",
+    "categories.json",
+    "content-sources.json",
+    "dimensions.json",
+    "questions.json",
+    "reflection-families.json",
+    "reflections.json",
+    "support-resources.json",
+    "ui-copy.json"
+  ],
+  "excludes": [
+    "audit and simulation reports",
+    "tools",
+    "schema",
+    "review evidence extensions"
+  ],
+  "implementation": "tools/core.mjs:packHash",
+  "contentVersion": "1.0.0-draft.3"
+}

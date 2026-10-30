@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0-draft.1",
+  "locale": "es-CL",
+  "skipControl": {
+    "id": "skip",
+    "text": "Prefiero no responder",
+    "availableImmediately": true,
+    "effects": [],
+    "answerId": null
+  },
+  "universalClosingTitle": "Una idea para acompañarte",
+  "supportHeading": "Si estás en Chile",
+  "outsideChile": "Busca servicios de emergencia o salud de tu localidad.",
+  "supportPermanentCopy": "No es necesario completar preguntas para buscar apoyo. Esta app no puede saber si estás en una crisis. Si necesitas ayuda ahora, busca una persona de confianza o servicios locales.",
+  "status": "draft"
+}

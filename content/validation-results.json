@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "1.0.0-draft.3",
+  "contentPackHash": "81fbcfb1985a89a6e15a37059385ee118d91b9dac6eb78bbaed8c89b8fa3838c",
+  "mode": "draft",
+  "passed": true,
+  "errors": [],
+  "counts": {
+    "questions": 180,
+    "answers": 720,
+    "reflections": 82,
+    "families": 9,
+    "sources": 6,
+    "supportResources": 2
+  },
+  "distributions": {
+    "styles": {
+      "daily_situation": 45,
+      "gentle_introspection": 45,
+      "metaphor": 45,
+      "observation": 45
+    },
+    "primaryDimensions": {
+      "activation": 30,
+      "connection": 25,
+      "mentalLoad": 25,
+      "motivation": 25,
+      "tension": 25,
+      "valence": 50
+    },
+    "intensities": {
+      "gentle": 165,
+      "moderate": 15
+    },
+    "reflectionFamilies": {
+      "fam_activation_high": 4,
+      "fam_activation_low": 4,
+      "fam_connection_low": 8,
+      "fam_mental_load": 8,
+      "fam_motivation_low": 8,
+      "fam_neutral_generic": 18,
+      "fam_positive_grounded": 18,
+      "fam_support_invitation": 6,
+      "fam_tension": 8
+    }
+  },
+  "coverage": {
+    "valenceAtLeast075": 116,
+    "activationAtLeast050": 128,
+    "adaptive": 180,
+    "adaptiveNonValence": 130
+  },
+  "exactDuplicatePrompts": 0,
+  "exactDuplicateReflections": 0,
+  "uniqueAnswerTexts": 658,
+  "tripleEffectAnswers": 144,
+  "humanReviewCompleted": false,
+  "clinicalValidation": false
+}

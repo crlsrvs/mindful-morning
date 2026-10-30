@@ -1,0 +1,1174 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0-draft.1",
+  "date": "2026-10-25",
+  "authorRole": "content_agent",
+  "independentReview": false,
+  "pilot": {
+    "questionIds": [
+      "q_0001",
+      "q_0005",
+      "q_0006",
+      "q_0048",
+      "q_0053",
+      "q_0057",
+      "q_0091",
+      "q_0096",
+      "q_0108",
+      "q_0136",
+      "q_0140",
+      "q_0147"
+    ],
+    "checks": [
+      "lote de verificación: cuatro estilos, seis ejes y dos intensidades",
+      "autolectura de claridad por el agente",
+      "efectos ligados a cláusulas explícitas",
+      "omisión funcional separada de indeterminación"
+    ],
+    "status": "agent_checked_pending_human"
+  },
+  "corrections": [
+    {
+      "id": "edit_001",
+      "scope": "q_0136…q_0180",
+      "issue": "Marco genérico de ausencia de exigencia repetido en el borrador.",
+      "change": "Reescritura de las 45 preguntas y sus opciones con decisiones y situaciones distintas."
+    },
+    {
+      "id": "edit_002",
+      "scope": "q_0091…q_0135",
+      "issue": "Observaciones demasiado generales, cercanas a introspección.",
+      "change": "45 prompts anclados a señales concretas presentes, imaginadas o recordadas; revisar accesibilidad con personas."
+    },
+    {
+      "id": "edit_003",
+      "scope": "all_questions",
+      "issue": "Alternativas positivas al inicio en el texto de autoría.",
+      "change": "Rotación editorial fija al compilar; se guarda orden definitivo y no se reordena en runtime."
+    },
+    {
+      "id": "edit_004",
+      "scope": "6 preguntas señaladas por comparación léxica-conceptual y autolectura del agente",
+      "issue": "Solapamientos de señales familiares, postura/manos, espera y compañía silenciosa.",
+      "change": "Seis prompts y clusters reescritos alrededor de estímulos distintos.",
+      "entries": [
+        {
+          "questionId": "q_0108",
+          "before": "Si notas la postura de tus manos sin cambiarla, ¿qué tensión y agrado reconoces en este rato?",
+          "after": "Al notar un pequeño desnivel entre dos objetos, real o imaginado, ¿qué tensión y agrado reconoces?",
+          "reason": "Reducir eco conceptual observado en comparación por pares; validación humana aún pendiente."
+        },
+        {
+          "questionId": "q_0127",
+          "before": "Al notar el intervalo antes de pasar a otra pantalla, ¿qué agrado, velocidad interna y tensión reconoces?",
+          "after": "Al notar tu postura de ahora, sin buscar una postura correcta, ¿qué agrado, ritmo y tensión reconoces?",
+          "reason": "Reducir eco conceptual observado en comparación por pares; validación humana aún pendiente."
+        },
+        {
+          "questionId": "q_0129",
+          "before": "Al notar una señal de uso en algo familiar, ¿qué cercanía, agrado y ritmo interno reconoces?",
+          "after": "Si reconoces una marca hecha por otra persona en un objeto cotidiano, ¿qué cercanía, agrado y ritmo aparecen?",
+          "reason": "Reducir eco conceptual observado en comparación por pares; validación humana aún pendiente.",
+          "finalPrompt": "Al encontrar entre tus cosas un objeto que decidiste conservar, ¿qué conexión, agrado y energía aparecen?"
+        },
+        {
+          "questionId": "q_0130",
+          "before": "Al reconocer algo que podrías colocar de otra manera, ¿qué agrado, energía y ganas hay para probar?",
+          "after": "Al notar un hueco entre dos objetos, real o imaginado, ¿qué agrado, energía y ganas hay de probar un gesto allí?",
+          "reason": "Reducir eco conceptual observado en comparación por pares; validación humana aún pendiente."
+        },
+        {
+          "questionId": "q_0135",
+          "before": "Mientras reconoces el sonido de fondo, real o imaginado, ¿qué agrado, carga de asuntos y energía notas?",
+          "after": "Al notar si atiendes a un conjunto o a un solo detalle, ¿qué agrado, carga de asuntos y energía reconoces?",
+          "reason": "Reducir eco conceptual observado en comparación por pares; validación humana aún pendiente."
+        },
+        {
+          "questionId": "q_0150",
+          "before": "Si pudieras acompañar a alguien en una actividad sin hablar de ti, ¿cómo te resultaría hoy?",
+          "after": "Si una actividad cotidiana se hiciera entre varias personas sin competir por rapidez, ¿cómo te resultaría participar hoy?",
+          "reason": "Reducir eco conceptual observado en comparación por pares; validación humana aún pendiente."
+        }
+      ]
+    },
+    {
+      "id": "edit_005",
+      "scope": "q_0015, q_0022, q_0056, q_0129",
+      "issue": "Ecos entre imágenes de comienzo, conexión y listas.",
+      "change": "Cuatro estímulos revisados; IDs estables.",
+      "entries": [
+        {
+          "questionId": "q_0015",
+          "before": "Si una acción pequeña fuera una semilla, ¿cómo sería para ti tenerla a mano?",
+          "after": "Imagina que una idea nueva asoma como un brote: ¿cómo te resulta encontrarla sin haberla buscado?",
+          "reason": "Distinguir brote inesperado de botón deliberado, pertenencia de distancia, instrucción entrante de lista y elección de conservación de familiaridad del lugar."
+        },
+        {
+          "questionId": "q_0022",
+          "before": "Si la conexión de este momento fuera un hilo, ¿qué notas en esa imagen?",
+          "after": "Piensa en un mosaico de piezas distintas: ¿qué te pasa al imaginar tu pieza junto a las otras?",
+          "reason": "Distinguir brote inesperado de botón deliberado, pertenencia de distancia, instrucción entrante de lista y elección de conservación de familiaridad del lugar."
+        },
+        {
+          "questionId": "q_0056",
+          "before": "Si vieras unas notas con asuntos cotidianos, ¿qué se parecería a lo que sientes?",
+          "after": "Imagina que llega una indicación breve más mientras atiendes algo: ¿cómo te resultaría recibirla hoy?",
+          "reason": "Distinguir brote inesperado de botón deliberado, pertenencia de distancia, instrucción entrante de lista y elección de conservación de familiaridad del lugar."
+        },
+        {
+          "questionId": "q_0129",
+          "before": "Al reconocer un objeto que elegiste conservar cerca, ¿qué cercanía, agrado y ritmo notas en este instante?",
+          "after": "Al encontrar entre tus cosas un objeto que decidiste conservar, ¿qué conexión, agrado y energía aparecen?",
+          "reason": "Distinguir brote inesperado de botón deliberado, pertenencia de distancia, instrucción entrante de lista y elección de conservación de familiaridad del lugar.",
+          "finalPrompt": "Al encontrar entre tus cosas un objeto que decidiste conservar, ¿qué conexión, agrado y energía aparecen?"
+        }
+      ]
+    },
+    {
+      "id": "edit_006",
+      "scope": "180 narrativeTemplateId",
+      "issue": "La primera asignación cíclica de nueve IDs por estilo no representaba familias retóricas reales.",
+      "change": "Se agrupan por cuatro macroestructuras editoriales explícitas, una por estilo. El filtro del motor impide repetir macroestructura en una sesión; no se inventan IDs para aumentar disponibilidad."
+    },
+    {
+      "id": "edit_007",
+      "date": "2026-10-28",
+      "scope": "76 closing reflections; support invitations unchanged",
+      "issue": "El propietario solicita lenguaje menos técnico y reflexiones más agradables.",
+      "change": "Lenguaje cotidiano, frases más breves y tono cálido. IDs, familias, inspiración, reglas y calidad pendientes conservados; revision incrementada.",
+      "status": "editorial_accepted_by_owner_based_on_sample",
+      "entries": [
+        {
+          "reflectionId": "ref_0001",
+          "before": {
+            "revision": 1,
+            "body": "En tus respuestas aparece algo agradable de este comienzo. Puede quedarse en un detalle pequeño, sin tener que representar cómo será el resto del día.",
+            "optionalAction": "Si te apetece, dedica un instante a ese detalle antes de seguir."
+          },
+          "after": {
+            "revision": 2,
+            "body": "Tus respuestas sugieren que hay algo agradable en este comienzo. Puede ser un detalle pequeño, sin que toda la mañana tenga que sentirse igual.",
+            "optionalAction": "Si te apetece, quédate un instante con ese detalle."
+          }
+        },
+        {
+          "reflectionId": "ref_0002",
+          "before": {
+            "revision": 1,
+            "body": "Hay indicios de agrado en lo que compartiste hoy. Eso puede tener su lugar junto a cualquier otra sensación, sin que una tenga que borrar a la otra.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Por lo que compartiste, parece haber algo que se siente bien hoy. Puede estar ahí junto a otras cosas que te preocupen o te cuesten.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0003",
+          "before": {
+            "revision": 1,
+            "body": "Este rato parece haber incluido algo grato para ti. Reconocerlo puede ser un gesto sencillo, sin exigirte conservar esa sensación ni demostrar nada con ella.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Parece que este rato tuvo algo agradable para ti. Puedes disfrutarlo a tu manera, aunque esa sensación cambie después.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0004",
+          "before": {
+            "revision": 1,
+            "body": "Tus elecciones sugieren un comienzo con algo de agrado. Ese momento puede acompañar una elección pequeña que te importe, sin convertirse en una meta nueva.",
+            "optionalAction": "Si quieres, realiza el próximo gesto con el cuidado que tú elijas."
+          },
+          "after": {
+            "revision": 2,
+            "body": "Tus respuestas sugieren un comienzo con algo agradable. Quizás eso encuentre un lugar en alguna de las pequeñas cosas que te importan.",
+            "optionalAction": "Si quieres, haz lo que sigue de una manera que te haga sentido."
+          }
+        },
+        {
+          "reflectionId": "ref_0005",
+          "before": {
+            "revision": 1,
+            "body": "En esta pausa aparecen pistas de una experiencia agradable. No hace falta volverla extraordinaria para reconocer el valor que tiene en este instante.",
+            "optionalAction": "Si te sirve, nota un detalle concreto de lo que estás disfrutando."
+          },
+          "after": {
+            "revision": 2,
+            "body": "Parece que encontraste algo agradable en esta pausa. Los momentos sencillos también tienen su lugar.",
+            "optionalAction": "Si te sirve, fíjate un momento en algo que te resulte agradable."
+          }
+        },
+        {
+          "reflectionId": "ref_0006",
+          "before": {
+            "revision": 1,
+            "body": "Lo que elegiste deja ver algo grato en este comienzo. Puede cambiar de forma durante el día y seguir habiendo sido real para ti en este rato.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Lo que elegiste sugiere que hubo algo grato en este rato. Aunque el día cambie, ese pequeño momento también cuenta.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0007",
+          "before": {
+            "revision": 1,
+            "body": "Hay señales agradables en tus respuestas de hoy. Puedes recibirlas sin convertirlas en una obligación de estar disponible, rendir más o animar a otras personas.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Tus respuestas dejan ver algo agradable en esta mañana. Sentirte así no te obliga a hacer más ni a levantarle el ánimo a nadie.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0008",
+          "before": {
+            "revision": 1,
+            "body": "En tus elecciones aparece algo de agrado. La idea de que ahora todo tendría que salir bien puede quedarse como una idea, sin decidir el curso del día.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Parece haber algo agradable en lo que compartiste. Eso no significa que ahora todo tenga que salir bien.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0009",
+          "before": {
+            "revision": 1,
+            "body": "Este comienzo parece tener un detalle que se siente bien. Puedes darle un lugar breve sin buscar una explicación ni comprobar cuánto va a durar.",
+            "optionalAction": "Si te apetece, permanece un momento con ese detalle tal como es."
+          },
+          "after": {
+            "revision": 2,
+            "body": "Este comienzo parece tener un detalle que se siente bien. No hace falta saber cuánto durará para disfrutarlo un momento.",
+            "optionalAction": "Si te apetece, date un momento para disfrutar ese detalle."
+          }
+        },
+        {
+          "reflectionId": "ref_0010",
+          "before": {
+            "revision": 1,
+            "body": "Tus respuestas dejan entrever una experiencia grata. Puede acompañarte en algo cotidiano sin pedirte hacer más de lo que ya habías elegido.",
+            "optionalAction": "Si quieres, lleva ese cuidado al gesto que ya ibas a hacer."
+          },
+          "after": {
+            "revision": 2,
+            "body": "Por tus respuestas, parece que algo se sintió bien en este rato. Puede acompañarte mientras sigues con lo de siempre.",
+            "optionalAction": "Si quieres, haz con cuidado algo que ya ibas a hacer."
+          }
+        },
+        {
+          "reflectionId": "ref_0011",
+          "before": {
+            "revision": 1,
+            "body": "Lo agradable que sugieren tus elecciones no tiene que abarcar toda la mañana. Un rato puede reunir sensaciones distintas y conservar ese pequeño espacio grato.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Lo que elegiste sugiere que hay algo agradable en esta mañana. También puede haber cansancio, preocupación u otras sensaciones junto a eso.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0012",
+          "before": {
+            "revision": 1,
+            "body": "En este espacio aparecen pistas agradables. Recibir algo bueno también puede ser sencillo: sin compararlo con otros días ni merecerlo mediante un esfuerzo.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Tus respuestas sugieren que hubo algo bueno en este rato. No tienes que ganártelo con esfuerzo ni compararlo con otros días.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0013",
+          "before": {
+            "revision": 1,
+            "body": "Hay algo de agrado en la forma en que respondiste. Puede ser suficiente reconocer ese instante, sin sacar de él una conclusión sobre tu vida.",
+            "optionalAction": "Si te sirve, presta atención a un sonido o una textura de este rato."
+          },
+          "after": {
+            "revision": 2,
+            "body": "Parece que hubo algo agradable en esta pausa. Puede ser solo un momento, sin tener que decir nada más sobre tu vida.",
+            "optionalAction": "Si te sirve, nota un sonido o una textura de este momento."
+          }
+        },
+        {
+          "reflectionId": "ref_0014",
+          "before": {
+            "revision": 1,
+            "body": "Tus elecciones apuntan a un momento agradable. Si aparece la idea de aprovecharlo al máximo, puedes dejarla pasar sin convertir esta pausa en otro encargo.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Tus respuestas apuntan a un momento agradable. Si piensas que deberías aprovecharlo al máximo, también puedes dejar esa idea para después.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0015",
+          "before": {
+            "revision": 1,
+            "body": "En tus respuestas hay indicios de agrado que pueden convivir con asuntos pendientes. Una elección pequeña y propia puede tener lugar sin resolverlos todos.",
+            "optionalAction": "Si te apetece, elige un modo amable de hacer lo que ya sigue."
+          },
+          "after": {
+            "revision": 2,
+            "body": "Lo que compartiste sugiere que hay algo agradable, incluso si quedan cosas pendientes. No hace falta resolverlas todas para darle un lugar a algo que te importe.",
+            "optionalAction": "Si te apetece, haz lo que sigue con un poco de cuidado hacia ti."
+          }
+        },
+        {
+          "reflectionId": "ref_0016",
+          "before": {
+            "revision": 1,
+            "body": "Este rato parece ofrecer algo grato, aunque no tenga una forma precisa. Puedes reconocerlo sin pedirle que dure ni que compense otras partes del día.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Parece que hubo algo grato en este rato, aunque cueste decir qué fue. No tiene que durar mucho ni compensar las partes difíciles del día.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0017",
+          "before": {
+            "revision": 1,
+            "body": "Lo que compartiste sugiere un comienzo con algo agradable. Ese espacio puede ser tuyo sin tener que explicárselo a nadie ni convertirlo en un logro.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Lo que compartiste sugiere un comienzo con algo agradable. Puedes guardarlo para ti, sin tener que explicárselo a nadie.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0018",
+          "before": {
+            "revision": 1,
+            "body": "Aparecen señales gratas en esta pausa. Un detalle cotidiano puede guardar ese agrado sin que tengas que transformarlo en una historia completa sobre cómo estás.",
+            "optionalAction": "Si quieres, nota durante un instante qué detalle te resulta cercano."
+          },
+          "after": {
+            "revision": 2,
+            "body": "Tus respuestas sugieren que un detalle de esta mañana se sintió bien. Algo pequeño puede ser suficiente por ahora.",
+            "optionalAction": "Si quieres, fíjate un instante en ese detalle de tu mañana."
+          }
+        },
+        {
+          "reflectionId": "ref_0019",
+          "before": {
+            "revision": 1,
+            "body": "Puedes terminar esta pausa sin encontrar una definición para lo que pasa. El lugar donde estás ofrece detalles concretos que no piden una interpretación.",
+            "optionalAction": "Si te sirve, nota el borde o la superficie de algo cercano."
+          },
+          "after": {
+            "revision": 2,
+            "body": "No hace falta encontrar las palabras exactas para cerrar esta pausa. Puedes seguir con tu mañana aunque todavía no tengas claro cómo estás.",
+            "optionalAction": "Si te sirve, nota la superficie de algo que tengas cerca."
+          }
+        },
+        {
+          "reflectionId": "ref_0020",
+          "before": {
+            "revision": 1,
+            "body": "Este momento puede quedarse sin nombre. No encontrar una respuesta clara también deja espacio para continuar sin tener que decidir cómo deberías sentirte.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "A veces cuesta saber cómo nos sentimos. Puedes dejarlo así por ahora, sin elegir una respuesta que no te convenza.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0021",
+          "before": {
+            "revision": 1,
+            "body": "Lo que hayas compartido alcanza para cerrar este espacio. No hay una explicación pendiente que tengas que entregar para poder seguir con tu mañana.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Puedes seguir con tu mañana hayas compartido mucho, poco o nada. Aquí no queda ninguna explicación que tengas que dar.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0022",
+          "before": {
+            "revision": 1,
+            "body": "Una idea sobre cómo tendrías que estar puede aparecer sin convertirse en una instrucción. Esta pausa permite dejar esa frase sin resolver por un momento.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "A veces aparece un «debería sentirme de otra manera». Es un pensamiento, no una obligación que tengas que cumplir.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0023",
+          "before": {
+            "revision": 1,
+            "body": "La siguiente acción puede ser tan cotidiana como ya lo era antes de esta pausa. Puedes elegir su forma sin convertirla en una prueba de bienestar.",
+            "optionalAction": "Si quieres, haz ese próximo gesto con un poco de cuidado elegido por ti."
+          },
+          "after": {
+            "revision": 2,
+            "body": "Lo que viene después puede ser algo sencillo de todos los días. Hay espacio para hacerlo a tu manera, con el cuidado que para ti tenga sentido.",
+            "optionalAction": "Si quieres, haz con cuidado lo que ya ibas a hacer."
+          }
+        },
+        {
+          "reflectionId": "ref_0024",
+          "before": {
+            "revision": 1,
+            "body": "No todo lo que ocurre por dentro se vuelve claro al observarlo. También existe este instante concreto, con sus sonidos y superficies, sin exigir una conclusión.",
+            "optionalAction": "Si te apetece, reconoce un sonido que llegue hasta donde estás."
+          },
+          "after": {
+            "revision": 2,
+            "body": "Una pausa no siempre aclara lo que sentimos. También puede ser un rato para estar aquí, sin buscar una respuesta.",
+            "optionalAction": "Si te apetece, escucha un sonido de donde estás."
+          }
+        },
+        {
+          "reflectionId": "ref_0025",
+          "before": {
+            "revision": 1,
+            "body": "Tu experiencia puede incluir partes distintas o difíciles de distinguir. Puedes cerrar aquí sin ordenarlas en una respuesta única ni hacerlas encajar entre sí.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "A veces sentimos varias cosas a la vez y cuesta distinguirlas. No hace falta ordenarlas todas para seguir con la mañana.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0026",
+          "before": {
+            "revision": 1,
+            "body": "Reservarte un rato no te compromete a obtener algo de él. Esta pausa puede terminar de manera sencilla, sin una lección ni una tarea que completar después.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Este rato no tiene que dejarte una lección ni una tarea. Haber hecho una pausa puede ser suficiente.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0027",
+          "before": {
+            "revision": 1,
+            "body": "La primera explicación que aparece no tiene que ser la definitiva. Puede quedar como una posibilidad mientras vuelves a lo que tienes delante.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "La primera idea que tengas sobre cómo estás no tiene que ser la última. Puedes cambiar de parecer mientras sigue el día.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0028",
+          "before": {
+            "revision": 1,
+            "body": "Hay detalles del presente que pueden notarse sin decidir si son buenos o malos. Este cierre puede ser solo un punto de paso dentro de tu mañana.",
+            "optionalAction": "Si te sirve, observa una forma cercana sin buscarle significado."
+          },
+          "after": {
+            "revision": 2,
+            "body": "Algo tan sencillo como un objeto cercano puede formar parte de esta pausa. No hace falta encontrarle un significado especial.",
+            "optionalAction": "Si te sirve, fíjate en la forma de algo cercano."
+          }
+        },
+        {
+          "reflectionId": "ref_0029",
+          "before": {
+            "revision": 1,
+            "body": "No hace falta resolver cómo estás para elegir un gesto pequeño. Puede ser algo que ya ibas a hacer, a tu manera y sin una promesa sobre cómo resultará.",
+            "optionalAction": "Si quieres, lleva una intención de cuidado al siguiente gesto cotidiano."
+          },
+          "after": {
+            "revision": 2,
+            "body": "No necesitas tener claro cómo estás para seguir con algo cotidiano. Lo que ya ibas a hacer puede ser una ocasión para tratarte con cuidado.",
+            "optionalAction": "Si quieres, trata de hacer con cuidado lo que ya tenías pensado."
+          }
+        },
+        {
+          "reflectionId": "ref_0030",
+          "before": {
+            "revision": 1,
+            "body": "Esta pausa no tiene que producir una versión más clara de ti. Puede haber cosas reconocibles y otras borrosas, sin que debas corregir esa mezcla ahora.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Quizás algunas cosas se sientan claras y otras no. Puedes terminar esta pausa con esa mezcla, sin resolverla ahora.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0031",
+          "before": {
+            "revision": 1,
+            "body": "Puedes dejar este espacio tal como quedó. Haber respondido mucho, poco o nada no cambia el lugar que tienes aquí ni crea una deuda para mañana.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Este espacio sigue siendo para ti aunque hoy hayas preferido no responder. Mañana tampoco tendrás que compensar nada.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0032",
+          "before": {
+            "revision": 1,
+            "body": "Pensar en el resto del día puede traer muchas frases anticipadas. Ninguna tiene que funcionar como un pronóstico para poder terminar este momento.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "A veces imaginamos cómo será el resto del día antes de vivirlo. Esas ideas pueden cambiar; todavía queda mañana por delante.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0033",
+          "before": {
+            "revision": 1,
+            "body": "Volver a una sensación sencilla no requiere que cambie lo que sientes. El contacto con un objeto cercano puede ser solo una referencia de dónde estás.",
+            "optionalAction": "Si te apetece, nota la superficie de algo que ya tengas a mano."
+          },
+          "after": {
+            "revision": 2,
+            "body": "Una textura conocida puede acompañar este rato. No tiene que cambiar cómo te sientes para que puedas notarla.",
+            "optionalAction": "Si te apetece, nota cómo se siente algo que tengas a mano."
+          }
+        },
+        {
+          "reflectionId": "ref_0034",
+          "before": {
+            "revision": 1,
+            "body": "Lo que viene después puede conservar su tamaño cotidiano. Tu manera de estar en un gesto importa por lo que eliges, sin tener que medir un resultado.",
+            "optionalAction": "Si quieres, elige un gesto pequeño de respeto hacia ti al continuar."
+          },
+          "after": {
+            "revision": 2,
+            "body": "A veces el cuidado está en la manera de hacer algo pequeño. No hace falta que sea un gran cambio ni que dé un resultado especial.",
+            "optionalAction": "Si quieres, haz lo que sigue de una manera amable contigo."
+          }
+        },
+        {
+          "reflectionId": "ref_0035",
+          "before": {
+            "revision": 1,
+            "body": "A veces una pausa deja preguntas abiertas en lugar de respuestas. Puedes permitir que sigan abiertas sin convertir el cierre en otra búsqueda obligatoria.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "A veces una pausa deja preguntas abiertas en vez de respuestas. Puedes seguir con tu mañana y darles tiempo, sin tener que resolverlas aquí.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0036",
+          "before": {
+            "revision": 1,
+            "body": "No hay una forma correcta de salir de este momento. Puedes continuar con lo que tengas disponible, sin pedirte una sensación especial ni una conclusión útil.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "No hay una sensación especial que tengas que llevarte de aquí. Puedes continuar tal como estás en este momento.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0037",
+          "before": {
+            "revision": 1,
+            "body": "Si notas presión en este rato, puede tener un lugar sin que tengas que resolver su causa aquí. Continuar también puede incluir esa sensación, sin convertirla en una falta tuya.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Si algo te pesa o te aprieta por dentro, no tienes que resolverlo en esta pausa. Puedes darte este rato aunque la sensación siga ahí.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0038",
+          "before": {
+            "revision": 1,
+            "body": "Cuando hay sensación de presión, un detalle concreto puede ofrecer una referencia sencilla. No tiene que hacerla desaparecer ni cambiar el rumbo de tu mañana.",
+            "optionalAction": "Si te sirve, nota cómo se apoya un objeto sobre su superficie."
+          },
+          "after": {
+            "revision": 2,
+            "body": "Si sientes presión, también puede haber algo sencillo cerca de ti en lo que fijarte. No hace falta que eso te calme ni cambie tu mañana.",
+            "optionalAction": "Si te sirve, fíjate en un objeto que esté apoyado cerca de ti."
+          }
+        },
+        {
+          "reflectionId": "ref_0039",
+          "before": {
+            "revision": 1,
+            "body": "Si algo se siente tirante, este cierre no añade la tarea de relajarte. Puedes tratarte con consideración aunque la presión siga presente por ahora.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Si te cuesta aflojar, este rato no es otra tarea que tengas que hacer bien. Puedes tratarte con cariño incluso cuando relajarte no sale.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0040",
+          "before": {
+            "revision": 1,
+            "body": "Si aparece una frase que te apura, puedes reconocerla como una frase de este momento. No todo lo que exige rapidez tiene que decidir tu siguiente gesto.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Si un pensamiento te apura, no tienes que seguirle el paso enseguida. Puedes elegir cómo hacer lo que viene.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0041",
+          "before": {
+            "revision": 1,
+            "body": "Con presión o sin ella, una acción cotidiana puede conservar un tamaño pequeño. Elegir cómo hacerla no requiere ganar antes una sensación de calma.",
+            "optionalAction": "Si quieres, realiza el siguiente gesto sin añadirle una exigencia nueva."
+          },
+          "after": {
+            "revision": 2,
+            "body": "No hace falta sentir calma para tratarte con cuidado. A veces ese cuidado cabe en algo pequeño de todos los días.",
+            "optionalAction": "Si quieres, haz lo que sigue sin pedirte más de lo que ya habías pensado."
+          }
+        },
+        {
+          "reflectionId": "ref_0042",
+          "before": {
+            "revision": 1,
+            "body": "La presión puede coexistir con otras experiencias de esta mañana. No tienes que escoger una sola sensación que represente todo lo que está pasando.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Si hay presión en esta mañana, también puede haber otras sensaciones. Ninguna tiene que contar por sí sola todo lo que te pasa.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0043",
+          "before": {
+            "revision": 1,
+            "body": "Si hay tensión, no significa que estés haciendo mal esta pausa. Este espacio también admite un cierre sencillo cuando no aparece ninguna sensación de alivio.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Si no apareció alivio, no hiciste mal esta pausa. Puedes terminar este rato sin exigirte sentir algo distinto de lo que sientes ahora.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0044",
+          "before": {
+            "revision": 1,
+            "body": "Puede haber presión y, a la vez, detalles del entorno que sigan ahí. Notarlos es una opción de atención, sin convertirlos en una herramienta que deba funcionar.",
+            "optionalAction": "Si te apetece, distingue la forma de un objeto que ya esté cerca."
+          },
+          "after": {
+            "revision": 2,
+            "body": "Si sientes presión, las cosas que te rodean siguen ahí. Puedes fijarte en alguna solo por un momento, sin esperar que arregle nada.",
+            "optionalAction": "Si te apetece, fíjate en la forma de un objeto cercano."
+          }
+        },
+        {
+          "reflectionId": "ref_0045",
+          "before": {
+            "revision": 1,
+            "body": "Si varios asuntos compiten por tu atención, cada uno puede seguir siendo un asunto sin convertirse en una orden inmediata. Este cierre no pide resolverlos en conjunto.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Si tienes muchas cosas en la cabeza, no todas necesitan una respuesta ahora. Esta pausa puede terminar sin resolver la lista entera.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0046",
+          "before": {
+            "revision": 1,
+            "body": "Cuando hay muchas cosas en mente, atender un detalle cercano puede ser una pausa entre asuntos. No tiene que vaciar tu cabeza ni dejarla de una forma especial.",
+            "optionalAction": "Si te sirve, observa dónde termina una superficie y empieza otra."
+          },
+          "after": {
+            "revision": 2,
+            "body": "Con tantas cosas en mente, un detalle cercano puede tener su lugar en este rato. No hace falta dejar la cabeza en blanco.",
+            "optionalAction": "Si te sirve, fíjate en el borde de algo que tengas cerca."
+          }
+        },
+        {
+          "reflectionId": "ref_0047",
+          "before": {
+            "revision": 1,
+            "body": "Tener muchos asuntos presentes no crea la obligación de poder con todos a la vez. Puedes terminar aquí sin convertir la organización de tu mente en otra tarea.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Tener muchas cosas pendientes no significa que tengas que poder con todas a la vez. Aquí no hay otra lista que completar.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0048",
+          "before": {
+            "revision": 1,
+            "body": "Si tu atención está repartida, una acción ya prevista puede conservar sus límites. Hacer una parte no tiene que representar una respuesta a todo lo pendiente.",
+            "optionalAction": "Si quieres, atiende solo el gesto cotidiano que ya tenías delante."
+          },
+          "after": {
+            "revision": 2,
+            "body": "Si hoy tienes la atención en muchas cosas, lo que hagas a continuación puede seguir siendo pequeño. Una sola cosa no tiene que resolver todo lo pendiente.",
+            "optionalAction": "Si quieres, dedica tu atención solo a lo que ya estabas haciendo."
+          }
+        },
+        {
+          "reflectionId": "ref_0049",
+          "before": {
+            "revision": 1,
+            "body": "Los asuntos pueden seguir presentes al cerrar esta pausa. Puedes reconocer esa ocupación sin exigir que desaparezca para considerar terminado este momento.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Puede que los pendientes sigan dando vueltas al terminar. Eso no borra el rato que te reservaste ni significa que tenías que hacerlo de otra manera.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0050",
+          "before": {
+            "revision": 1,
+            "body": "Una lista mental puede parecer una sola cosa enorme. Sus frases pueden quedarse como asuntos distintos, sin que esta pausa tenga que decidir su orden ni su urgencia.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "A veces la lista de pendientes parece enorme. Pensar en todo a la vez no significa que tengas que hacerlo todo ahora.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0051",
+          "before": {
+            "revision": 1,
+            "body": "Si hay poco espacio entre pensamientos, tampoco hay que producir una reflexión brillante. Este cierre permite volver a lo cotidiano sin una conclusión adicional.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Si tienes la cabeza llena, aquí no hace falta encontrar una gran respuesta. Puedes seguir con tu día sin una idea nueva que llevarte.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0052",
+          "before": {
+            "revision": 1,
+            "body": "Entre varios asuntos también puede existir una sensación concreta del lugar donde estás. No compite por ser más importante: es otra referencia disponible ahora.",
+            "optionalAction": "Si te apetece, nota un sonido que empiece o termine cerca de ti."
+          },
+          "after": {
+            "revision": 2,
+            "body": "Entre tantas cosas por pensar, también están los detalles de este lugar. Alguno puede acompañarte un momento sin pedirte nada más.",
+            "optionalAction": "Si te apetece, escucha un sonido cercano por un instante."
+          }
+        },
+        {
+          "reflectionId": "ref_0053",
+          "before": {
+            "revision": 1,
+            "body": "Si la cercanía se siente lejana, puedes reconocerlo sin convertirlo en una definición de tus vínculos. Este instante no tiene que explicar toda tu relación con otras personas.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Si hoy te cuesta sentir cercanía con otras personas, este rato no tiene que explicar por qué. Lo que sientes ahora no cuenta toda la historia de tus relaciones.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0054",
+          "before": {
+            "revision": 1,
+            "body": "Sentir poca conexión no te obliga a conversar ni a dar explicaciones. Puedes cerrar esta pausa con un trato considerado hacia ti, estés o no con compañía.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Si hoy sientes poca cercanía, no tienes que obligarte a conversar. Puedes tratarte con cariño, estés a solas o con otras personas.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0055",
+          "before": {
+            "revision": 1,
+            "body": "Si el contacto se siente distante, el lugar donde estás puede ofrecer una referencia sencilla. Notar el entorno no sustituye los vínculos ni tiene que cambiar esa sensación.",
+            "optionalAction": "Si te sirve, reconoce un detalle familiar de lo que te rodea."
+          },
+          "after": {
+            "revision": 2,
+            "body": "Si hoy sientes distancia con otras personas, algo familiar a tu alrededor puede acompañar esta pausa. No reemplaza la compañía ni tiene que cambiar lo que sientes.",
+            "optionalAction": "Si te sirve, fíjate en algo familiar a tu alrededor."
+          }
+        },
+        {
+          "reflectionId": "ref_0056",
+          "before": {
+            "revision": 1,
+            "body": "La conexión puede sentirse distinta en cada momento. Un gesto de cuidado elegido por ti puede tener lugar sin pedirte que cambies tu disposición hacia otras personas.",
+            "optionalAction": "Si quieres, haz el próximo gesto cotidiano con consideración hacia ti."
+          },
+          "after": {
+            "revision": 2,
+            "body": "Las ganas de acercarte a otras personas pueden cambiar de un momento a otro. También hay espacio para cuidarte tal como estás ahora.",
+            "optionalAction": "Si quieres, haz con cuidado hacia ti lo que ya ibas a hacer."
+          }
+        },
+        {
+          "reflectionId": "ref_0057",
+          "before": {
+            "revision": 1,
+            "body": "Sentir distancia puede traer una historia sobre lo que significa. Esa historia puede ser una posibilidad del momento, sin convertirse en una conclusión sobre quién eres.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Si sentir distancia te hace sacar conclusiones sobre ti, puedes dejarlas abiertas por ahora. Un momento no alcanza para decir quién eres.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0058",
+          "before": {
+            "revision": 1,
+            "body": "Puede haber poca cercanía y también otras sensaciones que merezcan espacio. No tienes que forzar contacto ni justificar la distancia para terminar este rato.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Si hoy sientes poca cercanía, puede haber otras sensaciones junto a eso. No necesitas buscar contacto ni explicar la distancia para cerrar esta pausa.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0059",
+          "before": {
+            "revision": 1,
+            "body": "La cantidad de conversación no decide cuánto cuidado puedes recibir de ti. Este cierre no pide buscar compañía ni demostrar que puedes estar a gusto sin ella.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Conversar mucho o poco no cambia el cuidado que mereces. Este rato no te pide buscar compañía ni demostrar que estás bien a solas.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0060",
+          "before": {
+            "revision": 1,
+            "body": "Si hoy notas poca conexión, una referencia del presente puede acompañar esta pausa sin explicarla. Hay espacio para mirar alrededor sin obtener una respuesta sobre tus vínculos.",
+            "optionalAction": "Si te apetece, nota una forma conocida en el lugar donde estás."
+          },
+          "after": {
+            "revision": 2,
+            "body": "Si hoy cuesta sentir cercanía, puedes terminar este rato sin resolverlo. Algo conocido a tu alrededor también puede formar parte de la pausa.",
+            "optionalAction": "Si te apetece, fíjate en una forma que te resulte conocida."
+          }
+        },
+        {
+          "reflectionId": "ref_0061",
+          "before": {
+            "revision": 1,
+            "body": "Si hay poco impulso para empezar, este cierre no añade una meta. Puedes tratar esa disposición con respeto sin convertirla en un juicio sobre tu esfuerzo.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Si hoy cuesta empezar, no hace falta añadir otra meta. Las ganas que tengas ahora no dicen cuánto te has esforzado.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0062",
+          "before": {
+            "revision": 1,
+            "body": "Un comienzo puede ser pequeño sin prometer que vendrán más pasos. Si eliges hacer algo, puede conservar el tamaño que tenga sentido para ti en este rato.",
+            "optionalAction": "Si quieres, realiza solo el primer gesto de algo que ya ibas a hacer."
+          },
+          "after": {
+            "revision": 2,
+            "body": "Un comienzo pequeño puede quedarse pequeño, del tamaño que hoy tenga sentido para ti. No tiene que ser una promesa de hacer más después.",
+            "optionalAction": "Si quieres, da solo el primer paso de algo que ya ibas a hacer."
+          }
+        },
+        {
+          "reflectionId": "ref_0063",
+          "before": {
+            "revision": 1,
+            "body": "Las ganas no tienen que aparecer antes de poder cerrar esta pausa. Puedes reconocer su ausencia sin sacar de ella una conclusión sobre el resto del día.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Puedes terminar esta pausa aunque las ganas todavía no aparezcan. Cómo te sientes ahora no decide todo el resto del día.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0064",
+          "before": {
+            "revision": 1,
+            "body": "Si aparece la frase de que deberías tener más ganas, puede quedarse como una frase. No necesita convertirse en la regla con la que juzgues este comienzo.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Si piensas «debería tener más ganas», no tienes que usar esa frase para tratarte con dureza. Hay espacio para empezar como estás hoy.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0065",
+          "before": {
+            "revision": 1,
+            "body": "Sin iniciar una actividad nueva, todavía puede notarse algo concreto del lugar donde estás. Observarlo no tiene que servir para recuperar ganas ni prepararte para rendir.",
+            "optionalAction": "Si te sirve, nota una textura que ya esté al alcance de tu mano."
+          },
+          "after": {
+            "revision": 2,
+            "body": "Algo que tengas a mano puede acompañar este rato sin convertirse en una tarea. No hace falta que te dé más ganas ni te prepare para hacer nada.",
+            "optionalAction": "Si te sirve, nota la textura de algo que tengas a mano."
+          }
+        },
+        {
+          "reflectionId": "ref_0066",
+          "before": {
+            "revision": 1,
+            "body": "Tener poco impulso no reduce el valor de haberte reservado este rato. Puedes terminar sin compensarlo con entusiasmo ni con una promesa de hacer algo después.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Aunque hoy haya pocas ganas, el rato que te reservaste también cuenta. No tienes que compensarlo haciendo algo después.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0067",
+          "before": {
+            "revision": 1,
+            "body": "Si eliges continuar con una acción cotidiana, no tiene que demostrar motivación. Puede ser simplemente un gesto hecho del modo que tú prefieras ahora.",
+            "optionalAction": "Si te apetece, lleva un poco de cuidado al gesto que ya sigue."
+          },
+          "after": {
+            "revision": 2,
+            "body": "Las cosas de todos los días también pueden hacerse sin mucho entusiasmo. Hay espacio para hacerlas a tu manera, con cuidado hacia ti.",
+            "optionalAction": "Si te apetece, haz lo que sigue de una forma amable contigo."
+          }
+        },
+        {
+          "reflectionId": "ref_0068",
+          "before": {
+            "revision": 1,
+            "body": "Puede haber poco impulso junto a interés, cansancio u otras experiencias que no se dejan ordenar. Esta pausa permite dejar esa combinación sin convertirla en una tarea.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "A veces se mezclan pocas ganas, interés o cansancio. No necesitas separar cada cosa para terminar esta pausa.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0069",
+          "before": {
+            "revision": 1,
+            "body": "Si tu ritmo se siente rápido, no hace falta traducirlo a una emoción concreta. Puede tener su lugar en este comienzo sin exigir que lo aproveches o lo frenes.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Si hoy vas a un ritmo rápido, no tienes que ponerle nombre a todo lo que sientes. Tampoco tienes que aprovecharlo ni frenarlo por esta pausa.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0070",
+          "before": {
+            "revision": 1,
+            "body": "Un ritmo interno rápido puede coexistir con detalles quietos a tu alrededor. Notarlos es una posibilidad de atención, sin que tengan que modificar tu velocidad.",
+            "optionalAction": "Si te sirve, observa el contorno de algo que permanezca quieto."
+          },
+          "after": {
+            "revision": 2,
+            "body": "Si por dentro todo va rápido, puede haber algo quieto cerca de ti. Fijarte en ello no te obliga a bajar el ritmo.",
+            "optionalAction": "Si te sirve, fíjate en algo cercano que esté quieto."
+          }
+        },
+        {
+          "reflectionId": "ref_0071",
+          "before": {
+            "revision": 1,
+            "body": "Sentir mucha actividad por dentro no te compromete a hacer más cosas. Puedes cerrar este rato sin transformar esa energía en una obligación de rendimiento.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Tener mucha energía no te obliga a hacer más cosas de las que querías. También puedes elegir cuánto hacer hoy, sin tener que aprovechar cada momento.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0072",
+          "before": {
+            "revision": 1,
+            "body": "Si el ritmo va rápido, pueden aparecer muchas ideas sobre qué hacer con él. Puedes dejar esas ideas como posibilidades sin elegir una explicación para tu energía.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Si vas rápido y se te ocurren muchas cosas, no tienes que seguir cada idea. Algunas pueden quedarse como posibilidades por ahora.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0073",
+          "before": {
+            "revision": 1,
+            "body": "Si tu ritmo se siente lento, este espacio no pide acelerarlo. Esa velocidad puede formar parte del momento sin explicar por sí sola cómo te resulta la mañana.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Si hoy vas más lento, esta pausa no te pide apurarte. Tu ritmo tampoco dice por sí solo si la mañana se siente bien o mal.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0074",
+          "before": {
+            "revision": 1,
+            "body": "Con un ritmo pausado también puede notarse una referencia concreta del presente. Esa observación no necesita despertarte más ni prepararte para una tarea.",
+            "optionalAction": "Si te apetece, reconoce la forma de algo que ya esté frente a ti."
+          },
+          "after": {
+            "revision": 2,
+            "body": "Con un ritmo pausado, los detalles de alrededor también pueden acompañarte. No tienen que despertarte ni prepararte para lo que viene.",
+            "optionalAction": "Si te apetece, fíjate en la forma de algo que tengas delante."
+          }
+        },
+        {
+          "reflectionId": "ref_0075",
+          "before": {
+            "revision": 1,
+            "body": "La energía disponible no tiene que convertirse en una medida de tu valor. Puedes terminar esta pausa sin demostrar actividad ni pedirte que el ritmo cambie enseguida.",
+            "optionalAction": null
+          },
+          "after": {
+            "revision": 2,
+            "body": "Tu valor no depende de cuánta energía tengas hoy. Puedes terminar este rato sin exigirte estar más activo.",
+            "optionalAction": null
+          }
+        },
+        {
+          "reflectionId": "ref_0076",
+          "before": {
+            "revision": 1,
+            "body": "Un gesto cotidiano puede conservar un paso lento si así lo eliges. No tiene que servir para activarte ni ser el comienzo de una secuencia de tareas nuevas.",
+            "optionalAction": "Si quieres, lleva cuidado al próximo gesto con el ritmo que tengas ahora."
+          },
+          "after": {
+            "revision": 2,
+            "body": "Si hoy vas despacio, algo de todos los días puede hacerse a ese paso. No tiene que servir para activarte ni llevarte a hacer más cosas.",
+            "optionalAction": "Si quieres, haz lo que sigue con cuidado, al ritmo que tengas hoy."
+          }
+        }
+      ]
+    },
+    {
+      "id": "edit_008",
+      "date": "2026-10-28",
+      "scope": "a_0084_01",
+      "issue": "poca podía interpretarse como modificador de energía y conexión",
+      "before": "Grato, con poca energía y conexión.",
+      "after": "Grato, con poca energía y sensación de conexión.",
+      "questionRevision": 2,
+      "effectsUnchanged": true,
+      "reviewerRole": "human_project_owner",
+      "authorization": "Aprobar esta corrección",
+      "status": "editorial_approved_by_owner"
+    },
+    {
+      "id": "edit_009",
+      "date": "2026-10-28",
+      "scope": "180 preguntas y 720 alternativas revisadas",
+      "issue": "El titular encuentra extraño y confuso el lenguaje y aprueba una muestra de ocho reformulaciones.",
+      "change": "Aplicación del estilo a las 180 preguntas y 567 textos de respuesta; se conservan los que ya eran claros. Se corrigen referencias cruzadas de brote/semilla, mosaico/hilo, indicación/notas y desnivel/manos.",
+      "authorization": "Me gusta mucho mas. Aplica ese cambio de estilo en el resto de preguntas",
+      "evidence": "question-tone-review.json",
+      "individualHumanReviewOfAllRewrites": false
+    }
+  ],
+  "unresolved": [
+    "Revisión humana independiente de cada entrada, incluidos efectos triples.",
+    "Pruebas cognitivas es-CL y con lector de pantalla.",
+    "Originalidad externa y matices semánticos no garantizados por comparación interna."
+  ],
+  "ownerEditorialAcceptance": {
+    "date": "2026-10-26",
+    "record": "human-review.json",
+    "scope": "180 question texts and alternatives",
+    "method": "owner approval extended from first five questions",
+    "individualReviewCompleted": false
+  },
+  "ownerReflectionEditorialAcceptance": {
+    "date": "2026-10-28",
+    "record": "reflection-human-review.json",
+    "scope": "82 reflection texts and optional actions",
+    "method": "owner approval based on reading several revised reflections",
+    "individualReviewCompleted": false
+  }
+}

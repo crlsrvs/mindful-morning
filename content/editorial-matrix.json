@@ -1,0 +1,3426 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0-draft.1",
+  "rows": [
+    {
+      "id": "q_0001",
+      "style": "metaphor",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "sound"
+      ],
+      "semanticClusterId": "disco-primera-pista",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0002",
+      "style": "metaphor",
+      "primaryDimension": "tension",
+      "scenarioTags": [
+        "touch"
+      ],
+      "semanticClusterId": "tela-textura",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0003",
+      "style": "metaphor",
+      "primaryDimension": "mentalLoad",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "mesa-de-trabajo",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0004",
+      "style": "metaphor",
+      "primaryDimension": "activation",
+      "scenarioTags": [
+        "sound"
+      ],
+      "semanticClusterId": "volumen-radio",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0005",
+      "style": "metaphor",
+      "primaryDimension": "connection",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "puente-cercania",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0006",
+      "style": "metaphor",
+      "primaryDimension": "motivation",
+      "scenarioTags": [
+        "movement"
+      ],
+      "semanticClusterId": "rueda-impulso",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0007",
+      "style": "metaphor",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "pagina-blanco",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0008",
+      "style": "metaphor",
+      "primaryDimension": "tension",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "nudo-cordon",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0009",
+      "style": "metaphor",
+      "primaryDimension": "mentalLoad",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "lampara-atencion",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0010",
+      "style": "metaphor",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "pace"
+      ],
+      "semanticClusterId": "reproductor-velocidad",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0011",
+      "style": "metaphor",
+      "primaryDimension": "mentalLoad",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "estante-asuntos",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0012",
+      "style": "metaphor",
+      "primaryDimension": "tension",
+      "scenarioTags": [
+        "movement"
+      ],
+      "semanticClusterId": "motor-marcha",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0013",
+      "style": "metaphor",
+      "primaryDimension": "mentalLoad",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "bandeja-pendientes",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0014",
+      "style": "metaphor",
+      "primaryDimension": "connection",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "acorde-compania",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0015",
+      "style": "metaphor",
+      "primaryDimension": "motivation",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "unexpected-new-idea",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0016",
+      "style": "metaphor",
+      "primaryDimension": "mentalLoad",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "equipaje-ligero",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0017",
+      "style": "metaphor",
+      "primaryDimension": "motivation",
+      "scenarioTags": [
+        "movement"
+      ],
+      "semanticClusterId": "sendero-arranque",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0018",
+      "style": "metaphor",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "iman-cercania",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0019",
+      "style": "metaphor",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "resorte-presion",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0020",
+      "style": "metaphor",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "cajones-mentales",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0021",
+      "style": "metaphor",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "llave-primer-paso",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0022",
+      "style": "metaphor",
+      "primaryDimension": "connection",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "piece-in-shared-mosaic",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0023",
+      "style": "metaphor",
+      "primaryDimension": "tension",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "arco-cuerda",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0024",
+      "style": "metaphor",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "carrito-asuntos",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0025",
+      "style": "metaphor",
+      "primaryDimension": "activation",
+      "scenarioTags": [
+        "movement"
+      ],
+      "semanticClusterId": "barca-remar",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0026",
+      "style": "metaphor",
+      "primaryDimension": "connection",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "antena-contacto",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0027",
+      "style": "metaphor",
+      "primaryDimension": "activation",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "abanico-ritmo",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0028",
+      "style": "metaphor",
+      "primaryDimension": "activation",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "tablero-fichas",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0029",
+      "style": "metaphor",
+      "primaryDimension": "motivation",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "bisagra-inicio",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0030",
+      "style": "metaphor",
+      "primaryDimension": "connection",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "tejido-pertenencia",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0031",
+      "style": "metaphor",
+      "primaryDimension": "tension",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "cinta-elastica",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0032",
+      "style": "metaphor",
+      "primaryDimension": "mentalLoad",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "cruce-ideas",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0033",
+      "style": "metaphor",
+      "primaryDimension": "motivation",
+      "scenarioTags": [
+        "movement"
+      ],
+      "semanticClusterId": "pedal-arranque",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0034",
+      "style": "metaphor",
+      "primaryDimension": "connection",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "ventana-cercania",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0035",
+      "style": "metaphor",
+      "primaryDimension": "tension",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "reloj-sin-hora",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0036",
+      "style": "metaphor",
+      "primaryDimension": "mentalLoad",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "malabar-asuntos",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0037",
+      "style": "metaphor",
+      "primaryDimension": "tension",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "horno-temperatura",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0038",
+      "style": "metaphor",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "biblioteca-consultas",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0039",
+      "style": "metaphor",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "patio-presencia",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0040",
+      "style": "metaphor",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "boton-inicio",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0041",
+      "style": "metaphor",
+      "primaryDimension": "tension",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "vela-corriente",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0042",
+      "style": "metaphor",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "canasta-ideas",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0043",
+      "style": "metaphor",
+      "primaryDimension": "connection",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "farol-cercania",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0044",
+      "style": "metaphor",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "caja-herramientas",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0045",
+      "style": "metaphor",
+      "primaryDimension": "activation",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "fila-de-objetos",
+      "narrativeTemplateId": "physical_analogy",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0046",
+      "style": "daily_situation",
+      "primaryDimension": "activation",
+      "scenarioTags": [
+        "sound"
+      ],
+      "semanticClusterId": "elegir-primer-sonido",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0047",
+      "style": "daily_situation",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "touch"
+      ],
+      "semanticClusterId": "doblar-tela",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0048",
+      "style": "daily_situation",
+      "primaryDimension": "mentalLoad",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "mirar-lista-breve",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0049",
+      "style": "daily_situation",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "movement"
+      ],
+      "semanticClusterId": "caminar-pasillo",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0050",
+      "style": "daily_situation",
+      "primaryDimension": "connection",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "saludo-imaginado",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0051",
+      "style": "daily_situation",
+      "primaryDimension": "motivation",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "abrir-cuaderno",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0052",
+      "style": "daily_situation",
+      "primaryDimension": "activation",
+      "scenarioTags": [
+        "pace"
+      ],
+      "semanticClusterId": "esperar-agua",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0053",
+      "style": "daily_situation",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "acomodar-asiento",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0054",
+      "style": "daily_situation",
+      "primaryDimension": "activation",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "leer-instruccion-corta",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0055",
+      "style": "daily_situation",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "movement"
+      ],
+      "semanticClusterId": "guardar-objeto",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0056",
+      "style": "daily_situation",
+      "primaryDimension": "mentalLoad",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "receiving-one-more-instruction",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0057",
+      "style": "daily_situation",
+      "primaryDimension": "motivation",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "iniciar-garabato",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0058",
+      "style": "daily_situation",
+      "primaryDimension": "tension",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "pasar-umbral",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0059",
+      "style": "daily_situation",
+      "primaryDimension": "mentalLoad",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "elegir-una-nota",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0060",
+      "style": "daily_situation",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "compartir-banco",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0061",
+      "style": "daily_situation",
+      "primaryDimension": "motivation",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "poner-algo-a-mano",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0062",
+      "style": "daily_situation",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "conversacion-sin-detalles",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0063",
+      "style": "daily_situation",
+      "primaryDimension": "tension",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "ordenar-tres-piezas",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0064",
+      "style": "daily_situation",
+      "primaryDimension": "mentalLoad",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "recibir-recordatorio",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0065",
+      "style": "daily_situation",
+      "primaryDimension": "motivation",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "probar-una-pieza",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0066",
+      "style": "daily_situation",
+      "primaryDimension": "connection",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "escuchar-sin-contestar",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0067",
+      "style": "daily_situation",
+      "primaryDimension": "tension",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "dejar-objeto-imperfecto",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0068",
+      "style": "daily_situation",
+      "primaryDimension": "mentalLoad",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "abrir-agenda-imaginaria",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0069",
+      "style": "daily_situation",
+      "primaryDimension": "motivation",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "ensayar-primer-gesto",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0070",
+      "style": "daily_situation",
+      "primaryDimension": "motivation",
+      "scenarioTags": [
+        "movement"
+      ],
+      "semanticClusterId": "seguir-ritmo-golpecitos",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0071",
+      "style": "daily_situation",
+      "primaryDimension": "connection",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "estar-en-sala-comun",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0072",
+      "style": "daily_situation",
+      "primaryDimension": "tension",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "cerrar-cajon",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0073",
+      "style": "daily_situation",
+      "primaryDimension": "activation",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "clasificar-papeles",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0074",
+      "style": "daily_situation",
+      "primaryDimension": "motivation",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "primer-movimiento-juego",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0075",
+      "style": "daily_situation",
+      "primaryDimension": "connection",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "recibir-compania-silenciosa",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0076",
+      "style": "daily_situation",
+      "primaryDimension": "tension",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "desenrollar-cinta",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0077",
+      "style": "daily_situation",
+      "primaryDimension": "mentalLoad",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "buscar-una-palabra",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0078",
+      "style": "daily_situation",
+      "primaryDimension": "motivation",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "abrir-materiales",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0079",
+      "style": "daily_situation",
+      "primaryDimension": "connection",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "cruzar-mirada-amable",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0080",
+      "style": "daily_situation",
+      "primaryDimension": "activation",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "aflojar-agarre-imaginado",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0081",
+      "style": "daily_situation",
+      "primaryDimension": "mentalLoad",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "mirar-dos-opciones",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0082",
+      "style": "daily_situation",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "pausa-antes-salir",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0083",
+      "style": "daily_situation",
+      "primaryDimension": "mentalLoad",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "elegir-tarea-minima",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0084",
+      "style": "daily_situation",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "escuchar-junto-a-otros",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0085",
+      "style": "daily_situation",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "probar-un-pliegue",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0086",
+      "style": "daily_situation",
+      "primaryDimension": "tension",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "esperar-turno-sin-prisa",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0087",
+      "style": "daily_situation",
+      "primaryDimension": "activation",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "dejar-una-nota-visible",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0088",
+      "style": "daily_situation",
+      "primaryDimension": "connection",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "compartir-pequeno-detalle",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0089",
+      "style": "daily_situation",
+      "primaryDimension": "motivation",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "dejar-primera-huella",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0090",
+      "style": "daily_situation",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "revisar-dos-pendientes",
+      "narrativeTemplateId": "imagined_everyday_action",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0091",
+      "style": "observation",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "movement"
+      ],
+      "semanticClusterId": "velocidad-gestos",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0092",
+      "style": "observation",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "presion-actual",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0093",
+      "style": "observation",
+      "primaryDimension": "activation",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "numero-asuntos-presentes",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0094",
+      "style": "observation",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "pace"
+      ],
+      "semanticClusterId": "ritmo-pensamientos",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0095",
+      "style": "observation",
+      "primaryDimension": "connection",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "cercania-sin-presencia",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0096",
+      "style": "observation",
+      "primaryDimension": "motivation",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "ganas-gesto-minimo",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0097",
+      "style": "observation",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "sound"
+      ],
+      "semanticClusterId": "tono-del-silencio",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0098",
+      "style": "observation",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "tension-al-no-hacer",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0099",
+      "style": "observation",
+      "primaryDimension": "activation",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "atencion-que-salta",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0100",
+      "style": "observation",
+      "primaryDimension": "activation",
+      "scenarioTags": [
+        "pace"
+      ],
+      "semanticClusterId": "pausas-entre-gestos",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0101",
+      "style": "observation",
+      "primaryDimension": "mentalLoad",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "asuntos-sin-lista",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0102",
+      "style": "observation",
+      "primaryDimension": "activation",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "arranque-sin-meta",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0103",
+      "style": "observation",
+      "primaryDimension": "tension",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "transicion-entre-momentos",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0104",
+      "style": "observation",
+      "primaryDimension": "activation",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "capacidad-atender-ahora",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0105",
+      "style": "observation",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "conexion-con-entorno",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0106",
+      "style": "observation",
+      "primaryDimension": "motivation",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "impulso-sin-accion",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0107",
+      "style": "observation",
+      "primaryDimension": "connection",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "distancia-emocional-cotidiana",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0108",
+      "style": "observation",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "uneven-small-objects",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0109",
+      "style": "observation",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "espacio-para-otra-idea",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0110",
+      "style": "observation",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "curiosidad-por-empezar",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0111",
+      "style": "observation",
+      "primaryDimension": "connection",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "huella-de-un-saludo",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0112",
+      "style": "observation",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "presion-por-avanzar",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0113",
+      "style": "observation",
+      "primaryDimension": "mentalLoad",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "interrupciones-internas",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0114",
+      "style": "observation",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "disposicion-a-ensayar",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0115",
+      "style": "observation",
+      "primaryDimension": "activation",
+      "scenarioTags": [
+        "movement"
+      ],
+      "semanticClusterId": "ritmo-y-arranque",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0116",
+      "style": "observation",
+      "primaryDimension": "activation",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "cercania-con-actividad",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0117",
+      "style": "observation",
+      "primaryDimension": "activation",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "tension-y-quietud",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0118",
+      "style": "observation",
+      "primaryDimension": "activation",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "asuntos-y-vigor",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0119",
+      "style": "observation",
+      "primaryDimension": "activation",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "ganas-antes-elegir",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0120",
+      "style": "observation",
+      "primaryDimension": "connection",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "estar-en-contacto",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0121",
+      "style": "observation",
+      "primaryDimension": "tension",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "prisa-sin-reloj",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0122",
+      "style": "observation",
+      "primaryDimension": "mentalLoad",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "espacio-mental-y-ritmo",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0123",
+      "style": "observation",
+      "primaryDimension": "activation",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "microiniciativa-presente",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0124",
+      "style": "observation",
+      "primaryDimension": "connection",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "conexion-sin-conversar",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0125",
+      "style": "observation",
+      "primaryDimension": "tension",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "tono-al-esperar",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0126",
+      "style": "observation",
+      "primaryDimension": "activation",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "carga-al-leer",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0127",
+      "style": "observation",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "current-posture-reference",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0128",
+      "style": "observation",
+      "primaryDimension": "activation",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "atencion-al-acabar-frase",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0129",
+      "style": "observation",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "chosen-kept-object",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0130",
+      "style": "observation",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "empty-space-invitation",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0131",
+      "style": "observation",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "tension-al-continuar",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0132",
+      "style": "observation",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "carga-sin-resolver",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0133",
+      "style": "observation",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "presencia-compartida",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0134",
+      "style": "observation",
+      "primaryDimension": "motivation",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "inicio-sin-obligacion",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0135",
+      "style": "observation",
+      "primaryDimension": "activation",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "whole-versus-detail",
+      "narrativeTemplateId": "present_cue_notice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0136",
+      "style": "gentle_introspection",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "pace"
+      ],
+      "semanticClusterId": "permiso-ritmo-propio",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0137",
+      "style": "gentle_introspection",
+      "primaryDimension": "tension",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "exigencia-momento",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0138",
+      "style": "gentle_introspection",
+      "primaryDimension": "mentalLoad",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "atender-sin-priorizar",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "moderate",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0139",
+      "style": "gentle_introspection",
+      "primaryDimension": "activation",
+      "scenarioTags": [
+        "pace"
+      ],
+      "semanticClusterId": "gusto-por-la-pausa",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0140",
+      "style": "gentle_introspection",
+      "primaryDimension": "connection",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "contacto-que-apetece",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0141",
+      "style": "gentle_introspection",
+      "primaryDimension": "motivation",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "posibilidad-sin-compromiso",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "moderate",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0142",
+      "style": "gentle_introspection",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "movement"
+      ],
+      "semanticClusterId": "comodidad-del-propio-paso",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0143",
+      "style": "gentle_introspection",
+      "primaryDimension": "tension",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "presion-por-entender",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0144",
+      "style": "gentle_introspection",
+      "primaryDimension": "mentalLoad",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "una-cosa-por-vez",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "moderate",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0145",
+      "style": "gentle_introspection",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "pace"
+      ],
+      "semanticClusterId": "ritmo-aceptable-sin-meta",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0146",
+      "style": "gentle_introspection",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "cantidad-que-cabe-ahora",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0147",
+      "style": "gentle_introspection",
+      "primaryDimension": "motivation",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "ganas-sin-rendimiento",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "moderate",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0148",
+      "style": "gentle_introspection",
+      "primaryDimension": "tension",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "dejar-un-margen",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0149",
+      "style": "gentle_introspection",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "relacion-con-pendientes",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0150",
+      "style": "gentle_introspection",
+      "primaryDimension": "connection",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "cooperative-everyday-activity",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "moderate",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0151",
+      "style": "gentle_introspection",
+      "primaryDimension": "motivation",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "eleccion-de-iniciar",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0152",
+      "style": "gentle_introspection",
+      "primaryDimension": "connection",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "cercania-que-no-exige",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0153",
+      "style": "gentle_introspection",
+      "primaryDimension": "tension",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "aflojar-la-expectativa",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "moderate",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0154",
+      "style": "gentle_introspection",
+      "primaryDimension": "mentalLoad",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "espacio-para-no-decidir",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0155",
+      "style": "gentle_introspection",
+      "primaryDimension": "motivation",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "interes-sin-proyecto",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0156",
+      "style": "gentle_introspection",
+      "primaryDimension": "connection",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "vinculo-sin-mensaje",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "moderate",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0157",
+      "style": "gentle_introspection",
+      "primaryDimension": "tension",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "tension-sin-corregir",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0158",
+      "style": "gentle_introspection",
+      "primaryDimension": "mentalLoad",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "asuntos-sin-merito",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0159",
+      "style": "gentle_introspection",
+      "primaryDimension": "motivation",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "primer-paso-reversible",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "moderate",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.0,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0160",
+      "style": "gentle_introspection",
+      "primaryDimension": "motivation",
+      "scenarioTags": [
+        "movement"
+      ],
+      "semanticClusterId": "actividad-sin-productividad",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0161",
+      "style": "gentle_introspection",
+      "primaryDimension": "connection",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "conexion-a-tu-manera",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0162",
+      "style": "gentle_introspection",
+      "primaryDimension": "tension",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "ritmo-sin-exigencia",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "moderate",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0163",
+      "style": "gentle_introspection",
+      "primaryDimension": "activation",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "atencion-sin-controlarla",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0164",
+      "style": "gentle_introspection",
+      "primaryDimension": "motivation",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "empezar-sin-terminar",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0165",
+      "style": "gentle_introspection",
+      "primaryDimension": "connection",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "distancia-sin-juicio",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "moderate",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0166",
+      "style": "gentle_introspection",
+      "primaryDimension": "tension",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "permitir-velocidad",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0167",
+      "style": "gentle_introspection",
+      "primaryDimension": "mentalLoad",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "asuntos-sin-respuesta",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0168",
+      "style": "gentle_introspection",
+      "primaryDimension": "motivation",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "disposicion-sin-prisa",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "moderate",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0169",
+      "style": "gentle_introspection",
+      "primaryDimension": "activation",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "estar-cerca-sin-hablar",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0170",
+      "style": "gentle_introspection",
+      "primaryDimension": "tension",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "presion-sin-causa",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0171",
+      "style": "gentle_introspection",
+      "primaryDimension": "activation",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "mente-sin-ordenarla",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "moderate",
+      "coveragePotential": {
+        "valence": 0.0,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0172",
+      "style": "gentle_introspection",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "continuar-sin-demostrar",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0173",
+      "style": "gentle_introspection",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "asuntos-sin-apurarlos",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0174",
+      "style": "gentle_introspection",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "cercania-sin-obligacion",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "moderate",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0175",
+      "style": "gentle_introspection",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "inicio-sin-exito",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0176",
+      "style": "gentle_introspection",
+      "primaryDimension": "activation",
+      "scenarioTags": [
+        "pressure"
+      ],
+      "semanticClusterId": "presion-sin-comparacion",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.75,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0177",
+      "style": "gentle_introspection",
+      "primaryDimension": "mentalLoad",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "carga-que-no-define",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "moderate",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0178",
+      "style": "gentle_introspection",
+      "primaryDimension": "connection",
+      "scenarioTags": [
+        "connection"
+      ],
+      "semanticClusterId": "conectar-sin-rendir-cuentas",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.75,
+        "motivation": 0.0
+      }
+    },
+    {
+      "id": "q_0179",
+      "style": "gentle_introspection",
+      "primaryDimension": "valence",
+      "scenarioTags": [
+        "beginning"
+      ],
+      "semanticClusterId": "impulso-sin-deber",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "gentle",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.0,
+        "connection": 0.0,
+        "motivation": 0.75
+      }
+    },
+    {
+      "id": "q_0180",
+      "style": "gentle_introspection",
+      "primaryDimension": "mentalLoad",
+      "scenarioTags": [
+        "attention"
+      ],
+      "semanticClusterId": "atender-sin-arreglar",
+      "narrativeTemplateId": "conditional_personal_choice",
+      "intensity": "moderate",
+      "coveragePotential": {
+        "valence": 0.75,
+        "activation": 0.75,
+        "tension": 0.0,
+        "mentalLoad": 0.75,
+        "connection": 0.0,
+        "motivation": 0.0
+      }
+    }
+  ]
+}

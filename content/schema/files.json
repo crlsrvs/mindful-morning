@@ -1,0 +1,51 @@
+{
+  "manifest.json": {
+    "$ref": "#/$defs/manifest"
+  },
+  "questions.json": {
+    "type": "array",
+    "items": {
+      "$ref": "#/$defs/question"
+    },
+    "minItems": 160,
+    "maxItems": 200
+  },
+  "reflections.json": {
+    "type": "array",
+    "items": {
+      "$ref": "#/$defs/reflection"
+    },
+    "minItems": 82
+  },
+  "dimensions.json": {
+    "type": "array",
+    "items": {
+      "$ref": "#/$defs/dimension"
+    },
+    "minItems": 6,
+    "maxItems": 6
+  },
+  "reflection-families.json": {
+    "type": "array",
+    "items": {
+      "$ref": "#/$defs/family"
+    },
+    "minItems": 9,
+    "maxItems": 9
+  },
+  "content-sources.json": {
+    "type": "array",
+    "items": {
+      "$ref": "#/$defs/source"
+    },
+    "minItems": 1
+  },
+  "support-resources.json": {
+    "type": "array",
+    "items": {
+      "$ref": "#/$defs/resource"
+    },
+    "minItems": 2,
+    "maxItems": 2
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0-draft.1",
+  "locale": "es-CL",
+  "dimensionFile": "dimensions.json",
+  "familyFile": "reflection-families.json",
+  "scenarioTags": [
+    {
+      "id": "sound",
+      "label": "Sonidos"
+    },
+    {
+      "id": "touch",
+      "label": "Texturas y contacto"
+    },
+    {
+      "id": "attention",
+      "label": "Atención y asuntos cotidianos"
+    },
+    {
+      "id": "connection",
+      "label": "Cercanía"
+    },
+    {
+      "id": "movement",
+      "label": "Ritmo y movimiento"
+    },
+    {
+      "id": "beginning",
+      "label": "Comienzos pequeños"
+    },
+    {
+      "id": "pace",
+      "label": "Pausas y velocidad"
+    },
+    {
+      "id": "pressure",
+      "label": "Presión y margen"
+    }
+  ],
+  "styles": [
+    {
+      "id": "metaphor",
+      "label": "Metáfora"
+    },
+    {
+      "id": "daily_situation",
+      "label": "Situación cotidiana"
+    },
+    {
+      "id": "observation",
+      "label": "Observación concreta"
+    },
+    {
+      "id": "gentle_introspection",
+      "label": "Introspección suave"
+    }
+  ],
+  "note": "Taxonomía editorial; no son categorías de personas ni emociones diagnosticadas."
+}

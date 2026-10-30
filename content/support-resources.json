@@ -1,0 +1,56 @@
+[
+  {
+    "id": "support_cl_4141",
+    "countryCode": "CL",
+    "title": "Línea de Prevención del Suicidio",
+    "serviceScope": "Apoyo en crisis de salud mental asociadas al suicidio.",
+    "phone": "*4141",
+    "actionType": "dialer",
+    "sourceId": "src_cl_4141",
+    "lastVerifiedAt": "2026-10-25",
+    "availabilityText": "Disponible las 24 horas, todos los días.",
+    "cautionText": "Si estás en Chile. Llamar requiere cobertura telefónica; no se garantiza atención instantánea.",
+    "quality": {
+      "status": "draft",
+      "authorRole": "content_agent",
+      "reviewerRole": "pending_human_review",
+      "reviewedAt": null,
+      "originalityChecked": false,
+      "clarityScore": 0.8,
+      "culturalFitScore": 0.8,
+      "invasivenessScore": 0.1,
+      "moralizingRisk": 0.1,
+      "clinicalLanguageRisk": 0.1,
+      "ambiguityNotes": "Comprobación del agente mediante herramienta de líneas de ayuda; aprobación humana de ficha pendiente.",
+      "accessibilityChecked": false,
+      "approvals": []
+    }
+  },
+  {
+    "id": "support_cl_salud_responde",
+    "countryCode": "CL",
+    "title": "Salud Responde",
+    "serviceScope": "Información y orientación en salud.",
+    "phone": "600 360 7777",
+    "actionType": "dialer",
+    "sourceId": "src_cl_salud_responde",
+    "lastVerifiedAt": "2026-10-25",
+    "availabilityText": "Atención telefónica las 24 horas, todos los días.",
+    "cautionText": "Si estás en Chile. Requiere cobertura telefónica; el costo puede depender de tu plan. Sin atención instantánea garantizada.",
+    "quality": {
+      "status": "draft",
+      "authorRole": "content_agent",
+      "reviewerRole": "pending_human_review",
+      "reviewedAt": null,
+      "originalityChecked": false,
+      "clarityScore": 0.8,
+      "culturalFitScore": 0.8,
+      "invasivenessScore": 0.1,
+      "moralizingRisk": 0.1,
+      "clinicalLanguageRisk": 0.1,
+      "ambiguityNotes": "Fuente oficial comprobada por el agente; aprobación humana de ficha y revisión antes de release pendientes.",
+      "accessibilityChecked": false,
+      "approvals": []
+    }
+  }
+]

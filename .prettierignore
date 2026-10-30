@@ -1,0 +1,11 @@
+content/
+docs/PRD.md
+docs/ARCHITECTURE.md
+docs/DECISION_ENGINE.md
+docs/CONTENT_SPEC.md
+docs/EVIDENCE_AND_LIMITATIONS.md
+node_modules/
+android/
+ios/
+dist/
+package-lock.json

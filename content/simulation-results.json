@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "1.0.0-draft.1",
+  "contentPackHash": "65562b239b3b786edf3d01ea495c03dcc9f0617a5311bbc413e78d725cf7f219",
+  "fixtureStartDate": "2026-01-01",
+  "seeds": 1000,
+  "daysPerSeed": 365,
+  "profileAssignment": "installationIndex modulo 8; deterministic SHA-256 ties; 1000 installation IDs 0…999 by default",
+  "scope": "Preapproval content QA using contract reference functions, not a released application or empirical user study. Draft items are intentionally available only inside these tools.",
+  "passed": true,
+  "counts": {
+    "sessions": 365000,
+    "completed": 349750,
+    "abandoned": 15250,
+    "exposures": 1194253,
+    "adaptiveShown": 122128,
+    "adaptiveSkipped": 13759,
+    "supportShown": 6633,
+    "repetitionViolations": 0,
+    "exhaustedSessions": 0,
+    "relaxedBaseSessions": 45,
+    "strictBaseSessions": 364955,
+    "first30Strict": 29989,
+    "first30Sessions": 30000,
+    "reflectionCooldownRelaxations": 426
+  },
+  "strictBaseRatio": 0.9998767123287671,
+  "profileCounts": {
+    "all_skipped": 45625,
+    "indeterminate": 45625,
+    "pleasant": 45625,
+    "unpleasant": 45625,
+    "activation_only": 45625,
+    "polarized": 45625,
+    "mixed": 45625,
+    "abandoned": 45625
+  },
+  "familyCounts": {
+    "fam_neutral_generic": 245580,
+    "fam_positive_grounded": 56808,
+    "fam_activation_high": 22301,
+    "fam_activation_low": 18384,
+    "fam_mental_load": 3020,
+    "fam_motivation_low": 1008,
+    "fam_tension": 1722,
+    "fam_connection_low": 927
+  },
+  "styleCounts": {
+    "metaphor": 298522,
+    "gentle_introspection": 298219,
+    "observation": 298754,
+    "daily_situation": 298758
+  },
+  "primaryCounts": {
+    "connection": 157747,
+    "valence": 395110,
+    "activation": 181924,
+    "tension": 162974,
+    "mentalLoad": 151326,
+    "motivation": 145172
+  },
+  "choicePositions": {
+    "1": 339795,
+    "2": 241040,
+    "3": 198078,
+    "4": 181395,
+    "skip": 233945
+  },
+  "modes": {
+    "nonlabel": 292942,
+    "positive": 56808
+  },
+  "adaptiveReasons": {
+    "OUTCOME_SENSITIVE": 69559,
+    "CONFLICT": 52569
+  },
+  "stress": {
+    "seeds": 1000,
+    "daysPerSeed": 365,
+    "sessions": 365000,
+    "exposures": 1460000,
+    "exhaustedSessions": 0,
+    "relaxedBaseSessions": 2228,
+    "repetitionViolations": 0,
+    "maxWindowExposures": 124,
+    "first30DistinctMinimum": 120
+  },
+  "elapsedSeconds": 87,
+  "limitations": [
+    "Finite deterministic profiles; not proof for every possible response/exposure history.",
+    "Preapproval assumption does not satisfy release approval gates.",
+    "Adaptive stops at three when gain/candidate filters fail; forced fourth capacity test is separate.",
+    "Native app, accessibility, time-zone persistence, encryption and actual TypeScript engine integration are not tested here."
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "name": "mindful-morning",
+  "version": "0.1.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "EXPO_NO_TELEMETRY=1 expo start --dev-client",
+    "android": "EXPO_NO_TELEMETRY=1 expo run:android",
+    "ios": "EXPO_NO_TELEMETRY=1 expo run:ios",
+    "typecheck": "tsc --noEmit",
+    "test": "jest --runInBand --watchman=false",
+    "content:validate": "node content/tools/validate.mjs",
+    "content:release-check": "node content/tools/validate.mjs --release",
+    "content:integrity": "node content/tools/integrity.mjs",
+    "content:test": "node --test content/tools/core.test.mjs",
+    "engine:simulate": "ENGINE_SIM_SEEDS=1000 ENGINE_SIM_LOG=1 jest tests/engine.test.ts -t \"production TypeScript engine simulation\" --runInBand --watchman=false",
+    "check": "npm run content:validate && npm run config:validate && npm run typecheck && npm test",
+    "release:check": "npm run check && node scripts/release-gate.mjs",
+    "config:validate": "node scripts/check-config.mjs",
+    "format:check": "prettier --check app src tests config scripts plugins app.config.ts metro.config.js jest.config.js"
+  },
+  "dependencies": {
+    "expo": "58.0.19",
+    "expo-constants": "~58.0.13",
+    "expo-crypto": "~58.0.7",
+    "expo-dev-client": "~58.0.15",
+    "expo-file-system": "~58.0.11",
+    "expo-linking": "~58.0.14",
+    "expo-localization": "~58.0.5",
+    "expo-notifications": "~58.1.6",
+    "expo-router": "~58.0.26",
+    "expo-secure-store": "~58.0.2",
+    "expo-sqlite": "~58.0.14",
+    "expo-status-bar": "~58.0.4",
+    "expo-system-ui": "~58.0.6",
+    "js-sha256": "1.0.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-native": "0.88.0",
+    "react-native-safe-area-context": "~5.10.1",
+    "react-native-screens": "~4.30.0"
+  },
+  "devDependencies": {
+    "@testing-library/react-native": "14.1.0",
+    "@types/jest": "30.0.0",
+    "@types/node": "24.19.2",
+    "@types/react": "19.3.0",
+    "jest": "30.5.2",
+    "jest-expo": "58.0.12",
+    "prettier": "3.9.10",
+    "react-test-renderer": "19.3.0",
+    "typescript": "7.0.2"
+  },
+  "engines": {
+    "node": ">=24.0.0 <25"
+  }
+}

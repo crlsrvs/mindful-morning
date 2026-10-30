@@ -1,0 +1,1948 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0-draft.3",
+  "method": "TF-IDF cosine of Spanish normalized prompt/body tokens with explicit small synonym lexicon. Internal answer text reuse checked separately. No external model, embeddings or network.",
+  "limitation": "Lexical-conceptual triage only: high scores are review candidates; low scores do not rule out semantic duplication. Distinct cluster IDs do not prove distinct meaning. No guarantee of corpus-wide originality or human semantic approval.",
+  "threshold": 0.35,
+  "questionPairsCompared": 16110,
+  "reflectionPairsCompared": 3321,
+  "questionPairsAtOrAboveThreshold": [
+    {
+      "ids": [
+        "q_0097",
+        "q_0100"
+      ],
+      "similarity": 0.6834,
+      "texts": [
+        "Al notar una pausa entre dos sonidos, ¿vas despacio o rápido por dentro, y cómo te sientes?",
+        "En la pausa entre un movimiento y otro, ¿vas despacio o rápido por dentro, y cómo te sientes?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0081",
+        "q_0138"
+      ],
+      "similarity": 0.6564,
+      "texts": [
+        "Si miraras dos opciones sencillas sin elegir aún, ¿con qué energía y cuántas cosas en mente estarías?",
+        "Si pudieras elegir entre dos cosas sencillas, ¿con qué energía y cuántas cosas en mente estarías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0099",
+        "q_0135"
+      ],
+      "similarity": 0.5856,
+      "texts": [
+        "Al fijarte en un solo detalle, ¿con qué energía y cuántas otras cosas en mente estás?",
+        "Al fijarte en un conjunto de cosas o en un solo detalle, ¿cómo te sientes con lo que tienes en mente?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0113",
+        "q_0121"
+      ],
+      "similarity": 0.5772,
+      "texts": [
+        "Mientras escuchas o imaginas un sonido continuo, ¿cómo te sientes con las cosas que tienes en mente?",
+        "Mientras escuchas o imaginas un sonido, ¿vas despacio o rápido por dentro y cuánta tensión notas?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0005",
+        "q_0030"
+      ],
+      "similarity": 0.5752,
+      "texts": [
+        "Si un puente mostrara la cercanía que sientes con otras personas, ¿cómo sería hoy?",
+        "Si un tejido mostrara tu conexión con otras personas, ¿cómo sería y con qué energía estarías hoy?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0143",
+        "q_0157"
+      ],
+      "similarity": 0.5678,
+      "texts": [
+        "Si algo pequeño quedara sin explicación, ¿cómo te sentirías al dejarlo así por un rato?",
+        "Si algo sencillo no quedara del todo parejo, ¿cómo te sentirías al dejarlo así?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0102",
+        "q_0119"
+      ],
+      "similarity": 0.5399,
+      "texts": [
+        "Piensa en un material que tengas a mano. ¿Con cuánta energía y ganas probarías algo con él?",
+        "Piensa en acercar la mano a un objeto que tengas cerca. ¿Con cuánta energía y ganas lo harías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0026",
+        "q_0030"
+      ],
+      "similarity": 0.5382,
+      "texts": [
+        "Si una antena mostrara tu conexión con otras personas, ¿cómo sería la señal y tu energía hoy?",
+        "Si un tejido mostrara tu conexión con otras personas, ¿cómo sería y con qué energía estarías hoy?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0146",
+        "q_0173"
+      ],
+      "similarity": 0.538,
+      "texts": [
+        "Si dejaras una pequeña decisión para después, ¿cómo te sentirías con las cosas que siguen en tu mente?",
+        "Si una decisión de hoy ya estuviera tomada, ¿cómo te sentirías con las cosas que siguen en tu mente?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0005",
+        "q_0026"
+      ],
+      "similarity": 0.5315,
+      "texts": [
+        "Si un puente mostrara la cercanía que sientes con otras personas, ¿cómo sería hoy?",
+        "Si una antena mostrara tu conexión con otras personas, ¿cómo sería la señal y tu energía hoy?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0110",
+        "q_0114"
+      ],
+      "similarity": 0.5207,
+      "texts": [
+        "Al ver algo sencillo que podrías explorar, ¿cómo te sientes con las ganas que tienes de probar?",
+        "Al ver un espacio donde podrías hacer una pequeña marca, ¿cómo te sentirías al probar?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0105",
+        "q_0116"
+      ],
+      "similarity": 0.5109,
+      "texts": [
+        "Al reconocer algo familiar en el lugar donde estás, ¿cómo te sientes en este momento?",
+        "Al reconocer algo que te hace sentir parte de este lugar, ¿qué cercanía y energía sientes ahora?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0099",
+        "q_0126"
+      ],
+      "similarity": 0.5008,
+      "texts": [
+        "Al fijarte en un solo detalle, ¿con qué energía y cuántas otras cosas en mente estás?",
+        "Al fijarte en una palabra de esta pregunta, ¿con qué energía y cuántas cosas en mente estás?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0110",
+        "q_0147"
+      ],
+      "similarity": 0.485,
+      "texts": [
+        "Al ver algo sencillo que podrías explorar, ¿cómo te sientes con las ganas que tienes de probar?",
+        "Si pudieras explorar un material solo por probar, ¿con cuánta energía y ganas empezarías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0117",
+        "q_0121"
+      ],
+      "similarity": 0.4834,
+      "texts": [
+        "Al notar una parte de tu cuerpo que está quieta, ¿vas despacio o rápido por dentro y cuánta tensión sientes?",
+        "Mientras escuchas o imaginas un sonido, ¿vas despacio o rápido por dentro y cuánta tensión notas?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0030",
+        "q_0034"
+      ],
+      "similarity": 0.4774,
+      "texts": [
+        "Si un tejido mostrara tu conexión con otras personas, ¿cómo sería y con qué energía estarías hoy?",
+        "Si una ventana mostrara tu conexión con otras personas, ¿cómo estaría y con qué energía estarías tú?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0100",
+        "q_0117"
+      ],
+      "similarity": 0.4774,
+      "texts": [
+        "En la pausa entre un movimiento y otro, ¿vas despacio o rápido por dentro, y cómo te sientes?",
+        "Al notar una parte de tu cuerpo que está quieta, ¿vas despacio o rápido por dentro y cuánta tensión sientes?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0097",
+        "q_0117"
+      ],
+      "similarity": 0.4679,
+      "texts": [
+        "Al notar una pausa entre dos sonidos, ¿vas despacio o rápido por dentro, y cómo te sientes?",
+        "Al notar una parte de tu cuerpo que está quieta, ¿vas despacio o rápido por dentro y cuánta tensión sientes?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0049",
+        "q_0142"
+      ],
+      "similarity": 0.4631,
+      "texts": [
+        "Imagina recorrer un pasillo conocido a tu propio paso. ¿Cómo irías y cómo te sentirías?",
+        "Si repitieras un gesto conocido a tu propio paso, ¿cómo te sentirías al hacerlo hoy?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0115",
+        "q_0160"
+      ],
+      "similarity": 0.4562,
+      "texts": [
+        "Piensa en un movimiento pequeño que podrías hacer. ¿Con cuánta energía y ganas lo empezarías?",
+        "Imagina hacer algo solo por curiosidad. ¿Con cuánta energía y ganas empezarías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0114",
+        "q_0130"
+      ],
+      "similarity": 0.4558,
+      "texts": [
+        "Al ver un espacio donde podrías hacer una pequeña marca, ¿cómo te sentirías al probar?",
+        "Al ver un espacio entre dos objetos, ¿cómo te sentirías al probar un pequeño movimiento allí?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0100",
+        "q_0121"
+      ],
+      "similarity": 0.4404,
+      "texts": [
+        "En la pausa entre un movimiento y otro, ¿vas despacio o rápido por dentro, y cómo te sientes?",
+        "Mientras escuchas o imaginas un sonido, ¿vas despacio o rápido por dentro y cuánta tensión notas?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0071",
+        "q_0174"
+      ],
+      "similarity": 0.4375,
+      "texts": [
+        "Imagina estar con otras personas sin tener nada que hacer. ¿Con qué energía y cercanía te sentirías?",
+        "Si pudieras estar en contacto con alguien por un momento, ¿cómo te sentirías con esa cercanía?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0097",
+        "q_0121"
+      ],
+      "similarity": 0.4355,
+      "texts": [
+        "Al notar una pausa entre dos sonidos, ¿vas despacio o rápido por dentro, y cómo te sientes?",
+        "Mientras escuchas o imaginas un sonido, ¿vas despacio o rápido por dentro y cuánta tensión notas?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0098",
+        "q_0127"
+      ],
+      "similarity": 0.4322,
+      "texts": [
+        "Al notar dónde se apoya tu cuerpo, ¿cuánta tensión sientes y cómo estás en este momento?",
+        "Al notar cómo está tu cuerpo, sin cambiar de postura, ¿cómo te sientes en este momento?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0099",
+        "q_0118"
+      ],
+      "similarity": 0.4313,
+      "texts": [
+        "Al fijarte en un solo detalle, ¿con qué energía y cuántas otras cosas en mente estás?",
+        "Al fijarte en dos formas cercanas, ¿con qué energía y cuántas cosas en mente estás?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0115",
+        "q_0164"
+      ],
+      "similarity": 0.4313,
+      "texts": [
+        "Piensa en un movimiento pequeño que podrías hacer. ¿Con cuánta energía y ganas lo empezarías?",
+        "Si ya tuvieras todo preparado para hacer algo pequeño, ¿con cuánta energía y ganas empezarías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0077",
+        "q_0126"
+      ],
+      "similarity": 0.4183,
+      "texts": [
+        "Imagina buscar una palabra en una página. ¿Con qué energía y cuántas cosas en mente estarías?",
+        "Al fijarte en una palabra de esta pregunta, ¿con qué energía y cuántas cosas en mente estás?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0160",
+        "q_0164"
+      ],
+      "similarity": 0.4129,
+      "texts": [
+        "Imagina hacer algo solo por curiosidad. ¿Con cuánta energía y ganas empezarías?",
+        "Si ya tuvieras todo preparado para hacer algo pequeño, ¿con cuánta energía y ganas empezarías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0051",
+        "q_0164"
+      ],
+      "similarity": 0.411,
+      "texts": [
+        "Si tuvieras un cuaderno para hacer cualquier marca, ¿con cuánta energía y ganas empezarías?",
+        "Si ya tuvieras todo preparado para hacer algo pequeño, ¿con cuánta energía y ganas empezarías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0075",
+        "q_0174"
+      ],
+      "similarity": 0.4026,
+      "texts": [
+        "Imagina estar en compañía sin tener que conversar. ¿Con qué energía y cercanía te sentirías?",
+        "Si pudieras estar en contacto con alguien por un momento, ¿cómo te sentirías con esa cercanía?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0098",
+        "q_0117"
+      ],
+      "similarity": 0.4009,
+      "texts": [
+        "Al notar dónde se apoya tu cuerpo, ¿cuánta tensión sientes y cómo estás en este momento?",
+        "Al notar una parte de tu cuerpo que está quieta, ¿vas despacio o rápido por dentro y cuánta tensión sientes?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0092",
+        "q_0098"
+      ],
+      "similarity": 0.3992,
+      "texts": [
+        "Si notas el contacto de tus manos, ¿cuánta tensión sientes y cómo estás en este momento?",
+        "Al notar dónde se apoya tu cuerpo, ¿cuánta tensión sientes y cómo estás en este momento?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0096",
+        "q_0115"
+      ],
+      "similarity": 0.3979,
+      "texts": [
+        "Piensa en un objeto que podrías mover un poco. ¿Con cuánta energía y ganas harías ese gesto?",
+        "Piensa en un movimiento pequeño que podrías hacer. ¿Con cuánta energía y ganas lo empezarías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0099",
+        "q_0109"
+      ],
+      "similarity": 0.3974,
+      "texts": [
+        "Al fijarte en un solo detalle, ¿con qué energía y cuántas otras cosas en mente estás?",
+        "Al fijarte en un detalle que antes no habías visto, ¿cómo te sientes con lo que tienes en mente?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0078",
+        "q_0147"
+      ],
+      "similarity": 0.3933,
+      "texts": [
+        "Si abrieras unos materiales solo para probar, ¿con cuánta energía y ganas empezarías?",
+        "Si pudieras explorar un material solo por probar, ¿con cuánta energía y ganas empezarías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0071",
+        "q_0075"
+      ],
+      "similarity": 0.3863,
+      "texts": [
+        "Imagina estar con otras personas sin tener nada que hacer. ¿Con qué energía y cercanía te sentirías?",
+        "Imagina estar en compañía sin tener que conversar. ¿Con qué energía y cercanía te sentirías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0091",
+        "q_0097"
+      ],
+      "similarity": 0.3863,
+      "texts": [
+        "Al notar cómo te estás moviendo ahora, ¿vas despacio o rápido, y cómo te sientes con eso?",
+        "Al notar una pausa entre dos sonidos, ¿vas despacio o rápido por dentro, y cómo te sientes?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0096",
+        "q_0119"
+      ],
+      "similarity": 0.3846,
+      "texts": [
+        "Piensa en un objeto que podrías mover un poco. ¿Con cuánta energía y ganas harías ese gesto?",
+        "Piensa en acercar la mano a un objeto que tengas cerca. ¿Con cuánta energía y ganas lo harías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0005",
+        "q_0043"
+      ],
+      "similarity": 0.384,
+      "texts": [
+        "Si un puente mostrara la cercanía que sientes con otras personas, ¿cómo sería hoy?",
+        "Si un farol mostrara la cercanía que sientes con otras personas, ¿cómo lo llevarías hoy?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0109",
+        "q_0135"
+      ],
+      "similarity": 0.384,
+      "texts": [
+        "Al fijarte en un detalle que antes no habías visto, ¿cómo te sientes con lo que tienes en mente?",
+        "Al fijarte en un conjunto de cosas o en un solo detalle, ¿cómo te sientes con lo que tienes en mente?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0102",
+        "q_0123"
+      ],
+      "similarity": 0.3835,
+      "texts": [
+        "Piensa en un material que tengas a mano. ¿Con cuánta energía y ganas probarías algo con él?",
+        "Piensa en darle un uso distinto a un objeto. ¿Con cuánta energía y ganas lo probarías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0144",
+        "q_0163"
+      ],
+      "similarity": 0.3802,
+      "texts": [
+        "Imagina una breve interrupción mientras haces algo sencillo. ¿Con qué energía y cuántas cosas en mente seguirías?",
+        "Si apareciera una idea mientras haces algo conocido, ¿con qué energía y cuántas cosas en mente estarías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0165",
+        "q_0169"
+      ],
+      "similarity": 0.3781,
+      "texts": [
+        "Si alguien compartiera contigo un interés, sin invitarte a nada, ¿qué energía y cercanía sentirías?",
+        "Si alguien tuviera un gesto atento contigo sin esperar nada a cambio, ¿qué energía y cercanía sentirías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0118",
+        "q_0126"
+      ],
+      "similarity": 0.3753,
+      "texts": [
+        "Al fijarte en dos formas cercanas, ¿con qué energía y cuántas cosas en mente estás?",
+        "Al fijarte en una palabra de esta pregunta, ¿con qué energía y cuántas cosas en mente estás?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0005",
+        "q_0034"
+      ],
+      "similarity": 0.375,
+      "texts": [
+        "Si un puente mostrara la cercanía que sientes con otras personas, ¿cómo sería hoy?",
+        "Si una ventana mostrara tu conexión con otras personas, ¿cómo estaría y con qué energía estarías tú?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0056",
+        "q_0144"
+      ],
+      "similarity": 0.3746,
+      "texts": [
+        "Imagina recibir una indicación breve mientras haces otra cosa. ¿Cómo te sentirías al recibirla?",
+        "Imagina una breve interrupción mientras haces algo sencillo. ¿Con qué energía y cuántas cosas en mente seguirías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0047",
+        "q_0172"
+      ],
+      "similarity": 0.372,
+      "texts": [
+        "Imagina doblar una tela sin preocuparte por cómo queda. ¿Cómo te sentirías al hacerlo?",
+        "Si pudieras probar algo sin preocuparte por hacerlo bien, ¿cómo te sentirías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0091",
+        "q_0100"
+      ],
+      "similarity": 0.3707,
+      "texts": [
+        "Al notar cómo te estás moviendo ahora, ¿vas despacio o rápido, y cómo te sientes con eso?",
+        "En la pausa entre un movimiento y otro, ¿vas despacio o rápido por dentro, y cómo te sientes?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0051",
+        "q_0160"
+      ],
+      "similarity": 0.3693,
+      "texts": [
+        "Si tuvieras un cuaderno para hacer cualquier marca, ¿con cuánta energía y ganas empezarías?",
+        "Imagina hacer algo solo por curiosidad. ¿Con cuánta energía y ganas empezarías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0094",
+        "q_0100"
+      ],
+      "similarity": 0.3688,
+      "texts": [
+        "Al pasar de una palabra a otra mientras lees, ¿vas despacio o rápido, y cómo te sientes?",
+        "En la pausa entre un movimiento y otro, ¿vas despacio o rápido por dentro, y cómo te sientes?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0053",
+        "q_0063"
+      ],
+      "similarity": 0.3653,
+      "texts": [
+        "Si pudieras acomodar un asiento sin apuro, ¿cómo te sentirías al hacerlo?",
+        "Si pudieras acomodar tres piezas como quisieras, ¿cómo te sentirías al hacerlo?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0025",
+        "q_0168"
+      ],
+      "similarity": 0.3651,
+      "texts": [
+        "Si empezar algo fuera remar en una barca, ¿con cuánta energía y ganas lo harías hoy?",
+        "Si pudieras empezar una actividad por donde quisieras, ¿con cuánta energía y ganas lo harías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0102",
+        "q_0147"
+      ],
+      "similarity": 0.3646,
+      "texts": [
+        "Piensa en un material que tengas a mano. ¿Con cuánta energía y ganas probarías algo con él?",
+        "Si pudieras explorar un material solo por probar, ¿con cuánta energía y ganas empezarías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0019",
+        "q_0023"
+      ],
+      "similarity": 0.3643,
+      "texts": [
+        "Si un resorte mostrara la tensión que sientes ahora, ¿cómo estaría en tu mano?",
+        "Si una cuerda de arco mostrara la tensión que sientes, ¿cómo estaría hoy?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0099",
+        "q_0122"
+      ],
+      "similarity": 0.3621,
+      "texts": [
+        "Al fijarte en un solo detalle, ¿con qué energía y cuántas otras cosas en mente estás?",
+        "Al notar un detalle que vuelve a llamar tu atención, ¿a qué ritmo vas y cuántas cosas tienes en mente?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0026",
+        "q_0034"
+      ],
+      "similarity": 0.3618,
+      "texts": [
+        "Si una antena mostrara tu conexión con otras personas, ¿cómo sería la señal y tu energía hoy?",
+        "Si una ventana mostrara tu conexión con otras personas, ¿cómo estaría y con qué energía estarías tú?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0073",
+        "q_0138"
+      ],
+      "similarity": 0.3614,
+      "texts": [
+        "Imagina separar unos papeles en dos grupos. ¿Con qué energía y cuántas cosas en mente estarías?",
+        "Si pudieras elegir entre dos cosas sencillas, ¿con qué energía y cuántas cosas en mente estarías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0091",
+        "q_0117"
+      ],
+      "similarity": 0.3572,
+      "texts": [
+        "Al notar cómo te estás moviendo ahora, ¿vas despacio o rápido, y cómo te sientes con eso?",
+        "Al notar una parte de tu cuerpo que está quieta, ¿vas despacio o rápido por dentro y cuánta tensión sientes?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0090",
+        "q_0154"
+      ],
+      "similarity": 0.3563,
+      "texts": [
+        "Imagina mirar dos cosas pendientes sin resolverlas todavía. ¿Cómo te sentirías?",
+        "Si pudieras responder «todavía no sé», ¿cómo te sentirías con las cosas que tienes en mente?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0021",
+        "q_0040"
+      ],
+      "similarity": 0.3531,
+      "texts": [
+        "Si una llave te permitiera empezar algo pequeño, ¿cómo te sentirías al usarla?",
+        "Si un botón te permitiera empezar algo pequeño, ¿cómo te sentirías al acercar la mano?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0034",
+        "q_0043"
+      ],
+      "similarity": 0.3518,
+      "texts": [
+        "Si una ventana mostrara tu conexión con otras personas, ¿cómo estaría y con qué energía estarías tú?",
+        "Si un farol mostrara la cercanía que sientes con otras personas, ¿cómo lo llevarías hoy?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0094",
+        "q_0121"
+      ],
+      "similarity": 0.3518,
+      "texts": [
+        "Al pasar de una palabra a otra mientras lees, ¿vas despacio o rápido, y cómo te sientes?",
+        "Mientras escuchas o imaginas un sonido, ¿vas despacio o rápido por dentro y cuánta tensión notas?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    }
+  ],
+  "reflectionPairsAtOrAboveThreshold": [
+    {
+      "ids": [
+        "ref_0001",
+        "ref_0018"
+      ],
+      "similarity": 0.4238,
+      "texts": [
+        "Tus respuestas sugieren que hay algo agradable en este comienzo. Puede ser un detalle pequeño, sin que toda la mañana tenga que sentirse igual.",
+        "Tus respuestas sugieren que un detalle de esta mañana se sintió bien. Algo pequeño puede ser suficiente por ahora."
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "ref_0023",
+        "ref_0062"
+      ],
+      "similarity": 0.406,
+      "texts": [
+        "Lo que viene después puede ser algo sencillo de todos los días. Hay espacio para hacerlo a tu manera, con el cuidado que para ti tenga sentido.",
+        "Un comienzo pequeño puede quedarse pequeño, del tamaño que hoy tenga sentido para ti. No tiene que ser una promesa de hacer más después."
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "ref_0078",
+        "ref_0081"
+      ],
+      "similarity": 0.4044,
+      "texts": [
+        "Si te vendría bien compañía para lo que estás viviendo, puedes buscar a alguien de confianza. En Necesito apoyo hay otras opciones que puedes consultar cuando quieras.",
+        "Si lo que estás viviendo resulta difícil, este espacio no tiene que ser tu único apoyo. Puedes consultar Necesito apoyo o acercarte a alguien de confianza, si te sirve."
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "ref_0078",
+        "ref_0082"
+      ],
+      "similarity": 0.3963,
+      "texts": [
+        "Si te vendría bien compañía para lo que estás viviendo, puedes buscar a alguien de confianza. En Necesito apoyo hay otras opciones que puedes consultar cuando quieras.",
+        "Si te ayudaría hablar de este momento, puedes elegir a alguien de confianza. También tienes opciones en Necesito apoyo; buscar compañía no requiere una explicación para la app."
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "ref_0047",
+        "ref_0050"
+      ],
+      "similarity": 0.3912,
+      "texts": [
+        "Tener muchas cosas pendientes no significa que tengas que poder con todas a la vez. Aquí no hay otra lista que completar.",
+        "A veces la lista de pendientes parece enorme. Pensar en todo a la vez no significa que tengas que hacerlo todo ahora."
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    }
+  ],
+  "questionTop40": [
+    {
+      "ids": [
+        "q_0097",
+        "q_0100"
+      ],
+      "similarity": 0.6834,
+      "texts": [
+        "Al notar una pausa entre dos sonidos, ¿vas despacio o rápido por dentro, y cómo te sientes?",
+        "En la pausa entre un movimiento y otro, ¿vas despacio o rápido por dentro, y cómo te sientes?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0081",
+        "q_0138"
+      ],
+      "similarity": 0.6564,
+      "texts": [
+        "Si miraras dos opciones sencillas sin elegir aún, ¿con qué energía y cuántas cosas en mente estarías?",
+        "Si pudieras elegir entre dos cosas sencillas, ¿con qué energía y cuántas cosas en mente estarías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0099",
+        "q_0135"
+      ],
+      "similarity": 0.5856,
+      "texts": [
+        "Al fijarte en un solo detalle, ¿con qué energía y cuántas otras cosas en mente estás?",
+        "Al fijarte en un conjunto de cosas o en un solo detalle, ¿cómo te sientes con lo que tienes en mente?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0113",
+        "q_0121"
+      ],
+      "similarity": 0.5772,
+      "texts": [
+        "Mientras escuchas o imaginas un sonido continuo, ¿cómo te sientes con las cosas que tienes en mente?",
+        "Mientras escuchas o imaginas un sonido, ¿vas despacio o rápido por dentro y cuánta tensión notas?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0005",
+        "q_0030"
+      ],
+      "similarity": 0.5752,
+      "texts": [
+        "Si un puente mostrara la cercanía que sientes con otras personas, ¿cómo sería hoy?",
+        "Si un tejido mostrara tu conexión con otras personas, ¿cómo sería y con qué energía estarías hoy?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0143",
+        "q_0157"
+      ],
+      "similarity": 0.5678,
+      "texts": [
+        "Si algo pequeño quedara sin explicación, ¿cómo te sentirías al dejarlo así por un rato?",
+        "Si algo sencillo no quedara del todo parejo, ¿cómo te sentirías al dejarlo así?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0102",
+        "q_0119"
+      ],
+      "similarity": 0.5399,
+      "texts": [
+        "Piensa en un material que tengas a mano. ¿Con cuánta energía y ganas probarías algo con él?",
+        "Piensa en acercar la mano a un objeto que tengas cerca. ¿Con cuánta energía y ganas lo harías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0026",
+        "q_0030"
+      ],
+      "similarity": 0.5382,
+      "texts": [
+        "Si una antena mostrara tu conexión con otras personas, ¿cómo sería la señal y tu energía hoy?",
+        "Si un tejido mostrara tu conexión con otras personas, ¿cómo sería y con qué energía estarías hoy?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0146",
+        "q_0173"
+      ],
+      "similarity": 0.538,
+      "texts": [
+        "Si dejaras una pequeña decisión para después, ¿cómo te sentirías con las cosas que siguen en tu mente?",
+        "Si una decisión de hoy ya estuviera tomada, ¿cómo te sentirías con las cosas que siguen en tu mente?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0005",
+        "q_0026"
+      ],
+      "similarity": 0.5315,
+      "texts": [
+        "Si un puente mostrara la cercanía que sientes con otras personas, ¿cómo sería hoy?",
+        "Si una antena mostrara tu conexión con otras personas, ¿cómo sería la señal y tu energía hoy?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0110",
+        "q_0114"
+      ],
+      "similarity": 0.5207,
+      "texts": [
+        "Al ver algo sencillo que podrías explorar, ¿cómo te sientes con las ganas que tienes de probar?",
+        "Al ver un espacio donde podrías hacer una pequeña marca, ¿cómo te sentirías al probar?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0105",
+        "q_0116"
+      ],
+      "similarity": 0.5109,
+      "texts": [
+        "Al reconocer algo familiar en el lugar donde estás, ¿cómo te sientes en este momento?",
+        "Al reconocer algo que te hace sentir parte de este lugar, ¿qué cercanía y energía sientes ahora?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0099",
+        "q_0126"
+      ],
+      "similarity": 0.5008,
+      "texts": [
+        "Al fijarte en un solo detalle, ¿con qué energía y cuántas otras cosas en mente estás?",
+        "Al fijarte en una palabra de esta pregunta, ¿con qué energía y cuántas cosas en mente estás?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0110",
+        "q_0147"
+      ],
+      "similarity": 0.485,
+      "texts": [
+        "Al ver algo sencillo que podrías explorar, ¿cómo te sientes con las ganas que tienes de probar?",
+        "Si pudieras explorar un material solo por probar, ¿con cuánta energía y ganas empezarías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0117",
+        "q_0121"
+      ],
+      "similarity": 0.4834,
+      "texts": [
+        "Al notar una parte de tu cuerpo que está quieta, ¿vas despacio o rápido por dentro y cuánta tensión sientes?",
+        "Mientras escuchas o imaginas un sonido, ¿vas despacio o rápido por dentro y cuánta tensión notas?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0030",
+        "q_0034"
+      ],
+      "similarity": 0.4774,
+      "texts": [
+        "Si un tejido mostrara tu conexión con otras personas, ¿cómo sería y con qué energía estarías hoy?",
+        "Si una ventana mostrara tu conexión con otras personas, ¿cómo estaría y con qué energía estarías tú?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0100",
+        "q_0117"
+      ],
+      "similarity": 0.4774,
+      "texts": [
+        "En la pausa entre un movimiento y otro, ¿vas despacio o rápido por dentro, y cómo te sientes?",
+        "Al notar una parte de tu cuerpo que está quieta, ¿vas despacio o rápido por dentro y cuánta tensión sientes?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0097",
+        "q_0117"
+      ],
+      "similarity": 0.4679,
+      "texts": [
+        "Al notar una pausa entre dos sonidos, ¿vas despacio o rápido por dentro, y cómo te sientes?",
+        "Al notar una parte de tu cuerpo que está quieta, ¿vas despacio o rápido por dentro y cuánta tensión sientes?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0049",
+        "q_0142"
+      ],
+      "similarity": 0.4631,
+      "texts": [
+        "Imagina recorrer un pasillo conocido a tu propio paso. ¿Cómo irías y cómo te sentirías?",
+        "Si repitieras un gesto conocido a tu propio paso, ¿cómo te sentirías al hacerlo hoy?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0115",
+        "q_0160"
+      ],
+      "similarity": 0.4562,
+      "texts": [
+        "Piensa en un movimiento pequeño que podrías hacer. ¿Con cuánta energía y ganas lo empezarías?",
+        "Imagina hacer algo solo por curiosidad. ¿Con cuánta energía y ganas empezarías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0114",
+        "q_0130"
+      ],
+      "similarity": 0.4558,
+      "texts": [
+        "Al ver un espacio donde podrías hacer una pequeña marca, ¿cómo te sentirías al probar?",
+        "Al ver un espacio entre dos objetos, ¿cómo te sentirías al probar un pequeño movimiento allí?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0100",
+        "q_0121"
+      ],
+      "similarity": 0.4404,
+      "texts": [
+        "En la pausa entre un movimiento y otro, ¿vas despacio o rápido por dentro, y cómo te sientes?",
+        "Mientras escuchas o imaginas un sonido, ¿vas despacio o rápido por dentro y cuánta tensión notas?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0071",
+        "q_0174"
+      ],
+      "similarity": 0.4375,
+      "texts": [
+        "Imagina estar con otras personas sin tener nada que hacer. ¿Con qué energía y cercanía te sentirías?",
+        "Si pudieras estar en contacto con alguien por un momento, ¿cómo te sentirías con esa cercanía?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0097",
+        "q_0121"
+      ],
+      "similarity": 0.4355,
+      "texts": [
+        "Al notar una pausa entre dos sonidos, ¿vas despacio o rápido por dentro, y cómo te sientes?",
+        "Mientras escuchas o imaginas un sonido, ¿vas despacio o rápido por dentro y cuánta tensión notas?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0098",
+        "q_0127"
+      ],
+      "similarity": 0.4322,
+      "texts": [
+        "Al notar dónde se apoya tu cuerpo, ¿cuánta tensión sientes y cómo estás en este momento?",
+        "Al notar cómo está tu cuerpo, sin cambiar de postura, ¿cómo te sientes en este momento?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0099",
+        "q_0118"
+      ],
+      "similarity": 0.4313,
+      "texts": [
+        "Al fijarte en un solo detalle, ¿con qué energía y cuántas otras cosas en mente estás?",
+        "Al fijarte en dos formas cercanas, ¿con qué energía y cuántas cosas en mente estás?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0115",
+        "q_0164"
+      ],
+      "similarity": 0.4313,
+      "texts": [
+        "Piensa en un movimiento pequeño que podrías hacer. ¿Con cuánta energía y ganas lo empezarías?",
+        "Si ya tuvieras todo preparado para hacer algo pequeño, ¿con cuánta energía y ganas empezarías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0077",
+        "q_0126"
+      ],
+      "similarity": 0.4183,
+      "texts": [
+        "Imagina buscar una palabra en una página. ¿Con qué energía y cuántas cosas en mente estarías?",
+        "Al fijarte en una palabra de esta pregunta, ¿con qué energía y cuántas cosas en mente estás?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0160",
+        "q_0164"
+      ],
+      "similarity": 0.4129,
+      "texts": [
+        "Imagina hacer algo solo por curiosidad. ¿Con cuánta energía y ganas empezarías?",
+        "Si ya tuvieras todo preparado para hacer algo pequeño, ¿con cuánta energía y ganas empezarías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0051",
+        "q_0164"
+      ],
+      "similarity": 0.411,
+      "texts": [
+        "Si tuvieras un cuaderno para hacer cualquier marca, ¿con cuánta energía y ganas empezarías?",
+        "Si ya tuvieras todo preparado para hacer algo pequeño, ¿con cuánta energía y ganas empezarías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0075",
+        "q_0174"
+      ],
+      "similarity": 0.4026,
+      "texts": [
+        "Imagina estar en compañía sin tener que conversar. ¿Con qué energía y cercanía te sentirías?",
+        "Si pudieras estar en contacto con alguien por un momento, ¿cómo te sentirías con esa cercanía?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0098",
+        "q_0117"
+      ],
+      "similarity": 0.4009,
+      "texts": [
+        "Al notar dónde se apoya tu cuerpo, ¿cuánta tensión sientes y cómo estás en este momento?",
+        "Al notar una parte de tu cuerpo que está quieta, ¿vas despacio o rápido por dentro y cuánta tensión sientes?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0092",
+        "q_0098"
+      ],
+      "similarity": 0.3992,
+      "texts": [
+        "Si notas el contacto de tus manos, ¿cuánta tensión sientes y cómo estás en este momento?",
+        "Al notar dónde se apoya tu cuerpo, ¿cuánta tensión sientes y cómo estás en este momento?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0096",
+        "q_0115"
+      ],
+      "similarity": 0.3979,
+      "texts": [
+        "Piensa en un objeto que podrías mover un poco. ¿Con cuánta energía y ganas harías ese gesto?",
+        "Piensa en un movimiento pequeño que podrías hacer. ¿Con cuánta energía y ganas lo empezarías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0099",
+        "q_0109"
+      ],
+      "similarity": 0.3974,
+      "texts": [
+        "Al fijarte en un solo detalle, ¿con qué energía y cuántas otras cosas en mente estás?",
+        "Al fijarte en un detalle que antes no habías visto, ¿cómo te sientes con lo que tienes en mente?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0078",
+        "q_0147"
+      ],
+      "similarity": 0.3933,
+      "texts": [
+        "Si abrieras unos materiales solo para probar, ¿con cuánta energía y ganas empezarías?",
+        "Si pudieras explorar un material solo por probar, ¿con cuánta energía y ganas empezarías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0071",
+        "q_0075"
+      ],
+      "similarity": 0.3863,
+      "texts": [
+        "Imagina estar con otras personas sin tener nada que hacer. ¿Con qué energía y cercanía te sentirías?",
+        "Imagina estar en compañía sin tener que conversar. ¿Con qué energía y cercanía te sentirías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0091",
+        "q_0097"
+      ],
+      "similarity": 0.3863,
+      "texts": [
+        "Al notar cómo te estás moviendo ahora, ¿vas despacio o rápido, y cómo te sientes con eso?",
+        "Al notar una pausa entre dos sonidos, ¿vas despacio o rápido por dentro, y cómo te sientes?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0096",
+        "q_0119"
+      ],
+      "similarity": 0.3846,
+      "texts": [
+        "Piensa en un objeto que podrías mover un poco. ¿Con cuánta energía y ganas harías ese gesto?",
+        "Piensa en acercar la mano a un objeto que tengas cerca. ¿Con cuánta energía y ganas lo harías?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "q_0005",
+        "q_0043"
+      ],
+      "similarity": 0.384,
+      "texts": [
+        "Si un puente mostrara la cercanía que sientes con otras personas, ¿cómo sería hoy?",
+        "Si un farol mostrara la cercanía que sientes con otras personas, ¿cómo lo llevarías hoy?"
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    }
+  ],
+  "reflectionTop20": [
+    {
+      "ids": [
+        "ref_0001",
+        "ref_0018"
+      ],
+      "similarity": 0.4238,
+      "texts": [
+        "Tus respuestas sugieren que hay algo agradable en este comienzo. Puede ser un detalle pequeño, sin que toda la mañana tenga que sentirse igual.",
+        "Tus respuestas sugieren que un detalle de esta mañana se sintió bien. Algo pequeño puede ser suficiente por ahora."
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "ref_0023",
+        "ref_0062"
+      ],
+      "similarity": 0.406,
+      "texts": [
+        "Lo que viene después puede ser algo sencillo de todos los días. Hay espacio para hacerlo a tu manera, con el cuidado que para ti tenga sentido.",
+        "Un comienzo pequeño puede quedarse pequeño, del tamaño que hoy tenga sentido para ti. No tiene que ser una promesa de hacer más después."
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "ref_0078",
+        "ref_0081"
+      ],
+      "similarity": 0.4044,
+      "texts": [
+        "Si te vendría bien compañía para lo que estás viviendo, puedes buscar a alguien de confianza. En Necesito apoyo hay otras opciones que puedes consultar cuando quieras.",
+        "Si lo que estás viviendo resulta difícil, este espacio no tiene que ser tu único apoyo. Puedes consultar Necesito apoyo o acercarte a alguien de confianza, si te sirve."
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "ref_0078",
+        "ref_0082"
+      ],
+      "similarity": 0.3963,
+      "texts": [
+        "Si te vendría bien compañía para lo que estás viviendo, puedes buscar a alguien de confianza. En Necesito apoyo hay otras opciones que puedes consultar cuando quieras.",
+        "Si te ayudaría hablar de este momento, puedes elegir a alguien de confianza. También tienes opciones en Necesito apoyo; buscar compañía no requiere una explicación para la app."
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "ref_0047",
+        "ref_0050"
+      ],
+      "similarity": 0.3912,
+      "texts": [
+        "Tener muchas cosas pendientes no significa que tengas que poder con todas a la vez. Aquí no hay otra lista que completar.",
+        "A veces la lista de pendientes parece enorme. Pensar en todo a la vez no significa que tengas que hacerlo todo ahora."
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "ref_0079",
+        "ref_0081"
+      ],
+      "similarity": 0.3307,
+      "texts": [
+        "Cuando un rato se hace difícil, conversar con alguien puede ser una posibilidad. Si prefieres buscar otra forma de apoyo, tienes disponible Necesito apoyo.",
+        "Si lo que estás viviendo resulta difícil, este espacio no tiene que ser tu único apoyo. Puedes consultar Necesito apoyo o acercarte a alguien de confianza, si te sirve."
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "ref_0023",
+        "ref_0067"
+      ],
+      "similarity": 0.3278,
+      "texts": [
+        "Lo que viene después puede ser algo sencillo de todos los días. Hay espacio para hacerlo a tu manera, con el cuidado que para ti tenga sentido.",
+        "Las cosas de todos los días también pueden hacerse sin mucho entusiasmo. Hay espacio para hacerlas a tu manera, con cuidado hacia ti."
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "ref_0011",
+        "ref_0058"
+      ],
+      "similarity": 0.3245,
+      "texts": [
+        "Lo que elegiste sugiere que hay algo agradable en esta mañana. También puede haber cansancio, preocupación u otras sensaciones junto a eso.",
+        "Si hoy sientes poca cercanía, puede haber otras sensaciones junto a eso. No necesitas buscar contacto ni explicar la distancia para cerrar esta pausa."
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "ref_0080",
+        "ref_0082"
+      ],
+      "similarity": 0.324,
+      "texts": [
+        "Si últimamente algo te ha pesado, puedes elegir compartirlo con alguien de confianza. Necesito apoyo también reúne opciones, sin que tengas que completar más preguntas.",
+        "Si te ayudaría hablar de este momento, puedes elegir a alguien de confianza. También tienes opciones en Necesito apoyo; buscar compañía no requiere una explicación para la app."
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "ref_0023",
+        "ref_0041"
+      ],
+      "similarity": 0.3223,
+      "texts": [
+        "Lo que viene después puede ser algo sencillo de todos los días. Hay espacio para hacerlo a tu manera, con el cuidado que para ti tenga sentido.",
+        "No hace falta sentir calma para tratarte con cuidado. A veces ese cuidado cabe en algo pequeño de todos los días."
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "ref_0006",
+        "ref_0011"
+      ],
+      "similarity": 0.3136,
+      "texts": [
+        "Lo que elegiste sugiere que hubo algo grato en este rato. Aunque el día cambie, ese pequeño momento también cuenta.",
+        "Lo que elegiste sugiere que hay algo agradable en esta mañana. También puede haber cansancio, preocupación u otras sensaciones junto a eso."
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "ref_0010",
+        "ref_0018"
+      ],
+      "similarity": 0.3124,
+      "texts": [
+        "Por tus respuestas, parece que algo se sintió bien en este rato. Puede acompañarte mientras sigues con lo de siempre.",
+        "Tus respuestas sugieren que un detalle de esta mañana se sintió bien. Algo pequeño puede ser suficiente por ahora."
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "ref_0045",
+        "ref_0047"
+      ],
+      "similarity": 0.3023,
+      "texts": [
+        "Si tienes muchas cosas en la cabeza, no todas necesitan una respuesta ahora. Esta pausa puede terminar sin resolver la lista entera.",
+        "Tener muchas cosas pendientes no significa que tengas que poder con todas a la vez. Aquí no hay otra lista que completar."
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "ref_0053",
+        "ref_0058"
+      ],
+      "similarity": 0.2954,
+      "texts": [
+        "Si hoy te cuesta sentir cercanía con otras personas, este rato no tiene que explicar por qué. Lo que sientes ahora no cuenta toda la historia de tus relaciones.",
+        "Si hoy sientes poca cercanía, puede haber otras sensaciones junto a eso. No necesitas buscar contacto ni explicar la distancia para cerrar esta pausa."
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "ref_0054",
+        "ref_0058"
+      ],
+      "similarity": 0.2867,
+      "texts": [
+        "Si hoy sientes poca cercanía, no tienes que obligarte a conversar. Puedes tratarte con cariño, estés a solas o con otras personas.",
+        "Si hoy sientes poca cercanía, puede haber otras sensaciones junto a eso. No necesitas buscar contacto ni explicar la distancia para cerrar esta pausa."
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "ref_0001",
+        "ref_0004"
+      ],
+      "similarity": 0.285,
+      "texts": [
+        "Tus respuestas sugieren que hay algo agradable en este comienzo. Puede ser un detalle pequeño, sin que toda la mañana tenga que sentirse igual.",
+        "Tus respuestas sugieren un comienzo con algo agradable. Quizás eso encuentre un lugar en alguna de las pequeñas cosas que te importan."
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "ref_0013",
+        "ref_0016"
+      ],
+      "similarity": 0.2849,
+      "texts": [
+        "Parece que hubo algo agradable en esta pausa. Puede ser solo un momento, sin tener que decir nada más sobre tu vida.",
+        "Parece que hubo algo grato en este rato, aunque cueste decir qué fue. No tiene que durar mucho ni compensar las partes difíciles del día."
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "ref_0077",
+        "ref_0081"
+      ],
+      "similarity": 0.2801,
+      "texts": [
+        "Si estos días han sido difíciles, hablar con alguien de confianza puede ser una opción. También puedes consultar alternativas en Necesito apoyo, sin explicar aquí lo que te pasa.",
+        "Si lo que estás viviendo resulta difícil, este espacio no tiene que ser tu único apoyo. Puedes consultar Necesito apoyo o acercarte a alguien de confianza, si te sirve."
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "ref_0078",
+        "ref_0080"
+      ],
+      "similarity": 0.2797,
+      "texts": [
+        "Si te vendría bien compañía para lo que estás viviendo, puedes buscar a alguien de confianza. En Necesito apoyo hay otras opciones que puedes consultar cuando quieras.",
+        "Si últimamente algo te ha pesado, puedes elegir compartirlo con alguien de confianza. Necesito apoyo también reúne opciones, sin que tengas que completar más preguntas."
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    },
+    {
+      "ids": [
+        "ref_0003",
+        "ref_0006"
+      ],
+      "similarity": 0.2686,
+      "texts": [
+        "Parece que este rato tuvo algo agradable para ti. Puedes disfrutarlo a tu manera, aunque esa sensación cambie después.",
+        "Lo que elegiste sugiere que hubo algo grato en este rato. Aunque el día cambie, ese pequeño momento también cuenta."
+      ],
+      "reviewStatus": "pending_independent_human_review"
+    }
+  ],
+  "repeatedAnswerTexts": [
+    {
+      "text": "me incomoda tengo poca energia y pocas ganas",
+      "answerIds": [
+        "a_0015_02",
+        "a_0044_02"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "siento poca cercania con los demas y eso me incomoda",
+      "answerIds": [
+        "a_0018_02",
+        "a_0095_02"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "siento poca cercania con los demas y estoy a gusto asi",
+      "answerIds": [
+        "a_0018_03",
+        "a_0095_03"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "me siento a gusto tengo energia y pocas cosas en mente",
+      "answerIds": [
+        "a_0045_01",
+        "a_0128_01"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "no me sentiria a gusto y sentiria poca cercania con esa persona",
+      "answerIds": [
+        "a_0050_02",
+        "a_0062_02",
+        "a_0152_02"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "me sentiria a gusto aunque sentiria poca cercania con esa persona",
+      "answerIds": [
+        "a_0050_03",
+        "a_0066_03",
+        "a_0140_03"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "me sentiria a gusto y sentiria cercania con esa persona",
+      "answerIds": [
+        "a_0050_01",
+        "a_0062_01",
+        "a_0066_01",
+        "a_0140_01",
+        "a_0152_01"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "no se como me sentiria durante esa pausa",
+      "answerIds": [
+        "a_0052_04",
+        "a_0082_04",
+        "a_0166_04"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "con energia y muchas cosas en la cabeza",
+      "answerIds": [
+        "a_0054_02",
+        "a_0073_02"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "con poca energia y pocas cosas en la cabeza",
+      "answerIds": [
+        "a_0054_01",
+        "a_0073_03"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "iria despacio y me sentiria a gusto tengo poca energia",
+      "answerIds": [
+        "a_0055_01",
+        "a_0139_01",
+        "a_0142_01"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "tengo poca energia y pocas ganas de empezar",
+      "answerIds": [
+        "a_0057_03",
+        "a_0102_03"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "me agrada voy lento y con poca tension",
+      "answerIds": [
+        "a_0058_01",
+        "a_0086_01",
+        "a_0131_01"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "me sentiria a gusto tengo poca energia y muchas cosas en mente",
+      "answerIds": [
+        "a_0059_03",
+        "a_0149_03"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "me sentiria a gusto tengo energia y pocas cosas en mente",
+      "answerIds": [
+        "a_0059_01",
+        "a_0083_01",
+        "a_0149_01",
+        "a_0180_01"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "me resultaria incomodo tengo poca energia y muchas cosas en mente",
+      "answerIds": [
+        "a_0059_02",
+        "a_0083_02",
+        "a_0149_02"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "me sentiria a gusto iria despacio y sentiria cercania con esa persona",
+      "answerIds": [
+        "a_0060_01",
+        "a_0174_01"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "no me sentiria a gusto iria despacio y sentiria poca cercania con esa persona",
+      "answerIds": [
+        "a_0060_02",
+        "a_0174_02"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "no me sentiria a gusto aunque sentiria cercania con esa persona",
+      "answerIds": [
+        "a_0062_03",
+        "a_0152_03"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "me sentiria a gusto aunque notaria tension",
+      "answerIds": [
+        "a_0063_03",
+        "a_0137_03"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "me sentiria a gusto tengo pocas cosas en mente",
+      "answerIds": [
+        "a_0064_01",
+        "a_0068_01",
+        "a_0154_01"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "me resultaria incomodo y sentiria poca cercania con esa persona",
+      "answerIds": [
+        "a_0066_02",
+        "a_0140_02"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "me sentiria a gusto y sentiria poca tension",
+      "answerIds": [
+        "a_0067_01",
+        "a_0143_01"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "me resultaria incomodo tengo muchas cosas en mente",
+      "answerIds": [
+        "a_0068_02",
+        "a_0154_02"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "no me sentiria a gusto ni a disgusto tengo pocas cosas en mente",
+      "answerIds": [
+        "a_0068_03",
+        "a_0154_03"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "tendria poca energia y sentiria poca cercania con los demas",
+      "answerIds": [
+        "a_0071_03",
+        "a_0075_02",
+        "a_0161_03"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "tendria poca energia y sentiria cercania con los demas",
+      "answerIds": [
+        "a_0071_01",
+        "a_0161_01"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "tendria mucha energia y sentiria poca cercania con los demas",
+      "answerIds": [
+        "a_0071_02",
+        "a_0161_02"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "con poca energia y pocas cosas en mente",
+      "answerIds": [
+        "a_0077_01",
+        "a_0081_01"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "me resultaria incomodo iria rapido y sentiria bastante tension",
+      "answerIds": [
+        "a_0082_02",
+        "a_0148_02",
+        "a_0172_02"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "me incomoda voy rapido y con bastante tension",
+      "answerIds": [
+        "a_0086_02",
+        "a_0131_02"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "me incomoda voy lento y con poca tension",
+      "answerIds": [
+        "a_0086_03",
+        "a_0131_03"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "me resultaria incomodo tengo energia y muchas cosas en mente",
+      "answerIds": [
+        "a_0087_02",
+        "a_0180_02"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "siento poca tension y estoy a gusto",
+      "answerIds": [
+        "a_0092_01",
+        "a_0098_01"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "tengo pocas cosas en mente y poca energia",
+      "answerIds": [
+        "a_0093_01",
+        "a_0099_01",
+        "a_0118_03"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "tengo muchas cosas en mente y eso me incomoda",
+      "answerIds": [
+        "a_0101_02",
+        "a_0109_02"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "me siento a gusto voy despacio y siento poca tension",
+      "answerIds": [
+        "a_0103_01",
+        "a_0127_01"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "no tengo claro con que energia y cercania me siento ahora",
+      "answerIds": [
+        "a_0116_04",
+        "a_0124_04"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "voy despacio por dentro y siento poca tension",
+      "answerIds": [
+        "a_0117_01",
+        "a_0121_01"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "voy rapido por dentro y siento mucha tension",
+      "answerIds": [
+        "a_0117_02",
+        "a_0121_02"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "me resultaria incomodo tengo energia pero pocas ganas de probar",
+      "answerIds": [
+        "a_0130_02",
+        "a_0175_02"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "me incomoda voy lento y tengo pocas ganas",
+      "answerIds": [
+        "a_0134_02",
+        "a_0179_02"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "me agrada voy rapido y tengo pocas ganas",
+      "answerIds": [
+        "a_0134_03",
+        "a_0179_03"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "iria despacio y no me sentiria a gusto tengo poca energia",
+      "answerIds": [
+        "a_0139_03",
+        "a_0142_03"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "tendria poca energia y pocas ganas de empezar",
+      "answerIds": [
+        "a_0164_02",
+        "a_0168_02"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "tendria mucha energia y sentiria cercania con esa persona",
+      "answerIds": [
+        "a_0165_01",
+        "a_0169_03"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    },
+    {
+      "text": "tendria mucha energia pero sentiria poca cercania con esa persona",
+      "answerIds": [
+        "a_0165_03",
+        "a_0169_02"
+      ],
+      "severity": "review_context_not_automatic_duplicate_question"
+    }
+  ],
+  "repeatedSemanticClusters": [],
+  "semanticApproval": "pending_human_review"
+}

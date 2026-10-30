@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "1.0.0-draft.1",
+  "contentPackHash": "65562b239b3b786edf3d01ea495c03dcc9f0617a5311bbc413e78d725cf7f219",
+  "date": "2026-10-25",
+  "checks": [
+    {
+      "name": "TypeScript strict, siete archivos normativos con satisfies",
+      "command": "npm run typecheck",
+      "exitCode": 0
+    },
+    {
+      "name": "Lint de sintaxis, copy y estructura",
+      "command": "npm run lint",
+      "exitCode": 0
+    },
+    {
+      "name": "12 tests, incluidos 100.000 casos sintéticos de propiedades",
+      "command": "npm test",
+      "exitCode": 0
+    },
+    {
+      "name": "Validación estructural de borrador",
+      "command": "npm run content:validate",
+      "exitCode": 0
+    },
+    {
+      "name": "1.000 seeds × 365 fechas y capacidad adicional a cuatro/día",
+      "command": "npm run content:simulate",
+      "exitCode": 0
+    },
+    {
+      "name": "Control de publicación: bloqueo esperado por aprobaciones ausentes",
+      "command": "npm run content:release-check",
+      "exitCode": 1,
+      "expectedFailure": true
+    }
+  ],
+  "note": "Se ejecutaron herramientas del paquete de contenido. TypeScript usó el compilador ya instalado en el proyecto local; no se añadieron dependencias al proyecto prediction. El código 1 de release es la barrera de revisión esperada, comprobada también por un test."
+}

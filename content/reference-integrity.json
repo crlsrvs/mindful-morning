@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-25",
+  "files": {
+    "ARCHITECTURE.md": "ab38f60c2019cb5f224ead4f5b66f40130c8333aed9174e38365cad5abb31e24",
+    "CONTENT_SPEC.md": "93633eecbfcd9961b23f4cbe7d423bdf706d2f0f4d6286c298ddfbd1ad6765f3",
+    "DECISION_ENGINE.md": "4dbef26283195a711a2bace1a0ef4ebd8e662a01ca373b3e05e5fa01f0b50c19",
+    "EVIDENCE_AND_LIMITATIONS.md": "97b45312b9851d2eca0a26e0a387eef4e76933ae59ce79caa1e3799fd2073ec6",
+    "PRD.md": "ef4dc56afe12572d1853ab5d806cb3b16c54e0c0e04676cdb52db35486e441e8"
+  },
+  "contentVersion": "1.0.0-draft.1"
+}
